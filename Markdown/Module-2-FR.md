@@ -26,34 +26,22 @@ Le réseau HISP est une collaboration mondiale qui soutient le développement du
 
 ====
 
-&gt;&gt;DHIS2 peut être utilisé comme un entrepôt de données pour stocker au même endroit des données en provenance de différentes sources&lt;&lt;  
-(x) Vrai  
-( ) Faux
+## 2.2 - Introduction à Trainingland
 
-[explication]  
-DHIS2 peut combiner des données en provenance de différentes sources. Cela s'applique tant aux données de routine qui sont directement enregistrées dans le système avec lequel vous travaillez qu’aux données complémentaires provenant d'autres sources, par exemple des enquêtes.  
-[explication\]
-
-&gt;&gt;Le réseau HISP travaille de manière collaborative pour améliorer les fonctionnalités proposées par DHIS2&lt;&lt;  
-(x) Vrai  
-( ) Faux
-
-[explication]  
-Le réseau HISP est une collaboration mondiale qui soutient le développement du projet DHIS2. La collaboration entre les différents pôles est un point essentiel pour faire en sorte que DHIS2 continue de répondre aux besoins locaux définis par ses utilisateurs.  
-[explication\]
+### Zone de pratique
 
 Mini-quiz (non noté) - Présentation de Trainingland
 
 ====
 
-&gt;&gt;Trainingland a été créé pour illustrer : (sélectionnez une ou plusieurs réponses)&lt;&lt;  
-[x] les formulaires de collecte des données  
-[x] l’analyse des données  
+Trainingland a été créé pour illustrer : (sélectionnez une ou plusieurs réponses)
+[x] les formulaires de collecte des données
+[x] l’analyse des données
 [x] les indicateurs
 
-[explication]  
-Trainingland fait partie de l’environnement de formation qui a été créé afin que les utilisateurs puissent se familiariser avec la structure de DHIS2 et la manière dont les informations peuvent être recueillies et examinées. Il utilise des données modélisées qui permettent aux utilisateurs de découvrir les fonctionnalités fondamentales de DHIS2.  
-[explication\]
+[explication]
+Trainingland fait partie de l’environnement de formation qui a été créé afin que les utilisateurs puissent se familiariser avec la structure de DHIS2 et la manière dont les informations peuvent être recueillies et examinées.  Il utilise des données modélisées qui permettent aux utilisateurs de découvrir les fonctionnalités fondamentales de DHIS2.
+[explication]
 
 ### Créez votre compte dans TRAININGLAND
 
@@ -66,7 +54,11 @@ Mini-quiz (non noté) - Cas d’utilisation ‘les 1000 jours de grande vulnéra
 
 ====
 
-&gt;&gt;Le cas d’utilisation ‘les 1 000 jours de grande vulnérabilité’ couvre la période :&lt;&lt;  
+## 2.3 - Le cas d'utilisation ‘les 1 000 jours de grande vulnérabilité’
+
+### Zone de Pratique
+
+&gt;&gt;Cas d’utilisation ‘les 1 000 jours de grande vulnérabilité’ couvre la période :&lt;&lt;  
 ( ) de la naissance de l’enfant à ses 3 ans  
 (x) de la conception de l’enfant à ses 2 ans  
 ( ) de la première visite prénatale de la mère à sa dernière visite postnatale
@@ -83,6 +75,10 @@ Les 1 000 jours de grande vulnérabilité concernent tant la mère que l’enfan
 [explication]  
 Ces 3 éléments sont utilisés pour traduire certains éléments du cas d'utilisation (ici, un cas d’utilisation dans le domaine de la santé) et les transmettre à DHIS2. Il est important d'identifier les contributions et les résultats clés ; souvent, cela nécessite de bien comprendre les détails du cas d’utilisation.  
 [explication\]
+
+## 2.4 - Vue d'ensemble de DHIS2
+
+### Zone de pratique 
 
 Mini-quiz (non noté) - Vue d'ensemble de DHIS2
 
@@ -127,6 +123,8 @@ Nous pouvons associer à l’ensemble de nos produits des descriptions compléme
 [explication]  
 Il est possible de partager avec d'autres utilisateurs les analyses ou produits que nous créons directement à partir de DHIS2. Nous y reviendrons dans les sessions ultérieures.  
 [explication]  
+
+## 2.5 - Les éléments de données de DHIS2
 
 REMARQUE : IL S’AGIT D’UN QUIZ NOTÉ
 -----------------------------------
@@ -174,6 +172,8 @@ Parmi les propositions suivantes, lesquelles sont des éléments de données ? (
 [explication]  
 Les éléments de données correspondent aux valeurs des données brutes que nous recueillons. Les valeurs calculées telles que les taux et incidences sont considérées comme des indicateurs.  
 [explication\]
+
+## 2.6 - Lectures complémentaires
 
 Lectures complémentaires (non noté) :
 

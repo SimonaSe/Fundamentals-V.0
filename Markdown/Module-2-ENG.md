@@ -26,33 +26,21 @@ The HISP network is a world-wide collaboration that supports the development of 
 
 ====
 
-&gt;&gt;DHIS 2 can be used as a ‘data warehouse’ to store data from multiple data sources in one location&lt;&lt;  
-(x) True  
-( ) False
+## 2.2 - Introduction to Trainingland
 
-[explanation]  
-DHIS 2 can combine data from multiple data sources. This includes through routine data that is directly collected within the system you are working as well as supplementary data from other sources such as surveys.  
-[explanation]
-
-&gt;&gt;The HISP network works collaboratively on advancing the features which DHIS 2 supports&lt;&lt;  
-(x) True  
-( ) False
-
-[explanation]  
-The HISP network is a world-wide collaboration that supports the development of the DHIS 2 project. Collaboration between the nodes is a key area of interest to ensure that DHIS 2 continues to meet local needs as defined by its users.  
-[explanation]
+### Practice zone
 
 Mini Quiz (no graded) - Introduction to Trainingland
 
 ====
 
-&gt;&gt;Trainingland has been created to demonstrate: (select one or more)&lt;&lt;  
-[x] Data collection forms  
-[x] Data Analysis  
+Trainingland has been created to demonstrate: (select one or more)
+[x] Data collection forms
+[x] Data Analysis
 [x] Indicators
 
-[explanation]  
-Trainingland is part of the training environment that has been created in order for users to learn how DHIS 2 is structured and how information can be collected and reviewed. It uses modeled data that allows users to learn some of the fundamentals of DHIS 2 functionality.  
+[explanation]
+Trainingland is part of the training environment that has been created in order for users to learn how DHIS 2 is structured and how information can be collected and reviewed. It uses modeled data that allows users to learn some of the fundamentals of DHIS 2 functionality.
 [explanation]
 
 ### Create your account in TRAININGLAND
@@ -65,6 +53,10 @@ You will receive an invitation by email with instructions on how to complete the
 Mini Quiz (not graded) - The 1000 MVD's Use Case
 
 ====
+
+## 2.3 - The 1000 Most Vulnerable Days´ Use Case
+
+### Practice Zone
 
 &gt;&gt;The 1000 most vulnerable days use case covers:&lt;&lt;  
 ( ) From the time the child is born up until 3 years of age  
@@ -83,6 +75,10 @@ The 1000 most vulnerable days covers both infant and mother from the time from w
 [explanation]  
 All 3 of these items are used to translate elements of the use-case (in this case, a health-related use case) over to DHIS 2. It is important to identify what the key inputs and outputs are; this is often best accomplished by understanding the use-case in detail.  
 [explanation]
+
+## 2.4 - Overview of DHIS2
+
+### Practice Zone 
 
 Mini Quiz (not graded) - Overview of DHIS2
 
@@ -127,6 +123,8 @@ We can provide all of our outputs with additional descriptions and discuss inter
 [explanation]  
 The analyses/outputs that are created can be shared with other users directly within DHIS 2. This will be discussed more in later sessions.  
 [explanation]
+
+## 2.5 - DHIS2 Building Blocks
 
 NOTE: THIS IS A GRADED QUIZ.
 ----------------------------
@@ -174,6 +172,8 @@ Which of the following are data elements (select one or more)?
 [explanation]  
 The data elements are the raw data values that we collect. Calculated values such as ratios and incidences are considered indicators.  
 [explanation]
+
+## 2.6 - Module Readings
 
 Additional Readings (not graded):
 
