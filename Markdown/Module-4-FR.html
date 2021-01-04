@@ -1,0 +1,956 @@
+
+<script>
+	function requestAccount() {
+		var baseUrl = window.location.href.split("/", 3).join("/");
+		$.ajax({
+			url: baseUrl + "/api/user/v1/accounts",
+			dataType: "json",
+			success: function(data) {
+				var email = data[0].email;
+				var obj = {"email": email, "type": "customisation"};
+				console.log(obj)
+				$.ajax({
+					url         : "https://live.academy.dhis2.org/signup/api",
+					type        : "POST",
+					data		: JSON.stringify(obj),
+					contentType	: "application/json; charset=utf-8",
+					dataType	: "json",
+					success: function (result, status, xhr) {
+                      console.log(xhr);
+						alert(xhr.responseText);
+					},
+					error: function (xhr,status,error) {
+                      console.log(xhr);
+						alert(xhr.responseText);
+					}
+				});
+			}
+		});
+
+	}
+
+</script>
+
+<html>
+<META http-equiv="content-type" content="text/html; charset=utf-8">
+<h3>Cr&eacute;ez votre compte sur PERSONNALISATION</h3>
+<p>Cliquez sur le bouton ci-dessous pour demander acc&egrave;s &agrave; la plateforme de personnalisation de DHIS2.<br/> Vous recevrez une invitation par courriel contenant des instructions pour terminer votre inscription &agrave; DHIS2.</p>
+<p><input type="button" onClick="requestAccount();" value="Request account" /></p>
+<p><i>Remarque : l&rsquo;adresse &eacute;lectronique que vous utilisez pour OpenEDX sera envoy&eacute;e &agrave; la base de donn&eacute;es de DHIS2 afin de cr&eacute;er le compte.</i></p>
+</html>
+
+
+<h2>REMARQUE&nbsp;: IL S&rsquo;AGIT D&rsquo;UN QUIZ NOT&Eacute;</h2>
+<p>Vous avez droit &agrave; 3&nbsp;essais pour ce quiz.</p>
+<p>Un d&eacute;lai de 30&nbsp;secondes est pr&eacute;vu entre chaque tentative ;&nbsp;si vous n&apos;avez pas la bonne r&eacute;ponse, respirez un bon coup, regardez une fois encore les vid&eacute;os, et relisez attentivement la question.</p>
+<hr />
+<p></p>
+
+
+<p>>>DHIS2 est une solution pr&ecirc;te &agrave; l'emploi qui ne n&eacute;cessite aucune configuration lors de son installation.<<<br>
+	( ) Vrai<br>
+	(x) Faux</p>
+	
+	<p>[explication]<br>
+	Dans la pr&eacute;sentation/l&rsquo;historique de DHIS2, tout comme dans la session sur les principes de conception de DHIS2, nous avons soulign&eacute; que DHIS2 est une solution g&eacute;n&eacute;rique qui doit &ecirc;tre adapt&eacute;e aux besoins et exigences locaux. <br>
+	[explication]</p>
+	
+	<p>>>Vous devez &ecirc;tre un d&eacute;veloppeur informatique (quelqu&rsquo;un qui connait les langages informatiques) pour participer &agrave; la configuration de DHIS2.<<<br>
+	( ) Vrai<br>
+	(x) Faux</p>
+	
+	<p>[explication]<br>
+	De nombreux aspects de la configuration de DHIS2 peuvent &ecirc;tre g&eacute;r&eacute;s directement &agrave; partir de l&rsquo;interface utilisateur. Ce concept a &eacute;t&eacute; pr&eacute;sent&eacute; lors de l'expos&eacute; sur les principes de conception de DHIS2 et illustr&eacute; au cours des nombreuses sessions consacr&eacute;es &agrave; la configuration. <br>
+	[explication]</p>
+	
+	<p>>>DHIS2 permet l&rsquo;int&eacute;gration des donn&eacute;es d&rsquo;un seul programme de sant&eacute; &agrave; la fois.<<<br>
+	( ) Vrai<br>
+	(x) Faux</p>
+	
+	<p>[explication]<br>
+	Plusieurs programmes peuvent &ecirc;tre int&eacute;gr&eacute;s parall&egrave;lement &agrave; la plateforme DHIS2. Tant le concept que la pratique ont &eacute;t&eacute; pr&eacute;sent&eacute;s dans la session consacr&eacute;e aux principes de conception de DHIS2.<br>
+	[explication]</p>
+	
+	<p>>>Dans DHIS2, les rapports sont dynamiques et peuvent inclure des donn&eacute;es en provenance de plusieurs sources diff&eacute;rentes.<<<br>
+	(x) Vrai<br>
+	( ) Faux</p>
+	
+	<p>[explication]<br>
+	Les rapports peuvent inclure des donn&eacute;es en provenance de plusieurs sources diff&eacute;rentes. La session consacr&eacute;e aux principes de conception de DHIS2 l'explique.<br>
+	[explication]</p>
+	
+	<p>>>Quelle est la diff&eacute;rence entre les &Eacute;l&eacute;ments de donn&eacute;es et les Indicateurs ? (s&eacute;lectionnez une r&eacute;ponse)<< <br>
+	( ) Il s&rsquo;agit de la m&ecirc;me chose<br>
+	( ) les &eacute;l&eacute;ments de donn&eacute;es mesurent la couverture tandis que les indicateurs recueillent les valeurs &agrave; partir des formulaires papier<br>
+	(X) les &eacute;l&eacute;ments de donn&eacute;es correspondent aux donn&eacute;es brutes, alors que les indicateurs sont des valeurs/formules calcul&eacute;es</p>
+	
+	<p>[explication]<br>
+	La principale diff&eacute;rence ici est que les indicateurs repr&eacute;sentent des valeurs calcul&eacute;es, et se composent g&eacute;n&eacute;ralement de plusieurs &eacute;l&eacute;ments de donn&eacute;es. Les &eacute;l&eacute;ments de donn&eacute;es sont les &eacute;l&eacute;ments de donn&eacute;es bruts qui sont recueillis lors des processus de routine. <br>
+	[explication]<br></p>
+
+<h2>REMARQUE&nbsp;: Ces exercices not&eacute;s font partie d&apos;une s&eacute;rie portant sur l&rsquo;ensemble du Module 4.</h2>
+<p>Cette s&eacute;rie d&apos;exercices comporte trois parties :</p>
+<ul>
+<li><strong>Partie 1 : Unit&eacute;s d&rsquo;organisation</strong></li>
+<li>Partie 2 : &Eacute;l&eacute;ments de donn&eacute;es</li>
+<li>Partie 3 : Ensembles de donn&eacute;es</li>
+</ul>
+<p>Cette s&eacute;rie vous permettra de cr&eacute;er petit &agrave; petit un ensemble de donn&eacute;es et de le remplir.</p>
+<p>&Agrave; l&rsquo;issue du dernier exercice (4.6.2), il vous sera demand&eacute; de v&eacute;rifier que vous avez effectu&eacute; toute la s&eacute;rie. Cette v&eacute;rification permettra aux membres de l&rsquo;&eacute;quipe de formation de valider les r&eacute;sultats de vos exercices de personnalisation de DHIS2. Ce n&rsquo;est qu&rsquo;&agrave; l&rsquo;issue de ce processus de validation que vous obtiendrez confirmation de la note finale pour cette s&eacute;rie d&rsquo;exercices. Comme pour tous les autres exercices, vous avez droit &agrave; trois essais.</p>
+<p><em><span style="font-size: 1em;">Note : Avant la validation par l&rsquo;&eacute;quipe de formation, la note maximum pour cette s&eacute;rie sera appliqu&eacute;e, mais il ne s&apos;agit pas de la note d&eacute;finitive.</span></em></p>
+<hr />
+<h2>Exercices du module 4&nbsp;- Partie 1/3 - Unit&eacute;s d&rsquo;organisation</h2>
+<h3>Instructions</h3>
+<p>Vous devez &ecirc;tre connect&eacute;(e) &agrave; <a href="https://live.academy.dhis2.org/cu1/dhis-web-commons/security/login.action" target="_blank">DHIS2 Customization</a>&nbsp;pour effectuer les exercices suivants.</p>
+<p>Vous &ecirc;tes charg&eacute;(e) de cr&eacute;er une partie de la hi&eacute;rarchie des unit&eacute;s d&rsquo;organisation de votre pays.  Les donn&eacute;es doivent &ecirc;tre renseign&eacute;es au niveau correspondant afin de pouvoir g&eacute;n&eacute;rer des produits adapt&eacute;s. Dans le pays qui nous sert d&rsquo;exemple, la hi&eacute;rarchie compte 4 niveaux :</p>
+<ol>
+<li>Pays</li>
+<li>Province</li>
+<li>District</li>
+<li>&Eacute;tablissement </li>
+</ol>
+<p>Lorsque vous vous rendrez dans le module de gestion des unit&eacute;s d&rsquo;organisation, vous remarquerez que l&rsquo;unit&eacute; d&rsquo;organisation du niveau national (pays) a &eacute;t&eacute; cr&eacute;&eacute;e avec votre adresse &eacute;lectronique. De cette mani&egrave;re, vous ne verrez que les unit&eacute;s d&rsquo;organisation que vous cr&eacute;ez, et non l&rsquo;ensemble des unit&eacute;s cr&eacute;&eacute;es par les autres utilisateurs. Vous &ecirc;tes libre de donner un autre nom &agrave; cette unit&eacute; d&rsquo;organisation si vous le souhaitez. </p>
+<p style="text-align: center;"><span id="docs-internal-guid-c2103cd3-f9bb-5f4c-376b-fc99f804ad7c"><span style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"><img src="https://lh6.googleusercontent.com/gOQoQyjmI6c4ZlzG1LPq9nFewZmJCo65NO6dtcU3y65fX6cpb3YllUxecVaqyu_wasuaft1dm4t0Jq0D02H67ik_MMUSSmMoqNve2p33jRoY9a2noT2kwW82-2XXmLBwuDIa9eA3" width="624" height="335" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></span></span></p>
+<p><strong><em>Merci de travailler avec les &eacute;l&eacute;ments suivants :</em></strong></p>
+
+
+
+
+<h3>Exercice  4.3.2</h3>
+<p>Cr&eacute;ez 4 groupes d&rsquo;unit&eacute;s d&rsquo;organisation avec les noms suivants (et appartenant aux ensembles de groupes indiqu&eacute;s) et assignez-leur vos &eacute;tablissements ci-dessus (les unit&eacute;s d&rsquo;organisation que vous avez cr&eacute;&eacute;es au niveau 4) de mani&egrave;re correspondante :</p>
+<p><b>Remarque :</b> <strong>Faites en sorte d&rsquo;ajouter &agrave; ces noms un pr&eacute;fixe compos&eacute; de vos initiales  (par ex. SND_H&ocirc;pital, SND_Centre de sant&eacute;) lorsque vous les cr&eacute;ez dans DHIS2.  &Eacute;tant donn&eacute; que tout le monde cr&eacute;e des &eacute;l&eacute;ments dans le m&ecirc;me syst&egrave;me, il faut attribuer aux groupes des noms uniques. &nbsp;</strong></p>
+<p><em>Ensemble de groupes 1 : Type d&rsquo;&eacute;tablissement </em></p>
+<ul>
+<li>H&ocirc;pital</li>
+<li>Centre de sant&eacute;</li>
+</ul>
+<p><em>Ensemble de groupes 2 : Gestion </em></p>
+<ul>
+<li>Priv&eacute;e </li>
+<li>Publique</li>
+</ul>
+
+
+<h3>Exercice  4.3.3</h3>
+<p>Cr&eacute;ez deux ensembles de groupes d&rsquo;unit&eacute;s d&rsquo;organisation et assignez-leur les groupes d&rsquo;unit&eacute;s d&rsquo;organisation correspondants. </p>
+<p><b>Remarque :</b> <strong>Faites en sorte d&rsquo;ajouter &agrave; ces noms un pr&eacute;fixe compos&eacute; de vos initiales (par ex. SND_Type, SND_Gestion) lorsque vous les cr&eacute;ez dans DHIS2. &Eacute;tant donn&eacute; que tout le monde cr&eacute;e des &eacute;l&eacute;ments dans le m&ecirc;me syst&egrave;me, il faut attribuer aux ensembles de groupes des noms uniques.&nbsp;</strong></p>
+<ul>
+<li>Type</li>
+<li>Gestion</li>
+</ul>
+
+
+<h2>NOTE: THIS IS A GRADED QUIZ.</h2>
+<p>You are allowed 3 attempts for this quiz.</p>
+<p>There is 30 seconds of time between each attempt, so if you don't get it right, just breathe in, watch the videos once more and carefully read the question again.</p>
+<hr />
+<p></p>
+
+
+<p>Parmi les r&eacute;ponses suivantes, laquelle ne constitue pas une unit&eacute; d&rsquo;organisation ? (s&eacute;lectionnez une r&eacute;ponse)<br>
+	( ) Centre de sant&eacute; public Ermita<br>
+	( ) R&eacute;gion de la capitale nationale <br>
+	( ) H&ocirc;pital Manila <br>
+	(X) Projet d&rsquo;&eacute;limination du paludisme</p>
+	
+	<p>[explication]<br>
+	Dans la pr&eacute;sentation des unit&eacute;s d&rsquo;organisation, nous avons mentionn&eacute; que diff&eacute;rents concepts ne doivent pas &ecirc;tre m&eacute;lang&eacute;s au sein de la hi&eacute;rarchie. <br>
+	[explication]</p>
+	
+	<p>La hi&eacute;rarchie des unit&eacute;s d&rsquo;organisation : (s&eacute;lectionnez une r&eacute;ponse)<br>
+	(X) peut faire appel aux groupes d&rsquo;unit&eacute;s d&rsquo;organisation pour cr&eacute;er des hi&eacute;rarchies parall&egrave;les (par exemple &eacute;tablissements publics/priv&eacute;s) &agrave; des fins d&rsquo;analyse. <br>
+	( ) ne pr&eacute;voit qu&rsquo;un nombre limit&eacute; de niveaux <br>
+	( ) ne pr&eacute;voit aucun &eacute;chelon administratif hors de l&rsquo;&eacute;tablissement</p>
+	
+	<p>[explication]<br>
+	Le concept d&rsquo;utilisation des groupes d'unit&eacute;s d&rsquo;organisation lors de l'analyse a &eacute;t&eacute; pr&eacute;sent&eacute; lors de la session sur les unit&eacute;s d&rsquo;organisation. Les groupes sont d&eacute;finis par l&rsquo;utilisateur, comme illustr&eacute; dans la vid&eacute;o de d&eacute;monstration des unit&eacute;s d&rsquo;organisation.<br>
+	[explication]</p>
+	
+	<p>Imaginez que vous avez cr&eacute;&eacute; les &eacute;tablissements de sant&eacute; suivants dans DHIS2 :<br>
+	 - Clinique de sant&eacute; publique Alberta<br>
+	 - H&ocirc;pital priv&eacute; Ontario<br>
+	 - Clinique de sant&eacute; publique Windsor<br>
+	 - H&ocirc;pital public Londres<br>
+	Comme vous pouvez le constater, deux types de gestion existent : priv&eacute;e et publique. Il existe &eacute;galement deux types d&rsquo;&eacute;tablissement : clinique et h&ocirc;pital.</p>
+	
+	<p>Vous souhaitez maintenant cr&eacute;er des groupes d&rsquo;unit&eacute;s d&rsquo;organisation pour ces &eacute;tablissements. Quels groupes d&rsquo;unit&eacute;s d&rsquo;organisation seraient les plus adapt&eacute;s ? (s&eacute;lectionnez une ou plusieurs r&eacute;ponses)<br>
+	[ ] <p><strong>Cliniques </strong>: Clinique publique Alberta / Clinique publique Windsor ET</p>
+	
+	<p> <strong>H&ocirc;pitaux</strong>: H&ocirc;pital priv&eacute; Ontario / H&ocirc;pital public Londres / Clinique publique Windsor</p><br>
+	[x] <p><strong>Cliniques</strong>: Clinique publique Alberta / Clinique publique Windsor ET</p>
+	
+	<p><strong>H&ocirc;pitaux</strong>: H&ocirc;pital priv&eacute; Ontario / H&ocirc;pital public Londres<br>
+	[x] <p><strong>&Eacute;tablissements publics</strong>: Clinique publique Alberta / Clinique publique Windsor / H&ocirc;pital public Londres ET</p>
+	
+	<p> <strong>&Eacute;tablissements priv&eacute;s</strong>: H&ocirc;pital priv&eacute; Ontario <br>
+	[ ] <p><strong>&Eacute;tablissements publics</strong>: Clinique publique Windsor / H&ocirc;pital public Londres ET</p>
+	
+	<p> <strong>&Eacute;tablissements priv&eacute;s</strong>: H&ocirc;pital priv&eacute; Ontario / Clinique publique Alberta</p>
+	
+	<p>[explication]<br>
+	Dans ce cas, nous pouvons regrouper les cliniques publiques d&rsquo;un c&ocirc;t&eacute; et les h&ocirc;pitaux de l&rsquo;autre. Cela revient &agrave; d&eacute;finir le type d&rsquo;&eacute;tablissement dans un syst&egrave;me. Nous pouvons &eacute;galement regrouper les &eacute;tablissements priv&eacute;s d&rsquo;un c&ocirc;t&eacute; et les &eacute;tablissements publics de l&rsquo;autre, ce qui revient &agrave; d&eacute;finir le type de gestion de ces &eacute;tablissements. Nous avons abord&eacute; ces questions dans l&rsquo;expos&eacute; sur les unit&eacute;s d&rsquo;organisation.<br>
+	[explication]</p>
+	
+	<p>Lorsque nous g&eacute;rons les unit&eacute;s d&rsquo;organisation dans DHIS2 gr&acirc;ce &agrave; l&rsquo;interface utilisateur, nous pouvons d&eacute;finir les &eacute;l&eacute;ments g&eacute;ographiques suivants : (s&eacute;lectionnez une ou plusieurs r&eacute;ponses)<br>
+	[X] la latitude/longitude (par exemple, l'emplacement d&rsquo;un &eacute;tablissement)<br>
+	[X] les symboles g&eacute;ographiques d&eacute;finissant les groupes <br>
+	[ ] les d&eacute;limitations g&eacute;ographiques des r&eacute;gions, provinces, districts, etc.</p>
+	
+	<p>[explication]<br>
+	Nous vous l&rsquo;avons expliqu&eacute; lorsque nous vous avons montr&eacute; comment cr&eacute;er des unit&eacute;s d&rsquo;organisation. Il est possible d&rsquo;indiquer les coordonn&eacute;es longitude/latitude d&rsquo;un &eacute;tablissement lors de sa cr&eacute;ation, et d&rsquo;associer des symboles &agrave; des groupes d&rsquo;unit&eacute;s d&rsquo;organisation.<br>
+	[explication]</p>
+
+
+
+
+<h3>Activit&eacute; 1 - Attribuer un nom aux &eacute;l&eacute;ments de donn&eacute;es</h3>
+<h4>Exemple d&rsquo;ensemble de donn&eacute;es</h4>
+<p>Vous recevez l&rsquo;ensemble de donn&eacute;es suivant r&eacute;sumant des informations sur le VIH, le paludisme et la tuberculose. Nous allons utiliser cet exemple pour correctement cr&eacute;er et regrouper les &eacute;l&eacute;ments de donn&eacute;es et leur attribuer un nom. Veuillez vous r&eacute;f&eacute;rer aux sections suivantes.</p>
+<table>
+<tbody>
+<tr>
+<td>&Eacute;l&eacute;ment de donn&eacute;es</td>
+<td>Valeur</td>
+</tr>
+<tr>
+<td>Nombre de travailleuses du sexe couvertes par les programmes de pr&eacute;vention du VIH&nbsp;(sensibilisation)</td>
+<td></td>
+</tr>
+<tr>
+<td>Nombre de personnes vivant avec le VIH soign&eacute;es</td>
+<td></td>
+</tr>
+<tr>
+<td>Nombre de personnes atteintes de la tuberculose et s&eacute;ropositives d&eacute;j&agrave; sous traitement antir&eacute;troviral ou ayant commenc&eacute; celui-ci lors du traitement de la tuberculose</td>
+<td></td>
+</tr>
+<tr>
+<td>TB07.10 Nombre de patients ayant des tests bact&eacute;riologiques positifs &agrave; l&rsquo;issue du diagnostic</td>
+<td></td>
+</tr>
+<tr>
+<td>TB07.19 Nombre de patients examin&eacute;s en vue d&rsquo;un suivi</td>
+<td></td>
+</tr>
+<tr>
+<td>MAL02.01 D&eacute;pistage du paludisme sur lame (nombre de personnes test&eacute;es)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4>Instructions - Attribuer un nom aux &eacute;l&eacute;ments de donn&eacute;es</h4>
+<p>Compl&eacute;tez le tableau ci-dessous (la colonne &lsquo;nom dans DHIS2&rsquo;), en attribuant &agrave; l&rsquo;&eacute;l&eacute;ment de donn&eacute;es un nom qui vous semble adapt&eacute; &agrave; son utilisation dans une base de donn&eacute;es telle que DHIS2. Nous vous demanderons ult&eacute;rieurement de cr&eacute;er ces &eacute;l&eacute;ments dans DHIS2.</p>
+<table>
+<tbody>
+<tr>
+<td>Programme/ensemble de donn&eacute;es associ&eacute;</td>
+<td>Nom sur le formulaire</td>
+<td>Nom dans DHIS2</td>
+</tr>
+<tr>
+<td>VIH<span style="font-size: 7.2pt; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: super; white-space: pre-wrap;">1 </span>Rapport d&apos;avancement du programme</td>
+<td>Nombre de travailleuses du sexe couvertes par les programmes de pr&eacute;vention du VIH&nbsp;(sensibilisation)</td>
+<td></td>
+</tr>
+<tr>
+<td>Nombre de personnes vivant avec le VIH Activit&eacute;s du r&eacute;seau</td>
+<td>Nombre de personnes vivant avec le VIH soign&eacute;es</td>
+<td></td>
+</tr>
+<tr style="height: 0pt;">
+<td>TARV<span style="font-size: 7.2pt; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: super; white-space: pre-wrap;">2</span></td>
+<td>Nombre de personnes atteintes de la tuberculose et s&eacute;ropositives d&eacute;j&agrave; sous traitement antir&eacute;troviral ou ayant commenc&eacute; celui-ci lors du traitement de la tuberculose</td>
+<td></td>
+</tr>
+<tr>
+<td>TB<span style="font-size: 7.2pt; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: super; white-space: pre-wrap;">3</span> 07</td>
+<td>TB07.10 Nombre de patients ayant des tests bact&eacute;riologiques positifs &agrave; l&rsquo;issue du diagnostic</td>
+<td></td>
+</tr>
+<tr style="height: 0pt;">
+<td>TB 07</td>
+<td>TB07.19 Nombre de patients examin&eacute;s en vue d&rsquo;un suivi</td>
+<td></td>
+</tr>
+<tr>
+<td>Rapport mensuel sur le paludisme</td>
+<td>MAL02.01 D&eacute;pistage du paludisme sur lame (nombre de personnes test&eacute;es)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Virus de l&rsquo;immunod&eacute;ficience humaine</li>
+<li></li>
+<li>Traitement antir&eacute;troviral</li>
+<li>Tuberculose</li>
+</ol>
+
+
+
+
+<h2>REMARQUE&nbsp;: Ces exercices not&eacute;s font partie d&apos;une s&eacute;rie portant sur l&rsquo;ensemble du Module 4.</h2>
+<p>Cette s&eacute;rie d&apos;exercices comporte trois parties :</p>
+<ul>
+<li>Partie 1 : Unit&eacute;s d&rsquo;organisation</li>
+<li><strong>Partie 2 : &Eacute;l&eacute;ments de donn&eacute;es</strong></li>
+<li>Partie 3 : Ensembles de donn&eacute;es</li>
+</ul>
+<p>Cette s&eacute;rie vous permettra de cr&eacute;er petit &agrave; petit un ensemble de donn&eacute;es et de le remplir.</p>
+<p>&Agrave; l&rsquo;issue du dernier exercice (4.6.2), il vous sera demand&eacute; de v&eacute;rifier que vous avez effectu&eacute; toute la s&eacute;rie. Cette v&eacute;rification permettra aux membres de l&rsquo;&eacute;quipe de formation de valider les r&eacute;sultats de vos exercices de personnalisation de DHIS2. Ce n&rsquo;est qu&rsquo;&agrave; l&rsquo;issue de ce processus de validation que vous obtiendrez confirmation de la note finale pour cette s&eacute;rie d&rsquo;exercices. Comme pour tous les autres exercices, vous avez droit &agrave; trois essais.</p>
+<p><em>Note : Avant la validation par l&rsquo;&eacute;quipe de formation, la note maximum pour cette s&eacute;rie sera appliqu&eacute;e, mais il ne s&apos;agit pas de la note d&eacute;finitive.</em></p>
+<hr />
+<h2>Exercices du module 4&nbsp;- Partie 2/3 - &Eacute;l&eacute;ments de donn&eacute;es</h2>
+<h3>Instructions</h3>
+<p>Vous devez &ecirc;tre connect&eacute;(e) &agrave; <a href="https://live.academy.dhis2.org/cu1/dhis-web-commons/security/login.action" target="_blank">DHIS2 Customization</a>&nbsp;pour effectuer les exercices suivants.</p>
+<p></p>
+<h4>Exemple d&rsquo;ensemble de donn&eacute;es</h4>
+<p>Vous recevez l&rsquo;ensemble de donn&eacute;es suivant r&eacute;sumant des informations sur le VIH, le paludisme et la tuberculose. Nous allons utiliser cet exemple pour correctement cr&eacute;er et regrouper les &eacute;l&eacute;ments de donn&eacute;es et leur attribuer un nom. Veuillez vous r&eacute;f&eacute;rer aux sections suivantes.</p>
+<table>
+<tbody>
+<tr>
+<td>&Eacute;l&eacute;ment de donn&eacute;es</td>
+<td>Valeur</td>
+</tr>
+<tr>
+<td>Nombre de travailleuses du sexe couvertes par les programmes de pr&eacute;vention du VIH&nbsp;(sensibilisation)</td>
+<td></td>
+</tr>
+<tr>
+<td>Nombre de personnes vivant avec le VIH soign&eacute;es</td>
+<td></td>
+</tr>
+<tr>
+<td>Nombre de personnes atteintes de la tuberculose et s&eacute;ropositives d&eacute;j&agrave; sous traitement antir&eacute;troviral ou ayant commenc&eacute; celui-ci lors du traitement de la tuberculose</td>
+<td></td>
+</tr>
+<tr>
+<td>TB07.10 Nombre de patients ayant des tests bact&eacute;riologiques positifs &agrave; l&rsquo;issue du diagnostic</td>
+<td></td>
+</tr>
+<tr>
+<td>TB07.19 Nombre de patients examin&eacute;s en vue d&rsquo;un suivi</td>
+<td></td>
+</tr>
+<tr>
+<td>MAL02.01 D&eacute;pistage du paludisme sur lame (nombre de personnes test&eacute;es)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p>
+
+
+
+
+<h3>Exercice 4.4.1 - Cr&eacute;ation d&rsquo;un &eacute;l&eacute;ment de donn&eacute;es</h3>
+<p>Nous vous avons pr&eacute;c&eacute;demment demand&eacute; de remplir ce tableau dans le cadre de l&rsquo;activit&eacute; de d&eacute;nomination des &eacute;l&eacute;ments de donn&eacute;es. Veuillez continuer avec cet exemple et </p>
+<ol>
+<li>cr&eacute;er ces &eacute;l&eacute;ments de donn&eacute;es dans DHIS2 (utilisez vos initiales comme pr&eacute;fixe. Exemple : je cr&eacute;e un &eacute;l&eacute;ment de donn&eacute;es pour SPN 1ere visite, je l&rsquo;appelle SND_SPN 1ere visite)</li>
+<li>cr&eacute;er et les affecter &agrave; un groupe d&rsquo;&eacute;l&eacute;ments de donn&eacute;es</li>
+</ol>
+<table>
+<tbody>
+<tr>
+<td>Programme/ensemble de donn&eacute;es associ&eacute;</td>
+<td>Nom sur le formulaire</td>
+<td>Nom dans DHIS2</td>
+</tr>
+<tr>
+<td>VIH<span style="font-size: 7.2pt; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: super; white-space: pre-wrap;">1 </span>Rapport d&apos;avancement du programme</td>
+<td>Nombre de travailleuses du sexe couvertes par les programmes de pr&eacute;vention du VIH&nbsp;(sensibilisation)</td>
+<td></td>
+</tr>
+<tr>
+<td>Nombre de personnes vivant avec le VIH Activit&eacute;s du r&eacute;seau</td>
+<td>Nombre de personnes vivant avec le VIH soign&eacute;es</td>
+<td></td>
+</tr>
+<tr>
+<td>TARV<span style="font-size: 7.2pt; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: super; white-space: pre-wrap;">2</span></td>
+<td>Nombre de personnes atteintes de la tuberculose et s&eacute;ropositives d&eacute;j&agrave; sous traitement antir&eacute;troviral ou ayant commenc&eacute; celui-ci lors du traitement de la tuberculose</td>
+<td></td>
+</tr>
+<tr>
+<td>TB<span style="font-size: 7.2pt; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-decoration: none; vertical-align: super; white-space: pre-wrap;">3</span> 07</td>
+<td>TB07.10 Nombre de patients ayant des tests bact&eacute;riologiques positifs &agrave; l&rsquo;issue du diagnostic</td>
+<td></td>
+</tr>
+<tr>
+<td>TB 07</td>
+<td>TB07.19 Nombre de patients examin&eacute;s en vue d&rsquo;un suivi</td>
+<td></td>
+</tr>
+<tr>
+<td>Rapport mensuel sur le paludisme</td>
+<td>MAL02.01 D&eacute;pistage du paludisme sur lame (nombre de personnes test&eacute;es)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Virus de l&rsquo;immunod&eacute;ficience humaine</li>
+<li></li>
+<li>Traitement antir&eacute;troviral</li>
+<li>Tuberculose</li>
+</ol>
+
+
+
+<h3>Exercice 4.4.2 - Groupes d&rsquo;&eacute;l&eacute;ments de donn&eacute;es</h3>
+<p>Cr&eacute;ez 3 groupes d&rsquo;&eacute;l&eacute;ments de donn&eacute;es, en leur affectant les &eacute;l&eacute;ments de donn&eacute;es correspondants en fonction du programme de sant&eacute; auquel ils appartiennent. Utilisez vos initiales comme pr&eacute;fixe aux groupes d&rsquo;&eacute;l&eacute;ments de donn&eacute;es que vous cr&eacute;ez, comme vous l&apos;avez fait pour les &eacute;l&eacute;ments de donn&eacute;es.&nbsp;</p>
+<p>Les groupes doivent se composer des &eacute;l&eacute;ments suivants (les &eacute;l&eacute;ments de donn&eacute;es de DHIS2 que vous leur assignerez seront les nouveaux noms que vous leur avez donn&eacute;s dans la section 1) :</p>
+<ol><ol>
+<li>VIH</li>
+<ul>
+<li>Nombre de travailleuses du sexe couvertes par les programmes de pr&eacute;vention du VIH&nbsp;(sensibilisation)</li>
+<li>Nombre de personnes vivant avec le VIH soign&eacute;es</li>
+<li>Nombre de personnes atteintes de la tuberculose et s&eacute;ropositives d&eacute;j&agrave; sous traitement antir&eacute;troviral ou ayant commenc&eacute; celui-ci lors du traitement de la tuberculose</li>
+</ul>
+<li>Paludisme</li>
+<ul>
+<li>MAL02.01 D&eacute;pistage du paludisme sur lame (nombre de personnes test&eacute;es)</li>
+</ul>
+<li>TB </li>
+<ul>
+<li>TB07.10 Nombre de patients ayant des tests bact&eacute;riologiques positifs &agrave; l&rsquo;issue du diagnostic</li>
+<li>TB07.19 Nombre de patients examin&eacute;s en vue d&rsquo;un suivi</li>
+</ul>
+</ol></ol>
+<p></p>
+
+
+<h3>Exercice 4.4.3 - Ensemble de groupes d&rsquo;&eacute;l&eacute;ments de donn&eacute;es</h3>
+<p>Cr&eacute;ez un ensemble de groupes comprenant les groupes d&rsquo;&eacute;l&eacute;ments de donn&eacute;es sur le VIH, le paludisme et la TB que vous avez cr&eacute;&eacute;s. Comme pr&eacute;c&eacute;demment, utilisez vos initiales comme pr&eacute;fixe. </p>
+
+
+<h2>REMARQUE&nbsp;: IL S&rsquo;AGIT D&rsquo;UN QUIZ NOT&Eacute;</h2>
+<p>Vous avez droit &agrave; 3&nbsp;essais pour ce quiz.</p>
+<p>Un d&eacute;lai de 30&nbsp;secondes est pr&eacute;vu entre chaque tentative ;&nbsp;si vous n&apos;avez pas la bonne r&eacute;ponse, respirez un bon coup, regardez une fois encore les vid&eacute;os, et relisez attentivement la question.</p>
+<hr />
+<p></p>
+
+
+
+<p>Les noms des &eacute;l&eacute;ments de donn&eacute;es doivent : (s&eacute;lectionnez une r&eacute;ponse)<br>
+	( ) &ecirc;tre aussi longs et descriptifs que possible<br>
+	(X) utiliser des noms explicites qui d&eacute;crivent bien les donn&eacute;es pr&eacute;sent&eacute;es<br>
+	( ) reprendre le nom existant sur un formulaire papier<br>
+	( ) &ecirc;tre consid&eacute;r&eacute;s en priorit&eacute; pour leur contribution</p>
+	
+	<p>[explication]<br>
+	Lorsque nous &eacute;voquons les &eacute;l&eacute;ments de donn&eacute;es, nous devons toujours penser &agrave; la mani&egrave;re dont ils apparaitront dans les produits. Nous l&rsquo;&eacute;voquons plus en d&eacute;tails dans la pr&eacute;sentation des &eacute;l&eacute;ments de donn&eacute;es.<br>
+	[explication]</p>
+	
+	<p>Je recueille un segment d&rsquo;&eacute;l&eacute;ments de donn&eacute;es se rapportant tous &agrave; l&rsquo;accouchement. Je souhaite cr&eacute;er l&rsquo;&eacute;l&eacute;ment de donn&eacute;es repr&eacute;sent&eacute; par le &lsquo;nombre d&rsquo;accouchements avec complications&rsquo; sur le formulaire papier. Quel est le nom le plus adapt&eacute; &agrave; cet &eacute;l&eacute;ment de donn&eacute;es ? (s&eacute;lectionnez une r&eacute;ponse)<br>
+	( ) nombre d&rsquo;accouchements avec complications<br>
+	( ) accouchements compliqu&eacute;s <br>
+	(x) accouchements avec complications</p>
+	
+	<p>[explication]<br>
+	Au cours de la pr&eacute;sentation des &eacute;l&eacute;ments de donn&eacute;es, les principes de d&eacute;nominations ont &eacute;t&eacute; &eacute;voqu&eacute;s. Ici, &eacute;tant donn&eacute; que nous avons un ensemble de donn&eacute;es relatif &agrave; l&rsquo;accouchement, il est pr&eacute;f&eacute;rable que le nom commence par &lsquo;accouchement&rsquo;, ce qui permettra de trouver facilement tous les types d'accouchements dans une liste.<br>
+	[explication]</p>
+	
+	<p>Les &eacute;l&eacute;ments de donn&eacute;es dans DHIS2 ne peuvent &ecirc;tre qu&rsquo;additionn&eacute;s (ajout&eacute;s) les uns aux autres. Aucune autre op&eacute;ration, par exemple calculer la moyenne ou le nombre d'occurrences d'une valeur donn&eacute;e, ne peut &ecirc;tre effectu&eacute;e. <br>
+	( ) Vrai<br>
+	(x) Faux</p>
+	
+	<p>[explication]<br>
+	Lors de la cr&eacute;ation des &eacute;l&eacute;ments de donn&eacute;es, il est possible de d&eacute;finir diff&eacute;rents types d'agr&eacute;gations. Les additions sont une option r&eacute;pandue, mais d'autres types sont possibles si n&eacute;cessaire.<br>
+	[explication]</p>
+	
+	<p>Les groupes d&rsquo;&eacute;l&eacute;ments de donn&eacute;es sont utilis&eacute;s pour rassembler des &eacute;l&eacute;ments de donn&eacute;es similaires &agrave; des fins d&rsquo;analyse th&eacute;matique. <br>
+	(x) Vrai<br>
+	( ) Faux</p>
+	
+	<p>[explication]<br>
+	Les groupes d&rsquo;&eacute;l&eacute;ments de donn&eacute;es sont d&eacute;finis par l'utilisateur et nous aident &agrave; trouver nos &eacute;l&eacute;ments de donn&eacute;es au cours de l'analyse. Leur utilisation a &eacute;t&eacute; illustr&eacute;e pour toutes les applis d&rsquo;analyse et leur cr&eacute;ation a &eacute;t&eacute; expliqu&eacute;e dans la session consacr&eacute;e &agrave; la cr&eacute;ation des &eacute;l&eacute;ments de donn&eacute;es.<br>
+	[explication]</p>
+
+
+
+	<h3>Activit&eacute; 1 - Pr&eacute;sentation de l&rsquo;interface de l&rsquo;appli de saisie des donn&eacute;es</h3>
+<p>Veuillez effectuer cette activit&eacute; dans <a href="https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action" target="_blank">TRAININGLAND</a>.</p>
+<p>Familiarisez-vous avec l&rsquo;interface Web de saisie des donn&eacute;es en ouvrant un ensemble de donn&eacute;es, en naviguant &agrave; l&rsquo;int&eacute;rieur de celui-ci et en enregistrant des valeurs de donn&eacute;es. Afin d&rsquo;ouvrir un ensemble de donn&eacute;es, vous devez d&rsquo;abord s&eacute;lectionner l&rsquo;unit&eacute; d&rsquo;organisation, l&rsquo;ensemble de donn&eacute;es et la p&eacute;riode que vous souhaitez passer en revue. </p>
+<ul>
+<li>Choisissez n&rsquo;importe quelle unit&eacute; d&rsquo;organisation soit en utilisant la loupe, soit en d&eacute;ployant l&rsquo;organigramme &agrave; gauche de l&rsquo;&eacute;cran. </li>
+</ul>
+<p><img src="https://lh6.googleusercontent.com/NF6JHczxTCzgv-IQRFulELu__g6r5ht2koYZ0-PTO0ACMX8nMMUV-sgGs5tGDiBBWwB67DIFhXYjts7u2SMLnyzYCW3PPbBzob-MY5Xriv2Zfi43rzt8254Iu3tCOLBVMlmVQIk7" width="323" height="499" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<p>L&rsquo;unit&eacute; d&rsquo;organisation que vous avez choisie apparaitra en surbrillance orange,  et sera &eacute;galement visible dans la fen&ecirc;tre de saisie de donn&eacute;es en tant qu&rsquo;unit&eacute; d&rsquo;organisation s&eacute;lectionn&eacute;e. </p>
+<p>Apr&egrave;s avoir choisi une unit&eacute; d&rsquo;organisation :</p>
+<ul>
+<li>Continuez en s&eacute;lectionnant un ensemble de donn&eacute;es (dans notre exemple nous allons utiliser l&rsquo;ensemble de donn&eacute;es mensuel sur les soins de sant&eacute; de base)</li>
+<li>et une p&eacute;riode (choisissez une p&eacute;riode en 2018, par exemple janvier ou mars 2018, car ces p&eacute;riodes ne comportent pour l&apos;instant pas de donn&eacute;es ; cliquez sur le bouton &lsquo;Ann&eacute;e suivante&rsquo; pour s&eacute;lectionner des p&eacute;riodes en 2018). </li>
+</ul>
+<p><img src="https://lh3.googleusercontent.com/otO0TwkDhAEg2TDDHQW0xpar4LCFKf6WDdBrRG9fotYa4vNQLPl4WVpPNRX5waSOzpdAKEMsf7HPqhBWI7RTAvstG6okZVDeB8lIRJSbMCMhUv9Z_s3qlZrb8RQV4HXupq7JmsDV" width="624" height="159" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<p>Une fois ces param&egrave;tres s&eacute;lectionn&eacute;s, l&rsquo;ensemble de donn&eacute;es s&rsquo;affichera.  <strong>Note : Si vous choisissez une organisation/p&eacute;riode pour laquelle des donn&eacute;es ont d&eacute;j&agrave; &eacute;t&eacute; enregistr&eacute;es pour 2018, essayer avec une autre unit&eacute; d&rsquo;organisation ou p&eacute;riode pour lesquelles aucune donn&eacute;e n&apos;a &eacute;t&eacute; renseign&eacute;e. </strong></p>
+<p><img src="https://lh5.googleusercontent.com/AtXSo27WxOBYpIt44DORQv81E7-amWtGfQz-sb-yFW6lK9kb7t5HI2q5s89l5LNpSwklk981CXe_ZSFd2I6mb2io0fett2T1wh9tPeVudHDK0pZYk4tV0s-Bu6jpj9uniudSaVZX" width="624" height="289" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<li>Saisissez les donn&eacute;es fictives suivantes pour la premi&egrave;re section de l&rsquo;ensemble de donn&eacute;es (d&eacute;nomm&eacute; &lsquo;Soins de sant&eacute; de base - mensuel&rsquo;) pour vous donner une id&eacute;e de la mani&egrave;re dont fonctionne l&rsquo;appli de saisie des donn&eacute;es. Lorsque vous saisissez des donn&eacute;es, vous pouvez facilement naviguer dans l&apos;application et entre les diff&eacute;rentes valeurs des &eacute;l&eacute;ments de donn&eacute;es &agrave; l&apos;aide des touches Entr&eacute;e ou Tab pour voir la suite/aller vers le bas, et Shift+Tab pour revenir en arri&egrave;re/remonter.  Vous remarquerez que lorsque vous entrez des valeurs, celles-ci passent rapidement du jaune au vert, ce qui indique qu&rsquo;elles ont &eacute;t&eacute; sauvegard&eacute;es. </li>
+</ul>
+<p><img src="/static/Primary_Health_Care_Monthly.png" alt="Soins_Sant&eacute;_De base_Mensuel" type="saveimage" target="[object Object]" preventdefault="function (){r.isDefaultPrevented=n}" stoppropagation="function (){r.isPropagationStopped=n}" stopimmediatepropagation="function (){r.isImmediatePropagationStopped=n}" isdefaultprevented="function t(){return!1}" ispropagationstopped="function t(){return!1}" isimmediatepropagationstopped="function t(){return!1}" width="632" height="625" /></p>
+
+
+
+
+<h3>Activit&eacute; 2 - Passer en revue l&rsquo;historique de l&rsquo;&eacute;l&eacute;ment de donn&eacute;es, la piste de v&eacute;rification et les r&egrave;gles de validation </h3>
+<p>Veuillez effectuer cette activit&eacute; dans <a href="https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action" target="_blank">TRAININGLAND</a>.</p>
+<p>D&eacute;marrez l&rsquo;activit&eacute; en effectuant une validation des donn&eacute;es que vous avez saisies auparavant en suivant l&rsquo;exemple donn&eacute; dans l&rsquo;Activit&eacute; 1 :</p>
+<ul>
+<li>Vous pouvez s&eacute;lectionner &lsquo;<strong>Effectuer la validation</strong>&rsquo; en haut ou en bas de la page de saisie des donn&eacute;es. </li>
+</ul>
+<p><img src="https://lh4.googleusercontent.com/gIZjoBgyaUaeu-k-r__ZLzcgQw9enqq0nYGEvFwTFpa-_79lcg1RLWYSSfrSmOy5-K-W6oSWj1N_hUK9jL6A0MmtL-hMZXw4OQrv6Y5q6T9jg4xH5h2v7hOW-F0J49vPNV6a_xJq" width="592" height="88" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<p>Lorsque vous ex&eacute;cutez la validation, une fen&ecirc;tre pop-up vous informera de la pr&eacute;sence d&apos;incompatibilit&eacute;s avec les r&egrave;gles de validation</p>
+<p><img src="https://lh6.googleusercontent.com/pjUQj5ZuORx3XkMPw7zb3ojBD8ibdjoNM2-8XI69mOD35wgSmPAH7b8yOEK2oUY78__4sb3f9GCnEf8xT1uKMBDcfceuL97kGQafad8UZjd3I7MB6zp_JUU3aERXRr0E2MTE1t5i" width="624" height="276" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<p>Ceci comprend :</p>
+<ul>
+<li><strong>Naissances vivantes &gt;= allaitement dans l&rsquo;heure suivant l&apos;accouchement</strong> : le nombre de nouveau-n&eacute;s allait&eacute;s dans l&rsquo;heure suivant l&apos;accouchement constitue un sous-ensemble du nombre total de naissances vivantes dans un &eacute;tablissement. Par cons&eacute;quent le nombre de naissances vivantes doit toujours &ecirc;tre sup&eacute;rieur ou &eacute;gal au nombre d&rsquo;enfants allait&eacute;s dans l&rsquo;heure suivant l&apos;accouchement .</li>
+<li><strong>Accouchements par c&eacute;sarienne &lt;= accouchements effectu&eacute;s par du personnel qualifi&eacute;</strong> :  Les c&eacute;sariennes constituent un sous-ensemble du nombre total d&rsquo;accouchements effectu&eacute;s par du personnel qualifi&eacute;, et leur nombre doit par cons&eacute;quent &ecirc;tre inf&eacute;rieur ou &eacute;gal au nombre d&rsquo;accouchements effectu&eacute;s par du personnel qualifi&eacute;.</li>
+<li><strong>Accouchements avec complications &lt;= accouchements effectu&eacute;s par du personnel qualifi&eacute;</strong> : Les accouchements avec complications constituent un sous-ensemble du nombre total d&rsquo;accouchements effectu&eacute;s par du personnel qualifi&eacute;, et leur nombre doit par cons&eacute;quent &ecirc;tre inf&eacute;rieur ou &eacute;gal au nombre d&rsquo;accouchements effectu&eacute;s par du personnel qualifi&eacute;.</li>
+</ul>
+<p>R&eacute;parons ces erreurs avant de poursuivre. </p>
+<ul>
+<li>Actualisez les &eacute;l&eacute;ments de donn&eacute;es suivants pour r&eacute;parer les erreurs de validation.  Dans notre cas, nous pouvons imaginer qu&rsquo;il s&rsquo;agit de simples erreurs de saisie. Dans le premier exemple (naissances vivantes), un 6 a &eacute;t&eacute; tap&eacute; &agrave; la place d&rsquo;un 9.  Dans le second exemple (accouchements effectu&eacute;s par du personnel qualifi&eacute;), un 7&nbsp;a &eacute;t&eacute; oubli&eacute; &agrave; la fin de la valeur de la donn&eacute;e. </li>
+</ul>
+<p><img src="/static/fix_validation__ules_table.png" alt="R&eacute;parer les erreurs de validation " type="saveimage" target="[object Object]" preventdefault="function (){r.isDefaultPrevented=n}" stoppropagation="function (){r.isPropagationStopped=n}" stopimmediatepropagation="function (){r.isImmediatePropagationStopped=n}" isdefaultprevented="function t(){return!1}" ispropagationstopped="function t(){return!1}" isimmediatepropagationstopped="function t(){return!1}" width="631" height="107" /></p>
+<p>Apr&egrave;s avoir modifi&eacute; les valeurs :</p>
+<ul>
+<li>effectuez &agrave; nouveau la validation. Cette fois, vous devriez obtenir un message de succ&egrave;s. </li>
+</ul>
+<p><img src="https://lh6.googleusercontent.com/dT0NgttFrmSVnM8I3q9QrSDliGHUd6cNOkCY4YlII0qtouJfU1AoMrso26Ovdtf673yq3bZT_VLSUud34chccdqp2thed1UgAkUI3_ZoFAAsPahms6VHnEdvIZIfcQZ3Wn7KiAP3" width="452" height="187" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<li>Double-cliquez sur la valeur correspondant aux naissances vivantes (194) apr&egrave;s l&rsquo;avoir corrig&eacute;e. </li>
+</ul>
+<p>L&rsquo;historique des donn&eacute;es apparaitra alors pour que vous puissiez l&rsquo;examiner. </p>
+<p><img src="https://lh6.googleusercontent.com/MBMs1Ngiz0thPOzTf0RFCGvdvWSB47zqFmHGYzmbL9lTPqYSVstE5_8KKrgI6mKBb4lyxs1rK-w8aZ0yJ8l4TPMfA4yJq5RbUdlnUDpGu-gUsC0kfu3KCH0mo62jhDjwBDJ374pZ" width="624" height="635" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<li>Vous pouvez aussi s&eacute;lectionner &lsquo;Piste de v&eacute;rification&rsquo; pour passer en revue toutes les modifications apport&eacute;es &agrave; la valeur de l&rsquo;&eacute;l&eacute;ment de donn&eacute;es.</li>
+</ul>
+<p><img src="https://lh3.googleusercontent.com/6JPq7gKy8lHxx53y62fV3MHYWhF2dv0R1WflywBF_8uwJOXJ2Lb4QNsfyCxd_1bUhRMeaMpqwpNbd0J6l74v78c-pXgjbML7Rqm-ueE_HrvfKteJM7_ky7t6YD1MAfTQQbxZhS_v" width="624" height="515" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+
+
+
+
+<h3>Activit&eacute; 3 - Terminer la saisie des donn&eacute;es </h3>
+<p>Veuillez effectuer cette activit&eacute; dans <a href="https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action" target="_blank">TRAININGLAND</a>.</p>
+<ul>
+<li>Achevez le processus de saisie des donn&eacute;es en cliquant sur le bouton Terminer pour la combinaison unit&eacute; d&rsquo;organisation/p&eacute;riode/ensemble de donn&eacute;es avec laquelle vous avez travaill&eacute;. </li>
+</ul>
+<p><img src="https://lh3.googleusercontent.com/r9rqQ4SqYF1FDesgcLDDFHWpj6bLdNHb9BDJBREpviEJZ0fdRG5mTLHOf5FAeMfeIUjhfFjBDnmI_EfEfPao7Ps0cD53JMFjQ2-hWX8T70WD-0riXGQcFr0vfdfFE-eEPLpOaJCi" width="599" height="84" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<p>Apr&egrave;s avoir cliqu&eacute; sur le bouton &lsquo;Terminer&rsquo;, celui-ci sera gris&eacute;.  D&eacute;sormais les donn&eacute;es constitueront un rapport complet et apparaitront comme tel dans le rapport de compl&eacute;tude que vous ex&eacute;cuterez ult&eacute;rieurement dans DHIS2. </p>
+<p><img src="https://lh6.googleusercontent.com/x0aT-Ql-lRsLY7A8XWShb0EurHHygaBmdlV_z6o7qibAtlXeYDssXjpXVqYOVVGtftT5kq3gG0FU4fciXzeUDPtVyOxtjOwxB6-iAlvenq6e8BORqe9Ucowpn1bcYf82IaKAw1zK" width="594" height="72" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<li>Relancez l&rsquo;application de saisie des donn&eacute;es</li>
+<li>et s&eacute;lectionnez &agrave; nouveau la combinaison unit&eacute; d&rsquo;organisation/p&eacute;riode/ensemble de donn&eacute;es que vous &eacute;tiez en train de compl&eacute;ter.</li>
+</ul>
+<p><img src="https://lh5.googleusercontent.com/yrwKP-EmMV-vw80blh8wsWeFB_XRNTuuzspbzMTYOI9tDv3MwX5sn8DZW2TOoeDIu4shMvHrYfVosRWci4RCimVr-Z3svxGs8WVo2hNTp0SbFpYGFToIYSWwxr_TiQL15X9-__PT" width="624" height="177" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<p>Une fois que l&rsquo;ensemble de donn&eacute;es s&rsquo;affiche :</p>
+<ul>
+<li>Rendez-vous en bas de la page de saisie des donn&eacute;es. Vous verrez d&eacute;sormais une &eacute;tiquette &lsquo;Compl&eacute;t&eacute; par&rsquo; sous le bouton Terminer. </li>
+<li>Vous pouvez cliquer sur &lsquo;Voir les d&eacute;tails&rsquo; pour afficher plus d&rsquo;informations sur la personne ayant saisi ces donn&eacute;es. </li>
+</ul>
+<p><img src="https://lh5.googleusercontent.com/RHRiDATKho-IXXtXku70CZDgSoVtWi_7ZMHAkRojJH7RdO2wGqu8AMwNGRee-fXX9IQTZP0Ef13F5nm4PKQXyUZwAXvIbOsHeE_vmJDArm87Y5XfliqH1y52UBxl8gQcBlJeerGB" width="599" height="157" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<p><img src="https://lh4.googleusercontent.com/yq5nyrhyt0SEluuVsRN0y0U-NQiOC0B1crqUHb98LHAnOfCLmML_aplbZhlNKI95fEDuccW4EIVPGqAA-sIHRVLFWAC9ax37o5JvTM8knJqvZ17rieKS9qjth-P_gTnDZ8o6p0zu" width="475" height="458" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+
+
+
+
+
+<h3>Activit&eacute; 4 - Saisie des donn&eacute;es hors ligne </h3>
+<p>Veuillez effectuer cette activit&eacute; dans <a href="https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action" target="_blank">TRAININGLAND</a>.</p>
+<ul>
+<li>Pour effectuer la saisie hors ligne des donn&eacute;es, d&eacute;connectez-vous d&rsquo;Internet.</li>
+</ul>
+<p>DHIS2 vous enverra une notification indiquant &lsquo;Vous &ecirc;tes hors ligne, les donn&eacute;es seront sauvegard&eacute;es localement&rsquo;. </p>
+<p><img src="https://lh4.googleusercontent.com/9OQY6aAp9c3G1jkOJ6KM2q9N5HJBfK2wPB-ZVSP_E189xGRV7RyPjhOnnBxC5tgfD4Oz7mUEitTw5cIXSpnbRijY15M2YafWbsGM74nt15i4eTP62uq1D5lz4KQl_bjwwyCTuNZR" width="594" height="51" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<li>Essayez de naviguer sur la page et de s&eacute;lectionner diff&eacute;rentes unit&eacute;s d&rsquo;organisation du niveau &eacute;tablissement.</li>
+</ul>
+<p>Vous pouvez &eacute;galement passer d&rsquo;une p&eacute;riode ou d&rsquo;un ensemble de donn&eacute;es &agrave; d&rsquo;autres.  &Agrave; noter que vous ne verrez pas les donn&eacute;es disponibles en ligne ; par cons&eacute;quent la plupart des combinaisons unit&eacute; d&rsquo;organisation/p&eacute;riode/ensemble de donn&eacute;es n&rsquo;afficheront aucune donn&eacute;e tant que vous n&rsquo;&ecirc;tes pas &agrave; nouveau en ligne. </p>
+<ul>
+<li>Saisissez quelques donn&eacute;es en mode hors ligne pour l&rsquo;ensemble de donn&eacute;es mensuel portant sur les soins de sant&eacute; de base en utilisant une p&eacute;riode en 2018 comme vous l&rsquo;avez fait pr&eacute;c&eacute;demment pour la section Vaccination du formulaire. </li>
+</ul>
+<p><img src="/static/offline_data_entry.png" alt="Formulaire de saisie des donn&eacute;es hors ligne " type="saveimage" target="[object Object]" preventdefault="function (){r.isDefaultPrevented=n}" stoppropagation="function (){r.isPropagationStopped=n}" stopimmediatepropagation="function (){r.isImmediatePropagationStopped=n}" isdefaultprevented="function t(){return!1}" ispropagationstopped="function t(){return!1}" isimmediatepropagationstopped="function t(){return!1}" width="633" height="209" /></p>
+<ul>
+<li>Reconnectez-vous &agrave; Internet.  Un message s&rsquo;affichera indiquant &lsquo;Des donn&eacute;es sont enregistr&eacute;es localement, veuillez les transmettre au serveur&rsquo;. </li>
+<li>Cliquez sur le bouton &lsquo;Transmettre&rsquo; pour envoyer les donn&eacute;es &agrave; DHIS2.</li>
+</ul>
+<p><img src="https://lh6.googleusercontent.com/TkAmMIQUHjwe7kiFF5cUxA37aVqCfBugWgjX1YW9eTJx2zqAUREmaVlLYfxNRlUacd5NbSTVFP_x8gYxOLnrfnqjVPyxMPMyQltvN9wbrTknZcPg5EKyXoNq8gtIB9qcly1YF-1C" width="589" height="55" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<p>Une fois la transmission termin&eacute;e, une notification s&apos;affichera pour vous informer que &lsquo;la transmission au serveur a bien &eacute;t&eacute; effectu&eacute;e&rsquo;. </p>
+<p><img src="https://lh5.googleusercontent.com/kHgph-TEXCdIUGii27p0kXaui7eY58JaU4ohP1twa8lUM6IswhrJuajDY7s8X0ZWcEQWKsUVS0jUQzjH9esCDS5FZzPjPG3XGBobffSbggrDRMUtnkqfTNaIPhqBa7Mc1BQS_EaM" width="590" height="49" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+
+
+
+
+<h3>Activit&eacute; 1 - Configurer, se connecter et saisir des donn&eacute;es &agrave; l&apos;aide d&rsquo;un appareil Android</h3>
+<p>Pour effectuer cette activit&eacute;, vous aurez besoin d&rsquo;un appareil Android (pour l&rsquo;instant, <span style="text-decoration: underline;">seuls</span> les appareils Android sont compatibles) </p>
+<p>Vous devez tout d&apos;abord installer l&apos;appli sur l&rsquo;appareil Android :</p>
+<ul>
+<li>Avec votre t&eacute;l&eacute;phone, ouvrez le &lsquo;Play Store&rsquo; et cherchez l&rsquo;application &lsquo;<strong style="font-size: 1em;">Saisie de donn&eacute;es pour DHIS2</strong>&rsquo; :<span style="font-size: 1em;">&nbsp;<a href="https://play.google.com/store/apps/details?id=org.dhis2.mobile&amp;hl=en" target="_blank">https://play.google.com/store/apps/details?id=org.dhis2.mobile&amp;hl=en</a></li>
+<li>Lorsque vous l&rsquo;avez trouv&eacute;e, installez-la. </li>
+</ul>
+<p><img src="https://lh4.googleusercontent.com/X2r3OYSUHsSpQREOtNbkSRDn388B9dFR3l1sz_aW2puyzxB2V549r1ToxFGMxe_Yy_U070LvVQ9EDICvc6SarGz6jW_PgbPg-6mi64PBHDP5crGHsS10G4qWFSg2_GK9r5OB0VUt" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<li>Ouvrez l&apos;application sur votre t&eacute;l&eacute;phone (<strong>Saisie de donn&eacute;es DHIS2</strong>)</li>
+</ul>
+<p><img src="https://lh6.googleusercontent.com/s59UMcsWJ69dJjVNq_EF1jJFWq_RcV4z7DM5taWTze7eoPwhjFVK221npk2_21SZmN1WreS4HYWv3_MPsuf-60jEKu5U5mG7xJv5sQbjW7nNmJNW7_riZP2fsS2ShJoPuvAzUicd" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<li>Renseignez les d&eacute;tails suivants :</li>
+<ul>
+<ul>
+<li><strong>Serveur URL</strong> :&nbsp;<a href="https://live.academy.dhis2.org/tl1" target="_blank">https://live.academy.dhis2.org/tl1</a></li>
+<li><strong>Nom d&rsquo;utilisateur</strong> : Choisissez un nom d&rsquo;utilisateur dans le tableau ci-dessous (par exemple, si mon nom de famille commence par J, j&rsquo;utiliserai android5)</li>
+<li><strong>Mot de passe </strong>: Password1</li>
+</ul>
+</ul>
+</ul>
+<p><img src="https://lh6.googleusercontent.com/2zF4kcFF3wYg6rhpSqE18_cpeyl2XrBJK8LeZU26y8PMXYqMMGFrEmuiDxOLBG3tuCj8s4ttk0y_mdltuCZ4tnqo5lg8iCJGMnsmtM-hhVl1tBtD1EJcPEihn_reBmnCoa4RTY-j" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<p><em><strong>Remarque</strong> : Plusieurs noms d&rsquo;utilisateur ont &eacute;t&eacute; cr&eacute;&eacute;s pour cet exercice.  Merci de choisir un compte en fonction de votre patronyme.  Cela nous permet de s&eacute;parer les donn&eacute;es saisies par les diff&eacute;rents appareils Android au sein des diverses unit&eacute;s d&rsquo;organisation de Trainingland. Ainsi, il est plus facile pour chaque utilisateur de trouver ses donn&eacute;es lorsqu&rsquo;il se connecte ult&eacute;rieurement par l&apos;interm&eacute;diaire du navigateur Internet. </em></p>
+<p><img src="/static/android_data_capture_table.png" alt="Tableau de saisie des donn&eacute;es Android " type="saveimage" target="[object Object]" preventdefault="function (){r.isDefaultPrevented=n}" stoppropagation="function (){r.isPropagationStopped=n}" stopimmediatepropagation="function (){r.isImmediatePropagationStopped=n}" isdefaultprevented="function t(){return!1}" ispropagationstopped="function t(){return!1}" isimmediatepropagationstopped="function t(){return!1}" width="648" height="480" /></p>
+<ul>
+<li>Cliquez sur le bouton &lsquo;<strong>Connexion</strong>&rsquo; pour vous connecter. L&rsquo;interface suivante apparaitra dans un premier temps.  </li>
+<li>Choisissez &lsquo;<strong>S&eacute;lectionner une unit&eacute; d&rsquo;organisation</strong>&rsquo;,</li>
+<li>et d&eacute;finissez une unit&eacute; d&rsquo;organisation pour continuer. </li>
+</ul>
+<p><img src="https://lh6.googleusercontent.com/8rFGVhUBs8HUgfmq-qFOQZVcf2-60cZv3Nb9vmXhuLTBOb07e13qklyP3gMqRymTbBJ8KBJFO7kD1JadrKXoQVblKzOPV4PC9ecqG2I4HB-n8iKt7Y_25DiNm5JtAxFzCPHv3ROM" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /> <img src="https://lh3.googleusercontent.com/Ssr8rysPxYe9L_LSsxariKGuvICyPwLwgwnfofEeLhqwtZx2wrl6Vo-Lgq-g0ED3vDauAQq4UhunOwTbMABS0qAaQ8jFXZwdacyMX72WwAMFYG939nEMHtWEzzT4Eph4BC1cgUIS" width="270" height="480" style="background-color: transparent; font-size: 11pt; border: none; transform: rotate(0rad);" /></p>
+<ul>
+<li>Ensuite, tapez sur &lsquo;<strong>S&eacute;lectionner l&rsquo;ensemble de donn&eacute;es&rsquo;</strong>,</li>
+<li>et choisissez l&rsquo;ensemble de donn&eacute;es &lsquo;<strong>Surveillance syndromique</strong>&rsquo;. </li>
+</ul>
+<p><img src="https://lh4.googleusercontent.com/j0ry9jKX3CUIWBCcgSzPTfpfUX7gbsoYVwk75ayN-hcafFWDOBnmnHgtCHza3uXEHlF1fop81pvmAlzTRUNyCEvDhyxNwgrzrLCIrzfcm07pUAzAEH4tQhrieT5gGbKCsSGRI-dw" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /> <img src="https://lh4.googleusercontent.com/dPxjzLizfme9LOJWzjr0cMBHw8jvcMHtCWZnvse8ZUVDn1bYJEoXfBsEr9sHx2gXnNSVS_u8WDYRx9nlrysz-3YWRluUxNYokwR5LTPBEaJdfLySAjnOhCXij9lqRAVcIrmhcE6t" width="270" height="480" style="background-color: transparent; font-size: 11pt; border: none; transform: rotate(0rad);" /></p>
+<p>Ensuite, choisissez &lsquo;<strong>S&eacute;lectionner la p&eacute;riode</strong>&rsquo; et d&eacute;finissez la p&eacute;riode de votre choix. </p>
+<p><img src="https://lh6.googleusercontent.com/Ha0Epp6nNoRw_Qfkl6uGW5VhzJnMNRnzTlriFNQyOtSlGyKRb0AeksF8IcUjEJmfvXDzapvqIsaLOnhAD_ZLVMn9P6A67DYMASGcrp7LtChAgWISmOQSOQ8rE09FSM1I8cJD11IF" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /> <img src="https://lh3.googleusercontent.com/ITmoiByymalVO0iLOZybnx9HU4HtA63liCUPTU9EXY4pL9GmL-_FqAktF20wbLokQbgmObZOzkt10aG5pS5vRo_L5ErnAqxiDG9BMcCD_0kHgRsEu03MMR-w08dYo037EPXMbMJf" width="270" height="480" style="background-color: transparent; font-size: 11pt; border: none; transform: rotate(0rad);" /></p>
+<p>Les informations apparaitront sur votre appareil Android.</p>
+<ul>
+<li>Retenez la combinaison unit&eacute; d&rsquo;organisation/ensemble de donn&eacute;es/p&eacute;riode que vous avez choisie pour pouvoir v&eacute;rifier plus tard que les donn&eacute;es ont bien &eacute;t&eacute; enregistr&eacute;es. </li>
+<li>Tapez sur la case R&eacute;sum&eacute;, qui pr&eacute;sente les informations combin&eacute;es correspondant &agrave; votre choix d&rsquo;ensemble de donn&eacute;es, de p&eacute;riode et d&rsquo;unit&eacute; d&rsquo;organisation.</li>
+</ul>
+<p><img src="https://lh3.googleusercontent.com/swuj_r__FBuDq0AGabouSI4lf0wQ0u1UlD-k3gyzi1ONX80oH_Zg92BIfaX-xwDtT1109tzgb9s4Sv0RQfx7jUE-t4h1nI3XqcuyZusHI_Q4c-iS2wMN3W2Jn5mblsh-a6pNIH-D" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<ul>
+<li>Vous pouvez maintenant saisir des donn&eacute;es. </li>
+<li>Cliquez sur le bouton &lsquo;Enregistrer&rsquo; pour envoyer les donn&eacute;es &agrave; DHIS2.</li>
+</ul>
+</ul>
+<p>Si vous glissez votre doigt vers le bas vers votre barre de notification, vous verrez le message suivant : &lsquo;<strong>le processus d&rsquo;importation s&rsquo;est termin&eacute; avec succ&egrave;s</strong>&rsquo;, indiquant que les donn&eacute;es ont bien &eacute;t&eacute; envoy&eacute;es &agrave; DHIS2. </p>
+<p>(<em><strong>Remarque</strong> : si des donn&eacute;es existent d&eacute;j&agrave; pour la combinaison unit&eacute; d&rsquo;organisation/ensemble de donn&eacute;es/p&eacute;riode que vous avez choisie, essayer d&rsquo;utiliser une autre combinaison unit&eacute; d&rsquo;organisation/p&eacute;riode pour laquelle aucune donn&eacute;e n&apos;a &eacute;t&eacute; renseign&eacute;e</em>) </p>
+<p><img src="https://lh5.googleusercontent.com/rtIYIWdheMmnkSZaCSLdi29Z6SsygvqeLd0AbjKIKSHQ2sipzq7zviYQqWXNU8cZJb2frQi5X3W3yBnOeg6v-hTBbdUGEtBdu4JZIKCV8k-HDkp4yh5GAGTjvhoIKcqrYw-doc-J" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /> <img src="https://lh3.googleusercontent.com/ydSEu6s1PYLaWb00m5v1XfAizCh-fet71LLxx2yHssGK5nVERTFlTtwkAIFK4fUiX1xgZsVI2Eg-prL6HUGIT0v7PuT86e8I2G4X4EISSgApqkxncr-UutQZZVpZNtaC5FEefZWr" width="270" height="480" style="background-color: transparent; font-size: 11pt; border: none; transform: rotate(0rad);" /></p>
+<ul>
+<li>Connectez-vous &agrave; nouveau &agrave; Trainingland avec votre navigateur Internet sur votre ordinateur et v&eacute;rifiez que vos donn&eacute;es ont bien &eacute;t&eacute; import&eacute;es en ligne. </li>
+<li>Trouvez la combinaison unit&eacute; d&rsquo;organisation/ensemble de donn&eacute;es/p&eacute;riode que vous avez choisie sur votre appareil Android. Dans l&rsquo;exemple ci-dessus, il s&rsquo;agissait de :</li>
+</ul>
+<p><img src="https://lh4.googleusercontent.com/CAu26ETUFryudhyuiJnjtyy_0oTLP4rbcwmg6V8RLgBKdmk28j2nxZykIPQHInPFwnVzkvvMrNncy7mOZQQ6DGaPRE5rTc3L_oyIzB0n-_MO2PdUvbWrzTbKIaN3VyvRLMESMxun" width="624" height="153" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<li>V&eacute;rifiez sur la page de saisie des donn&eacute;es que celles-ci sont effectivement pr&eacute;sentes. </li>
+</ul>
+<p>L&rsquo;ensemble de donn&eacute;es doit &eacute;galement &ecirc;tre marqu&eacute; comme complet et afficher les informations relatives &agrave; l&rsquo;utilisateur ayant saisi les donn&eacute;es &agrave; l&rsquo;aide de l&rsquo;appareil Android.</p>
+<p><img src="https://lh6.googleusercontent.com/GebEPPtJOlhYJJTDi0cP8Z7h5Nz-EmRK7CgKpxhMz4dycsXw4EnCC4gj7-CHOBxSBjhfmCPA-mi-R5OMCCxMqqNEgNQp4dbdgGnOaATxlB5fHZlKwSWRE6eDAe1ZzlS-9be1DYRy" width="435" height="423" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+
+
+
+
+<h3>Activit&eacute; 2 - Saisir des donn&eacute;es hors ligne &agrave; l&rsquo;aide d&rsquo;un appareil Android</h3>
+<p>Pour d&eacute;marrer cette activit&eacute;, vous devez d&rsquo;abord v&eacute;rifier que vous &ecirc;tes connect&eacute;(e) &agrave; votre appareil Android et que votre connexion Internet fonctionne.  Si vous essayez de vous connecter alors que vous n&apos;avez pas Internet, cela ne fonctionnera pas. </p>
+<p>Une fois que vous &ecirc;tes connect&eacute;(e) :</p>
+<ul>
+<li>D&eacute;sactivez le wifi et le service de donn&eacute;es mobiles sur votre t&eacute;l&eacute;phone pour n&rsquo;avoir plus aucune connectivit&eacute;. </li>
+</ul>
+<p><img src="https://lh5.googleusercontent.com/RXTDn5WwzCyQLGal--2_Pp_V74NNTZiLkCVsw_3ewb6Vq-woUh738Kd4yO1AOdoopsQEO3ELqt6-BC9mt2B8pwsIFULkBJZs0cggoDcSwi79K0MY6EZBla0T0Fw6OLaGJufMQYCO" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<p>Vous pouvez maintenant :</p>
+<ul>
+<li>choisir une combinaison unit&eacute; d&rsquo;organisation/p&eacute;riode/ensemble de donn&eacute;es</li>
+<li>et saisir des donn&eacute;es hors ligne.</li>
+</ul>
+<p>Souvenez-vous de ne pas vous d&eacute;connecter de l&rsquo;application Android lorsque vous effectuez cette t&acirc;che, sous peine de perdre les donn&eacute;es que vous avez saisies !</p>
+<p><img src="https://lh6.googleusercontent.com/jX_R6mUrScqnAWe-2ytll3h58kVwgCEoAcZThqlPUnmqCx9YzbvxbfscgXigQdWggbttc9LwPknAnAwCDRS7f1SoFLMcDmXSUG_GLWgKaMDgj8sDbQ0XjIxTvKIhZJTzxaLnPQLk" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /> <img src="https://lh6.googleusercontent.com/M68vnh2OSv8RCbwYMjrFv_wHQlrzgFCSKdevbdzCrO2R_6D8IaPd2-sPz3k6CMmFETCzjB6M50URd_EA8VRRWQOywunBaHgdSnY1AZoumNJnCxkJ3hb_l2h4HN-W00LhyNM8_wU4" width="270" height="480" style="background-color: transparent; font-size: 11pt; border: none; transform: rotate(0rad);" /></p>
+<ul>
+<li>Apr&egrave;s avoir cliqu&eacute; sur Enregistrer, vous constaterez que vous ne recevez pas de notification vous informant du succ&egrave;s de l&rsquo;op&eacute;ration d&rsquo;importation. </li>
+</ul>
+<p><img src="https://lh5.googleusercontent.com/VOgnajKQIDUVHHy8V8KfjQkHlpztEQ34W1Jm0bKHWiifAbGDPkWJADkMTTERTLAsrjnZ5W3wyg7m-8Mo3uuE_5oNmb0OZzpjn-7qJE6dvr8jhLpAbU7xqiTh7LjGefXiX6L17TFO" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<li>Activez &agrave; nouveau votre wifi ou service de donn&eacute;es mobiles afin de transmettre les donn&eacute;es. </li>
+</ul>
+<p>Vous recevrez alors la notification. </p>
+<p><img src="https://lh4.googleusercontent.com/GNIimhO_ukDL9AzMv2eeG8-FjvVZ3McSzNhAq6W_sPB5VDMoqv8n9jsk68L_RzGXz5jdbKEqVTFIRYgA6mHrQaezVzatUtk4FKulwsl_2r-Yp2OMrOBLXEroOU6qlxfFyxReYXad" width="270" height="480" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<li>Vous pouvez vous reconnecter &agrave; Trainingland avec votre navigateur Internet sur votre ordinateur pour v&eacute;rifier que les donn&eacute;es que vous avez saisies hors ligne sur l&apos;appareil Android sont maintenant dans le syst&egrave;me. </li>
+</ul>
+<p>Dans l&apos;exemple hors ligne, la combinaison unit&eacute; d&rsquo;organisation/p&eacute;riode/ensemble de donn&eacute;es suivante a &eacute;t&eacute; utilis&eacute;e :</p>
+<p><img src="https://lh3.googleusercontent.com/7bBrztAjH7FsS9p__O5UiedsX2tPvaPo-6LLBYxSwfJWJ3xAw4z9JXTjsW7QZMjApOYY_FcruL-HKt6vCYf4RBxlWFEvMcgD876LofYjrzyCj8N2kaQtip7Qzkj9J05bZUTg26Id" width="624" height="153" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+<ul>
+<li>V&eacute;rifiez sur la page de saisie des donn&eacute;es que celles-ci sont effectivement pr&eacute;sentes.</li>
+</ul>
+<p>L&rsquo;ensemble de donn&eacute;es doit &eacute;galement &ecirc;tre marqu&eacute; comme complet et afficher les informations relatives &agrave; l&rsquo;utilisateur ayant saisi les donn&eacute;es &agrave; l&rsquo;aide de l&rsquo;appareil Android.</p>
+<p><img src="https://lh3.googleusercontent.com/C07Lj5BIOdM6juas97Gz6FBQHhC8lNPe9A2QN0ftVJ2mDELpCTzCFJe2OvVSSCYalfxjOu_L17Rv36rLQoBolK69tSDF-FvNFZutB9P4Tjf1vp3TU2EAcs47NlF_cijDtVSglHe4" width="468" height="455" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" /></p>
+
+
+
+<p>Mini-quiz (non not&eacute;) - Importation &agrave; partir des formats PDF et CSV<br>
+	====</p>
+	
+	<p>>>Des formulaires PDF peuvent &ecirc;tre automatiquement cr&eacute;&eacute;s par DHIS2 afin de saisir des donn&eacute;es hors ligne<<<br>
+	(x) Vrai<br>
+	( ) Faux</p>
+	
+	<p>[explication]<br>
+	Des formulaires PDF peuvent &ecirc;tre cr&eacute;&eacute;s avec l'application de gestion des ensembles de donn&eacute;es pour permettre aux utilisateurs de saisir leurs donn&eacute;es lorsqu&rsquo;ils ne sont pas connect&eacute;s. Cette possibilit&eacute; a toutefois quelques inconv&eacute;nients, car les modifications du PDF ne seront pas prises en compte tant que celui-ci n&rsquo;a pas &eacute;t&eacute; r&eacute;import&eacute; ou que les modifications n&rsquo;ont pas &eacute;t&eacute; faites manuellement en ligne.<br>
+	[explication]</p>
+	
+	<p>>>DHIS2 peut naturellement importer un fichier Excel dans n'importe quel format<<<br>
+	( ) Vrai<br>
+	(x) Faux</p>
+	
+	<p>[explication]<br>
+	DHIS2 peut naturellement importer un fichier CSV. Les fichiers CSV peuvent &ecirc;tre g&eacute;n&eacute;r&eacute;s par de nombreuses applications (y compris Excel). Le format CSV compatible avec DHIS2 est sp&eacute;cifique, et le fichier import&eacute; doit correspondre &agrave; ce format s&rsquo;il est fait appel aux outils int&eacute;gr&eacute;s propos&eacute;s par DHIS2 pour importer les donn&eacute;es.<br>
+	[explication]</p>
+	
+	<p>>>DHIS2 dispose de fonctionnalit&eacute;s pour importer un grand volume de donn&eacute;es d&rsquo;un seul coup, de sorte qu&rsquo;il n&rsquo;est pas n&eacute;cessaire de saisir &agrave; nouveau ces donn&eacute;es<<<br>
+	(x) Vrai<br>
+	( ) Faux</p>
+	
+	<p>[explication]<br>
+	DHIS2 peut importer des donn&eacute;es &agrave; partir de diff&eacute;rents types de formats de fichier. Avec ces formats, de grands volumes de donn&eacute;es peuvent &ecirc;tre import&eacute;s conjointement. Il peut s&rsquo;agir d&rsquo;une op&eacute;ration unique lors de la migration &agrave; partir d'un ancien syst&egrave;me ou d&rsquo;une op&eacute;ration r&eacute;currente lorsque les donn&eacute;es sont fournies &agrave; DHIS2 par d'autres sources. <br>
+	[explication]<br>
+	</p>
+
+
+
+<h2>REMARQUE&nbsp;: IL S&rsquo;AGIT D&rsquo;UN QUIZ NOT&Eacute;</h2>
+<p>Vous avez droit &agrave; 3&nbsp;essais pour ce quiz.</p>
+<p>Un d&eacute;lai de 30&nbsp;secondes est pr&eacute;vu entre chaque tentative ;&nbsp;si vous n&apos;avez pas la bonne r&eacute;ponse, respirez un bon coup, regardez une fois encore les vid&eacute;os, et relisez attentivement la question.</p>
+<hr />
+<p></p>
+
+
+
+<p>La principale fonction des ensembles de donn&eacute;es dans DHIS2 est de : (s&eacute;lectionnez une r&eacute;ponse)<br>
+	( ) cr&eacute;er des produits dynamiques<br>
+	( ) grouper des &eacute;l&eacute;ments de donn&eacute;es pour l'analyse<br>
+	(X) saisir des donn&eacute;es <br>
+	( ) analyser la qualit&eacute; des donn&eacute;es</p>
+	
+	<p>[explication]<br>
+	Les ensembles de donn&eacute;es sont utilis&eacute;s pour saisir les donn&eacute;es &agrave; partir de diff&eacute;rentes sources dans DHIS2. Les produits ne sont pas directement li&eacute;s aux ensembles de donn&eacute;es et peuvent associer plusieurs ensembles de donn&eacute;es si n&eacute;cessaire.<br>
+	[explication]</p>
+	
+	<p>Parmi les diff&eacute;rentes m&eacute;thodes &agrave; ma disposition pour saisir des donn&eacute;es dans DHIS2, je peux : (s&eacute;lectionnez une ou plusieurs r&eacute;ponses)<br>
+	[X] effectuer une importation manuelle des donn&eacute;es <br>
+	[X] utiliser un appareil Android<br>
+	[ ] scanner des donn&eacute;es directement &agrave; partir d&rsquo;un formulaire papier <br>
+	[X] utiliser l&rsquo;appli de saisie des donn&eacute;es dans DHIS2</p>
+	
+	<p>[explication]<br>
+	Les diff&eacute;rentes m&eacute;thodes de collecte des donn&eacute;es ont &eacute;t&eacute; pr&eacute;sent&eacute;es tout au long du Module 4. Toutefois, DHIS2 n'offre pas la possibilit&eacute; de scanner les donn&eacute;es d&rsquo;un formulaire papier.<br>
+	[explication]</p>
+	
+	<p>Dans l'appli Web de saisie des donn&eacute;es, vous pouvez consulter : (s&eacute;lectionnez une ou plusieurs r&eacute;ponses)<br>
+	[X] l&rsquo;historique de l'&eacute;l&eacute;ment de donn&eacute;es (l&rsquo;historique d&rsquo;un &eacute;l&eacute;ment donn&eacute;)<br>
+	[X] la piste de v&eacute;rification (montrant les modifications apport&eacute;es &agrave; un &eacute;l&eacute;ment donn&eacute;)<br>
+	[ ] la distribution des donn&eacute;es sur une p&eacute;riode d&eacute;finie, par exemple la variance ou l&rsquo;&eacute;cart-type</p>
+	
+	<p>[explication]<br>
+	DHIS2 permet d&rsquo;examiner la distribution des donn&eacute;es, par exemple la variance ou l&rsquo;&eacute;cart-type, mais pas directement &agrave; partir de l&rsquo;application Web de saisie des donn&eacute;es. La piste de v&eacute;rification et l&rsquo;historique des &eacute;l&eacute;ments de donn&eacute;es ont &eacute;t&eacute; pr&eacute;sent&eacute;s dans la session consacr&eacute;e &agrave; l&rsquo;application Web de saisie des donn&eacute;es.<br>
+	[explication]</p>
+	
+	<p>Dans l'appli Web de saisie des donn&eacute;es, quels types de v&eacute;rifications rapides de la qualit&eacute; des donn&eacute;es peuvent &ecirc;tre effectu&eacute;s ? (s&eacute;lectionnez une ou plusieurs r&eacute;ponses)<br>
+	[X] le respect des valeurs minimales et maximales individuelles <br>
+	[X] les r&egrave;gles de validation des conditions d&eacute;finies par l&rsquo;utilisateur, en v&eacute;rifiant que certains crit&egrave;res logiques ou math&eacute;matiques sont respect&eacute;s<br>
+	[X] le respect du format requis pour certaines valeurs (par ex. pas de texte dans un champ num&eacute;rique)</p>
+	
+	<p>[explication]<br>
+	Plusieurs v&eacute;rifications rapides de la qualit&eacute; des donn&eacute;es peuvent &ecirc;tre effectu&eacute;es &agrave; partir de l&rsquo;appli Web de saisie des donn&eacute;es. Elles ont &eacute;t&eacute; pr&eacute;sent&eacute;es dans la session consacr&eacute;e &agrave; l&rsquo;application Web de saisie des donn&eacute;es.<br>
+	[explication]</p>
+	
+	<p>La saisie des donn&eacute;es avec Android peut &ecirc;tre effectu&eacute;e hors ligne sans connexion &agrave; Internet<br>
+	(x) Vrai<br>
+	( ) Faux</p>
+	
+	<p>[explication]<br>
+	Tant que vous &ecirc;tes connect&eacute;(e) &agrave; l'appli Android (et que vous ne vous d&eacute;connectez pas), vous pouvez continuer &agrave; saisir des donn&eacute;es directement sur l'appareil Android sans connexion &agrave; Internet.<br>
+	[explication]</p>
+	
+	<p>Des m&eacute;thodes alternatives d'importation de donn&eacute;es dans DHIS2 existent, par exemple &agrave; partir de fichiers PDF.<br>
+	(x) Vrai<br>
+	( ) Faux</p>
+	
+	<p>[explication]<br>
+	Il existe des m&eacute;thodes alternatives d'importation de donn&eacute;es dans DHIS2. Elles permettent de transf&eacute;rer des donn&eacute;es &agrave; partir d&rsquo;anciens syst&egrave;mes ou de cr&eacute;er un entrep&ocirc;t de donn&eacute;es avec des donn&eacute;es dans diff&eacute;rents formats. <br>
+	[explication]<br>
+	</p>
+
+
+
+	<h2>REMARQUE&nbsp;: Ces exercices not&eacute;s font partie d&apos;une s&eacute;rie portant sur l&rsquo;ensemble du Module 4. </h2>
+<p>Cette s&eacute;rie d&apos;exercices comporte trois parties :</p>
+<ul>
+    <li>Partie 1 : Unit&eacute;s d&rsquo;organisation</li>
+    <li>Partie 2 : &Eacute;l&eacute;ments de donn&eacute;es</li>
+    <li><strong>Partie 3 : Ensemble de donn&eacute;es </strong></li>
+</ul>
+<p>Cette s&eacute;rie vous permettra de cr&eacute;er petit &agrave; petit un ensemble de donn&eacute;es et de le remplir. </p>
+<p>&Agrave; l&rsquo;issue du dernier exercice (4.6.2), il vous sera demand&eacute; de v&eacute;rifier que vous avez effectu&eacute; toute la s&eacute;rie.  Cette v&eacute;rification permettra aux membres de l&rsquo;&eacute;quipe de formation de valider les r&eacute;sultats de vos exercices de personnalisation de DHIS2. 
+	Ce n&rsquo;est qu&rsquo;&agrave; l&rsquo;issue de ce processus de validation que vous obtiendrez confirmation de la note finale pour cette s&eacute;rie d&rsquo;exercices. Comme pour tous les autres exercices, vous avez droit &agrave; trois essais.</p>
+<p><em>Remarque : Avant la validation par l&rsquo;&eacute;quipe de formation, la note maximum pour cette s&eacute;rie sera appliqu&eacute;e, mais il ne s&apos;agit pas de la note d&eacute;finitive. </em></p>
+<hr />
+<h2>Exercices du module 4&nbsp;- Partie 3/3 - Ensembles de donn&eacute;es </h2>
+<h3>Instructions</h3>
+<p>Vous devez &ecirc;tre connect&eacute;(e) &agrave; <a href="https://live.academy.dhis2.org/cu1/dhis-web-commons/security/login.action" target="[object Object]">DHIS2 Customization</a>&nbsp;pour effectuer les exercices suivants. </p>
+<h4>Exemple d&rsquo;ensemble de donn&eacute;es</h4>
+<p>Dans la section sur les &eacute;l&eacute;ments de donn&eacute;es, nous vous avons donn&eacute; l&rsquo;exemple d&rsquo;ensemble de donn&eacute;es suivant. </p>
+<table>
+    <tbody>
+        <tr>
+            <td>&Eacute;l&eacute;ment de donn&eacute;es</td>
+            <td>Valeur</td>
+        </tr>
+        <tr>
+            <td>Nombre de travailleuses du sexe couvertes par les programmes de pr&eacute;vention du VIH&nbsp;(sensibilisation)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Nombre de personnes vivant avec le VIH soign&eacute;es</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Nombre de personnes atteintes de la tuberculose et s&eacute;ropositives d&eacute;j&agrave; sous traitement antir&eacute;troviral ou ayant commenc&eacute; celui-ci lors du traitement de la tuberculose</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TB07.10 Nombre de patients ayant des tests bact&eacute;riologiques positifs &agrave; l&rsquo;issue du diagnostic</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TB07.19 Nombre de patients examin&eacute;s en vue d&rsquo;un suivi</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>MAL02.01 D&eacute;pistage du paludisme sur lame (nombre de personnes test&eacute;es)</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+<h3>Exercice 4.6.1 - Cr&eacute;er un ensemble de donn&eacute;es par d&eacute;faut</h3>
+<p><span style="text-decoration: underline;"><strong>Partie 1</strong></span></p>
+<p>&Agrave; l&rsquo;aide des &eacute;l&eacute;ments de donn&eacute;es que vous avez d&eacute;j&agrave; cr&eacute;&eacute;s dans l&rsquo;exercice sur les &eacute;l&eacute;ments de donn&eacute;es, cr&eacute;ez &agrave; nouveau cet ensemble de donn&eacute;es en tant qu&rsquo;ensemble de donn&eacute;es mensuel recueilli au niveau des &eacute;tablissements (assignez l&rsquo;ensemble de donn&eacute;es aux &eacute;tablissements que vous avez cr&eacute;&eacute;s). &Agrave; noter que l&rsquo;ensemble de donn&eacute;es a d&eacute;j&agrave; &eacute;t&eacute; cr&eacute;&eacute; pour vous lors de la cr&eacute;ation de votre compte.  Vous pouvez le modifier et lui donner un autre nom plus adapt&eacute; si vous le souhaitez. Il vous faudra modifier les propri&eacute;t&eacute;s de l&rsquo;ensemble de donn&eacute;es, y ajouter les &eacute;l&eacute;ments de donn&eacute;es que vous avez cr&eacute;&eacute;s, et l&rsquo;assigner &agrave; une unit&eacute; d&rsquo;organisation. Ceci permet de contourner la question de la gestion des privil&egrave;ges utilisateur mentionn&eacute;e dans la vid&eacute;o de d&eacute;monstration, puisque cet ensemble de donn&eacute;es est par d&eacute;faut assign&eacute; &agrave; votre utilisateur. &nbsp;</p>
+<p style="text-align: center;"><img src="https://lh5.googleusercontent.com/JYME2zKZiGMD4wIcbBbehALqZC9lLBYnl4B-nLz3yVQDeKlKeCDwZP3Ml2wjoDtlMuTVmFD6rFlqkiJoKvZkVAXQxDgnq-bLce7dPc3PiuTjYOlCdEhD_W9urEhFggSGWITp39bh" width="389" height="245" style="border: none; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);"
+    /></p>
+<p><span style="text-decoration: underline;"><strong>Partie 2</strong></span></p>
+<p>Allez sur l&apos;appli de saisie des donn&eacute;es et s&eacute;lectionnez une unit&eacute; d&rsquo;organisation &agrave; laquelle vous avez assign&eacute; l&rsquo;ensemble de donn&eacute;es. Choisissez une p&eacute;riode et l&rsquo;ensemble de donn&eacute;es que vous avez cr&eacute;&eacute; pour v&eacute;rifier que cela a bien &eacute;t&eacute; le cas. </p>
+<p></p>
+
+
+
+
+<h3>Exercice 4.6.2 - Cr&eacute;er une section dans l&rsquo;ensemble de donn&eacute;es </h3>
+<p><span style="text-decoration: underline;"><strong>Partie 1</strong></span></p>
+<p>Divisez l&rsquo;ensemble de donn&eacute;es ci-dessus en 3 sections comme illustr&eacute; ci-dessous.  Vous pouvez soit modifier l&rsquo;ensemble de donn&eacute;es que vous avez cr&eacute;&eacute; dans la 1ere partie, ou en cr&eacute;er un nouveau si vous pr&eacute;f&eacute;rez. </p>
+<h4>Section VIH</h4>
+<table>
+    <tbody>
+        <tr>
+            <td>&Eacute;l&eacute;ment de donn&eacute;es</td>
+            <td>Valeur</td>
+        </tr>
+        <tr>
+            <td>Nombre de travailleuses du sexe couvertes par les programmes de pr&eacute;vention du VIH&nbsp;(sensibilisation)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Nombre de personnes vivant avec le VIH soign&eacute;es</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Nombre de personnes atteintes de la tuberculose et s&eacute;ropositives d&eacute;j&agrave; sous traitement antir&eacute;troviral ou ayant commenc&eacute; celui-ci lors du traitement de la tuberculose</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<h4>Section TB</h4>
+<table>
+    <tbody>
+        <tr>
+            <td>&Eacute;l&eacute;ment de donn&eacute;es</td>
+            <td>Valeur</td>
+        </tr>
+        <tr>
+            <td>TB07.10 Nombre de patients ayant des tests bact&eacute;riologiques positifs &agrave; l&rsquo;issue du diagnostic</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TB07.19 Nombre de patients examin&eacute;s en vue d&rsquo;un suivi</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<h4>Section paludisme </h4>
+<table>
+    <tbody>
+        <tr></tr>
+        <tr>
+            <td>&Eacute;l&eacute;ment de donn&eacute;es</td>
+            <td>Valeur</td>
+        </tr>
+        <tr>
+            <td>MAL02.01 D&eacute;pistage du paludisme sur lame (nombre de personnes test&eacute;es)</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<p></p>
+<p></p>
+<p><strong><span style="text-decoration: underline;">Partie 2</span></strong></p>
+<p>Videz votre cache avant de v&eacute;rifier.  Pour ce faire, allez sur Applis -&gt; Nettoyeur de cache navigateur -&gt; S&eacute;lectionner tout -&gt; Nettoyer</p>
+<p>Allez sur l&apos;appli de saisie des donn&eacute;es et s&eacute;lectionnez une unit&eacute; d&rsquo;organisation &agrave; laquelle vous avez assign&eacute; l&rsquo;ensemble de donn&eacute;es. Choisissez une p&eacute;riode et l&rsquo;ensemble de donn&eacute;es que vous avez cr&eacute;&eacute; pour v&eacute;rifier que cela a bien &eacute;t&eacute; le cas. Saisissez quelques donn&eacute;es dans l&rsquo;ensemble pour v&eacute;rifier que les donn&eacute;es seront bien sauvegard&eacute;es. </p>
+<p><strong>Remarque : Vous devez renseigner des donn&eacute;es dans l&apos;appli de saisie des donn&eacute;es pour terminer les 3 composantes des exercices de personnalisation. &nbsp;</strong></p>
+<p></p>
+
+
+<p>Cette v&eacute;rification permettra aux membres de l&rsquo;&eacute;quipe de formation de valider les r&eacute;sultats de vos exercices de personnalisation de DHIS2.<br>
+	Comme pour tous les autres exercices, vous avez droit &agrave; trois essais.</p>
+	
+	<p>(X) J&rsquo;ai effectu&eacute; tous les exercices de personnalisation de DHIS2 et je souhaite que l&rsquo;&eacute;quipe de formation examine mes r&eacute;sultats.<br>
+	( ) Je n&rsquo;ai pas encore termin&eacute; tous les exercices.</p>
+	
+	<p>Remarque : Ce n&rsquo;est qu&rsquo;&agrave; l&rsquo;issue de ce processus de validation que vous obtiendrez confirmation de la note finale pour cette s&eacute;rie d&rsquo;exercices.</p>
+
+
+
+	<h2>REMARQUE&nbsp;: IL S&rsquo;AGIT D&rsquo;UN QUIZ NOT&Eacute;</h2>
+	<p>Vous avez droit &agrave; 3&nbsp;essais pour ce quiz.</p>
+	<p>Un d&eacute;lai de 30&nbsp;secondes est pr&eacute;vu entre chaque tentative ;&nbsp;si vous n&apos;avez pas la bonne r&eacute;ponse, respirez un bon coup, regardez une fois encore les vid&eacute;os, et relisez attentivement la question.</p>
+	<hr />
+	<p></p>
+
+	
+	<p>Les ensembles de donn&eacute;es peuvent &ecirc;tre divis&eacute;s en sections, d&eacute;finies par l&rsquo;utilisateur :<br>
+		(x) Vrai<br>
+		( ) Faux</p>
+		
+		<p>[explication]<br>
+		Le processus de cr&eacute;ation d'un ensemble de donn&eacute;es divis&eacute; en plusieurs sections a &eacute;t&eacute; illustr&eacute; dans la session consacr&eacute;e &agrave; la cr&eacute;ation des ensembles de donn&eacute;es<br>
+		[explication]</p>
+		
+		<p>Il est possible de configurer les ensembles de donn&eacute;es de mani&egrave;re &agrave; pouvoir : (s&eacute;lectionnez une ou plusieurs r&eacute;ponses)<br>
+		[X] saisir des donn&eacute;es relatives &agrave; des p&eacute;riodes futures <br>
+		[X] d&eacute;finir ce qui est consid&eacute;r&eacute; comme une soumission dans les d&eacute;lais<br>
+		[X] contenir autant ou aussi peu d&rsquo;&eacute;l&eacute;ments de donn&eacute;es que n&eacute;cessaire</p>
+		
+		<p>[explication]<br>
+		Ces diff&eacute;rents param&egrave;tres peuvent tous &ecirc;tre configur&eacute;s lors de la cr&eacute;ation d'un ensemble de donn&eacute;es dans DHIS2. Ceci vous a &eacute;t&eacute; expliqu&eacute; dans la session consacr&eacute;e &agrave; la cr&eacute;ation des ensembles de donn&eacute;es.<br>
+		[explication]</p>	
+
+
+		<p>Lectures compl&eacute;mentaires (non not&eacute;) :</p>
+<p><a href="https://docs.dhis2.org/2.25/en/user/html/import.html" target="_blank">Guide de l&rsquo;utilisateur de DHIS2 : Importation de donn&eacute;es </a></p>
+<p></p>
+
+
+<h2>Retour d&rsquo;information - Personnalisation de DHIS2</h2>
+<p>Merci de bien vouloir consacrer 2 ou 3 minutes &agrave; r&eacute;pondre &agrave; ce questionnaire lorsque vous avez termin&eacute; le Module 4. Vos r&eacute;ponses attentives auront une r&eacute;elle influence sur la mani&egrave;re dont les formations de ce type sont organis&eacute;es. Merci !</p>
+<p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGHzbs62TOEcEeopvf9ncZJ1KHOYsDxwZ7Et1UxMNjiKPvPA/viewform?embedded=true" width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0">Il semblerait que votre navigateur n&rsquo;est pas compatible avec iframes</iframe></p>
+<p></p>
+<p></p>

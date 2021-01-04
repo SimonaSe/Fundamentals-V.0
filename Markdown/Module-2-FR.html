@@ -1,0 +1,212 @@
+<p>Mini-quiz (non not&eacute;) - Pr&eacute;sentation/historique de DHIS2</p>
+
+<p>====</p>
+
+<p>>>DHIS2 peut &ecirc;tre utilis&eacute; comme un entrep&ocirc;t de donn&eacute;es pour stocker au m&ecirc;me endroit des donn&eacute;es en provenance de diff&eacute;rentes sources<< <br>
+(x) Vrai<br>
+( ) Faux</p>
+
+<p>[explication]<br>
+ DHIS2 peut combiner des donn&eacute;es en provenance de diff&eacute;rentes sources. Cela s'applique tant aux donn&eacute;es de routine qui sont directement enregistr&eacute;es dans le syst&egrave;me avec lequel vous travaillez qu&rsquo;aux donn&eacute;es compl&eacute;mentaires provenant d'autres sources, par exemple des enqu&ecirc;tes. <br>
+[explication]</p>
+
+<p>>>Le r&eacute;seau HISP travaille de mani&egrave;re collaborative pour am&eacute;liorer les fonctionnalit&eacute;s propos&eacute;es par DHIS2<< <br>
+(x) Vrai<br>
+( ) Faux</p>
+
+<p>[explication] <br>
+Le r&eacute;seau HISP est une collaboration mondiale qui soutient le d&eacute;veloppement du projet DHIS2. La collaboration entre les diff&eacute;rents p&ocirc;les est un point essentiel pour faire en sorte que DHIS2 continue de r&eacute;pondre aux besoins locaux d&eacute;finis par ses utilisateurs. <br>
+[explication]</p>
+
+<p>Mini-quiz (non not&eacute;) - Pr&eacute;sentation/historique de DHIS2</p>
+
+<p>====</p>
+
+<p>>>DHIS2 peut &ecirc;tre utilis&eacute; comme un entrep&ocirc;t de donn&eacute;es pour stocker au m&ecirc;me endroit des donn&eacute;es en provenance de diff&eacute;rentes sources<< <br>
+(x) Vrai<br>
+( ) Faux</p>
+
+<p>[explication]<br>
+ DHIS2 peut combiner des donn&eacute;es en provenance de diff&eacute;rentes sources. Cela s'applique tant aux donn&eacute;es de routine qui sont directement enregistr&eacute;es dans le syst&egrave;me avec lequel vous travaillez qu&rsquo;aux donn&eacute;es compl&eacute;mentaires provenant d'autres sources, par exemple des enqu&ecirc;tes. <br>
+[explication]</p>
+
+<p>>>Le r&eacute;seau HISP travaille de mani&egrave;re collaborative pour am&eacute;liorer les fonctionnalit&eacute;s propos&eacute;es par DHIS2<< <br>
+(x) Vrai<br>
+( ) Faux</p>
+
+<p>[explication] <br>
+Le r&eacute;seau HISP est une collaboration mondiale qui soutient le d&eacute;veloppement du projet DHIS2. La collaboration entre les diff&eacute;rents p&ocirc;les est un point essentiel pour faire en sorte que DHIS2 continue de r&eacute;pondre aux besoins locaux d&eacute;finis par ses utilisateurs. <br>
+[explication]</p>
+
+<p>Mini-quiz (non not&eacute;) - Pr&eacute;sentation de Trainingland</p>
+
+<p>====</p>
+
+<p>>>Trainingland a &eacute;t&eacute; cr&eacute;&eacute; pour illustrer : (s&eacute;lectionnez une ou plusieurs r&eacute;ponses)<< <br>
+[x] les formulaires de collecte des donn&eacute;es<br>
+[x] l&rsquo;analyse des donn&eacute;es<br>
+[x] les indicateurs</p>
+
+<p>[explication]<br>
+Trainingland fait partie de l&rsquo;environnement de formation qui a &eacute;t&eacute; cr&eacute;&eacute; afin que les utilisateurs puissent se familiariser avec la structure de DHIS2 et la mani&egrave;re dont les informations peuvent &ecirc;tre recueillies et examin&eacute;es. Il utilise des donn&eacute;es mod&eacute;lis&eacute;es qui permettent aux utilisateurs de d&eacute;couvrir les fonctionnalit&eacute;s fondamentales de DHIS2. <br>
+[explication]</p>
+
+<script>
+	function requestAccount() {
+		var baseUrl = window.location.href.split("/", 3).join("/");
+		$.ajax({
+			url: baseUrl + "/api/user/v1/accounts",
+			dataType: "json",
+			success: function(data) {
+				var email = data[0].email;
+				var obj = {"email": email, "type": "default"};
+				console.log(obj)
+				$.ajax({
+					url         : "https://live.academy.dhis2.org/signup/api",
+					type        : "POST",
+					data		: JSON.stringify(obj),
+					contentType	: "application/json; charset=utf-8",
+					dataType	: "json",
+					success: function (result, status, xhr) {
+                      console.log(xhr);
+						alert(xhr.responseText);
+					},
+					error: function (xhr,status,error) {
+                      console.log(xhr);
+						alert(xhr.responseText);
+					}
+				});
+			}
+		});
+
+	}
+
+</script>
+
+<html>
+<META http-equiv="content-type" content="text/html; charset=utf-8">
+  <h3>Cr&eacute;ez votre compte dans TRAININGLAND</h3>
+<p>Cliquez sur le bouton ci-dessous pour demander acc&egrave;s &agrave; la plateforme Trainingland DHIS2. <br/> Vous recevrez une invitation par courriel contenant des instructions pour terminer votre inscription &agrave; DHIS2.</p>
+<p><input type="button" onClick="requestAccount();" value="Request account" /></p>
+<p><i>Remarque : l&rsquo;adresse &eacute;lectronique que vous utilisez pour OpenEDX sera envoy&eacute;e &agrave; la base de donn&eacute;es de DHIS2 afin de cr&eacute;er le compte. </i></p>
+</html>
+<p>Mini-quiz (non not&eacute;) - Cas d&rsquo;utilisation &lsquo;les 1000 jours de grande vuln&eacute;rabilit&eacute;&rsquo;</p>
+
+<p>====</p>
+
+<p>>>Le cas d&rsquo;utilisation &lsquo;les 1 000 jours de grande vuln&eacute;rabilit&eacute;&rsquo; couvre la p&eacute;riode :<< <br>
+( ) de la naissance de l&rsquo;enfant &agrave; ses 3 ans <br>
+(x) de la conception de l&rsquo;enfant &agrave; ses 2 ans<br>
+( ) de la premi&egrave;re visite pr&eacute;natale de la m&egrave;re &agrave; sa derni&egrave;re visite postnatale</p>
+
+<p>[explication]<br>
+Les 1 000 jours de grande vuln&eacute;rabilit&eacute; concernent tant la m&egrave;re que l&rsquo;enfant &agrave; partir de la conception de celui-ci et jusqu&rsquo;&agrave; son deuxi&egrave;me anniversaire. Il s&rsquo;agit d'une p&eacute;riode critique pour le d&eacute;veloppement de l&rsquo;enfant ; l&rsquo;alimentation adapt&eacute;e de la m&egrave;re et de l&rsquo;enfant pendant ce temps peut avoir une influence profonde sur la croissance de celui-ci et diminuer le risque de maladie, ainsi que prot&eacute;ger la sant&eacute; de la m&egrave;re. Tout au long de cette acad&eacute;mie, nous ferons r&eacute;f&eacute;rence &agrave; des &eacute;l&eacute;ments associ&eacute;s &agrave; ce cas d&rsquo;utilisation.<br>
+[explication]</p>
+
+<p>>> Ce cas d&rsquo;utilisation nous sert &agrave; d&eacute;finir : (s&eacute;lectionnez une ou plusieurs r&eacute;ponses)<< <br>
+[X] Les services qui sont offerts &agrave; la m&egrave;re et &agrave; l&rsquo;enfant <br>
+[x] Les donn&eacute;es que nous recueillons en lien avec ces services <br>
+[x] Les r&eacute;sultats que nous obtenons en lien avec ces services</p>
+
+<p>[explication]<br>
+Ces 3 &eacute;l&eacute;ments sont utilis&eacute;s pour traduire certains &eacute;l&eacute;ments du cas d'utilisation (ici, un cas d&rsquo;utilisation dans le domaine de la sant&eacute;) et les transmettre &agrave; DHIS2. Il est important d'identifier les contributions et les r&eacute;sultats cl&eacute;s ; souvent, cela n&eacute;cessite de bien comprendre les d&eacute;tails du cas d&rsquo;utilisation. <br>
+[explication]</p>
+
+<p>Mini-quiz (non not&eacute;) - Vue d'ensemble de DHIS2</p>
+    
+    <p>====</p>
+    
+    <p>>>Nous pouvons recueillir diff&eacute;rents types de donn&eacute;es directement au sein de DHIS2 (par exemple, des donn&eacute;es agr&eacute;g&eacute;es ou des donn&eacute;es individuelles anonymis&eacute;es)<< <br>
+    (x) Vrai<br>
+    ( ) Faux</p>
+    
+    <p>[explication]<br>
+    DHIS 2 peut recueillir diff&eacute;rents types de donn&eacute;es directement au sein de l'application. Il peut s&rsquo;agir de donn&eacute;es agr&eacute;g&eacute;es, de donn&eacute;es relatives &agrave; un &eacute;v&eacute;nement (donn&eacute;es individuelles anonymes) et des donn&eacute;es du &lsquo;tracker&rsquo; (donn&eacute;es individuelles identifiables). <br>
+    [explication]</p>
+    
+    <p>>>Nous pouvons configurer des v&eacute;rifications de la qualit&eacute; des donn&eacute;es en cr&eacute;ant des r&egrave;gles de validation d&eacute;finies par l&rsquo;utilisateur qui s&rsquo;appliquent aux donn&eacute;es saisies<< <br>
+    (x) Vrai<br>
+    ( ) Faux</p>
+    
+    <p>[explication]<br>
+    Des r&egrave;gles math&eacute;matiques, que l&rsquo;on appelle r&egrave;gles de validation, peuvent &ecirc;tre d&eacute;finies par un utilisateur afin de v&eacute;rifier les donn&eacute;es saisies. Il s&rsquo;agit de l&rsquo;une des m&eacute;thodes &eacute;lectroniques de v&eacute;rification de la qualit&eacute; des donn&eacute;es dans DHIS2 et nous y reviendrons dans d&rsquo;autres sessions.<br>
+    [explication]</p>
+    
+    <p>>>Nous pouvons d&eacute;finir les variables que nous recueillons directement &agrave; partir de l'interface utilisateur de DHIS2<< <br>
+    (x) Vrai<br>
+    ( ) Faux</p>
+    
+    <p>[explication]<br>
+    Comme nous l&rsquo;avons mentionn&eacute; dans la d&eacute;mo, l&rsquo;un des grands principes de DHIS2 est de permettre &agrave; l&rsquo;utilisateur de personnaliser les donn&eacute;es qu&rsquo;il recueille directement &agrave; partir de l'interface utilisateur. <br>
+    [explication]</p>
+    
+    <p>>>Il n'est pas possible d&rsquo;associer de descriptions ou interpr&eacute;tations suppl&eacute;mentaires aux produits que nous cr&eacute;ons directement &agrave; partir de DHIS2<< <br>
+    ( ) Vrai<br>
+    (x) Faux</p>
+    
+    <p>[explication]<br>
+    Nous pouvons associer &agrave; l&rsquo;ensemble de nos produits des descriptions compl&eacute;mentaires et commenter sur les interpr&eacute;tations directement dans DHIS2. Ceci nous permet de donner &agrave; l&rsquo;&eacute;l&eacute;ment davantage de contexte lorsque d'autres utilisateurs examinent l&rsquo;information et nous y reviendrons dans les sessions consacr&eacute;es &agrave; l&rsquo;analyse. <br>
+    [explication]</p>
+    
+    <p>>>Il n'est pas possible de partager avec d'autres utilisateurs les analyses ou produits que nous cr&eacute;ons directement &agrave; partir de DHIS2<< <br>
+    ( ) Vrai<br>
+    (x) Faux</p>
+    
+    <p>[explication]<br>
+    Il est possible de partager avec d'autres utilisateurs les analyses ou produits que nous cr&eacute;ons directement &agrave; partir de DHIS2. Nous y reviendrons dans les sessions ult&eacute;rieures. <br>
+    [explication]<br>
+    
+    <h2>REMARQUE&nbsp;: IL S&rsquo;AGIT D&rsquo;UN QUIZ NOT&Eacute;</h2>
+<p>Vous avez droit &agrave; 3&nbsp;essais pour ce quiz.</p>
+<p>Un d&eacute;lai de 30&nbsp;secondes est pr&eacute;vu entre chaque tentative ;&nbsp;si vous n&apos;avez pas la bonne r&eacute;ponse, respirez un bon coup, regardez une fois encore les vid&eacute;os, et relisez attentivement la question. </p>
+<hr />
+<p></p>
+
+<p>>>Parmi les propositions suivantes, lesquelles correspondent aux grandes dimensions du mod&egrave;le de donn&eacute;es de DHIS2 ? (s&eacute;lectionnez une ou plusieurs r&eacute;ponse(s)) << <br>
+    [X] Unit&eacute; d'organisation (o&ugrave;)<br>
+    [x] &Eacute;l&eacute;ment de donn&eacute;es (quoi)<br>
+    [x] P&eacute;riode (quand)<br>
+    [ ] Aucune des r&eacute;ponses ci-dessus</p>
+    
+    <p>[explication]<br>
+    Comme nous l&rsquo;avons soulign&eacute; dans la pr&eacute;sentation des concepts fondamentaux, DHIS2 comprend 3 grandes dimensions.<br>
+    Les unit&eacute;s d'organisation font r&eacute;f&eacute;rence &agrave; la localisation g&eacute;ographique, en r&eacute;ponse &agrave; la question o&ugrave; ? Les &eacute;l&eacute;ments de donn&eacute;es indiquent ce que nous recueillons (quoi ?) Les p&eacute;riodes indiquent quand nous recueillons ces informations. <br>
+    [explication]</p>
+    
+    <p>>>Les unit&eacute;s d&rsquo;organisation d&rsquo;organisation repr&eacute;sentent (s&eacute;lectionnez une seule r&eacute;ponse) :<< <br>
+    [x] L&rsquo;emplacement g&eacute;ographique des donn&eacute;es <br>
+    [ ] Les valeurs calcul&eacute;es des donn&eacute;es <br>
+    [ ] Les projets du programme de sant&eacute;</p>
+    
+    <p>[explication]<br>
+    Dans la pr&eacute;sentation des concepts fondamentaux, nous faisons r&eacute;f&eacute;rence aux unit&eacute;s d'organisation comme &eacute;tant le lieu o&ugrave; ont &eacute;t&eacute; recueillies les donn&eacute;es. <br>
+    [explication]</p>
+    
+    <p>
+    Dans DHIS2, les &eacute;l&eacute;ments de donn&eacute;es et les indicateurs repr&eacute;sentent le m&ecirc;me concept. <br>
+    [ ] Vrai<br>
+    [x] Faux</p>
+    
+    <p>[explication]<br>
+    Dans la pr&eacute;sentation des concepts fondamentaux, il est indiqu&eacute; que les &eacute;l&eacute;ments de donn&eacute;es et les indicateurs sont des concepts diff&eacute;rents. Les &eacute;l&eacute;ments de donn&eacute;es correspondent aux donn&eacute;es brutes, alors que les indicateurs sont des valeurs calcul&eacute;es. <br>
+    [explication]</p>
+    
+    <p>
+    Parmi les propositions suivantes, lesquelles sont des &eacute;l&eacute;ments de donn&eacute;es ? (s&eacute;lectionnez une ou plusieurs r&eacute;ponse(s)) <br>
+    [x] Nombre de d&eacute;c&egrave;s maternels<br>
+    [ ] Taux de mortalit&eacute; maternelle (pour 100 000)<br>
+    [x] Nombre de cas positifs de paludisme <br>
+    [ ] Incidence parasitaire annuelle du paludisme</p>
+    
+    <p>[explication]<br>
+    Les &eacute;l&eacute;ments de donn&eacute;es correspondent aux valeurs des donn&eacute;es brutes que nous recueillons. Les valeurs calcul&eacute;es telles que les taux et incidences sont consid&eacute;r&eacute;es comme des indicateurs. <br>
+    [explication]</p>
+
+    <p>Lectures compl&eacute;mentaires (non not&eacute;) :</p>
+<p><a href="http://www.who.int/healthinfo/indicators/2015/en/" target="_blank">Les 100&nbsp;indicateurs sanitaires de base (OMS)</a></p>
+<p></p>
+
+<h2>Retour d&rsquo;information - Pr&eacute;sentation de DHIS2</h2>
+<p>Merci de bien vouloir consacrer 2 ou 3 minutes &agrave; r&eacute;pondre &agrave; ce questionnaire lorsque vous avez termin&eacute; le Module 2. Vos r&eacute;ponses attentives auront une r&eacute;elle influence sur la mani&egrave;re dont les formations de ce type sont organis&eacute;es. Merci !</p>
+<p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdBkAtVJvGdPiDgUj2FILwQkwrtKe2Q9IyM-GtjZ4A3uHBsA/viewform?embedded=true" width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0">Il semblerait que votre navigateur n&rsquo;est pas compatible avec iframes</iframe></p>
+<p></p>
