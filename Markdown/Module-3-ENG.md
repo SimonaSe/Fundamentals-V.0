@@ -1,3 +1,9 @@
+# Module 3
+
+## 3.1 Data Analysis Overview Intro
+
+## 3.2 Pivot tables
+
 ### Activity 1 - Pivot Table interface, selecting data dimensions and creating a simple pivot table
 
 In [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action), please try to create the following pivot table that follows the example in the video:
@@ -34,7 +40,7 @@ Option the options tab and select:
 
 ### Activity 2 - Selecting organisation unit levels and adjusting the table options
 
-In [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action), add in the districts with Maternal deaths to your table. Note that these organisation units may be different than what is seen in the video. 
+In [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action), add in the districts with Maternal deaths to your table. Note that these organisation units may be different than what is seen in the video.
 
 In the organisation units tab:
 
@@ -72,7 +78,7 @@ In the organisation units tab:
 
 <img src="https://lh3.googleusercontent.com/KkprOXEO0W2u9aAPYbjM1sON2uXJ38iBK6ommnLxTBAPZCd5F5R-H8JTgJBt6iln-q1ESs3D1CKZPZFwDuSxg0_JcvKN2kxwBi4hGbQl4Z5UIEl9ovLVKkK0A_5bhqpnVjM--vB4" width="624" height="168" />
 
-- Save the table as a favorite using: username\_health program name\_what, what, when.
+- Save the table as a favorite using: username _health program name_what, what, when.
 
 Note that in a real life setting, there may be no need to use your username when saving your favorites. In this course this is used however to identify the favorites that you have created.
 
@@ -181,15 +187,13 @@ Since the hierarchy has been added, you have the option to download it as a plai
 
 <img src="https://lh4.googleusercontent.com/EPCFzvNxhefAvqgQ_n4cYkRzarRnVIrRBBvpajDFIbkZ0hvJo4Vy_eqs5EJoSPtVhSy0uUI8wrO1p68xZp_oPoQV5IeMX4_ssfD6dV9XkxrJ9Jc1rPVOI-lWnqOoZFnMb5GGyUrX" width="230" height="465" />
 
-NOTE: THESE ARE GRADED ASSIGNMENTS.
------------------------------------
+## Assignments - Pivot Tables
+
+### NOTE: THESE ARE GRADED ASSIGNMENTS
 
 You are allowed 3 attempts for each of these assignments.
 
-------------------------------------------------------------------------
-
-Assignment 3.2.1 - Delivery in Facility, Trainingland, Q1 - Q4 2016
--------------------------------------------------------------------
+### Assignment 3.2.1 - Delivery in Facility, Trainingland, Q1 - Q4 2016
 
 ### Instructions
 
@@ -197,7 +201,7 @@ Please do this assignment in [TRAININGLAND](https://live.academy.dhis2.org/tl1/d
 
 1. For this assignment, answer the questions using the Pivot Table app.
 2. Save all tables as a favorite as they will be used later on in the dashboard exercise.
-3. Use the same naming convention to save the 2 favorites as before: username\_program\_what, where, when.
+3. Use the same naming convention to save the 2 favorites as before: username _program_what, where, when.
 
 #### Details
 
@@ -208,17 +212,14 @@ Please do this assignment in [TRAININGLAND](https://live.academy.dhis2.org/tl1/d
 
 <img src="https://lh5.googleusercontent.com/SrZe-SmgI9UMzaBzBSIXCc5sEltoLe0f7rce5uO--zaf--LdREOFPCoTW0IxXqN9yHsWqH6ZtYAlcp8OwQsw73it_3qLoyhz3zZrWI2SmFhQXvDQSBeykV1QWlYLyyi5FccYbgjS" width="264" height="213" />
 
-&gt;&gt;Which quarter had the lowest number of deliveries?&lt;&lt; 
-\[\[(January - March 2016), April - June 2016, July - September 2016, October - December 2016\]\]
+&gt;&gt;Which quarter had the lowest number of deliveries?&lt;&lt;
+ [ [(January - March 2016), April - June 2016, July - September 2016, October - December 2016 ] ]
 
-\[explanation\] 
-The quarter January - March 2016 had the lowest number of deliveries 
-\[explanation\]
+ [explanation ]
+The quarter January - March 2016 had the lowest number of deliveries
+ [explanation ]
 
-------------------------------------------------------------------------
-
-Assignment 3.2.2 - Delivery in Facility, Trainingland Districts, Q1 - Q4 2016
------------------------------------------------------------------------------
+### Assignment 3.2.2 - Delivery in Facility, Trainingland Districts, Q1 - Q4 2016
 
 ### Instructions
 
@@ -226,7 +227,7 @@ Please do this assignment in [TRAININGLAND](https://live.academy.dhis2.org/tl1/d
 
 1. For this assignment, answer the questions using the Pivot Table app.
 2. Save all tables as a favorite as they will be used later on in the dashboard exercise.
-3. Use the same naming convention to save the 2 favorites as before: username\_program\_what, where, when.
+3. Use the same naming convention to save the 2 favorites as before: username _program _what, where, when.
 
 #### Details
 
@@ -237,32 +238,30 @@ Please do this assignment in [TRAININGLAND](https://live.academy.dhis2.org/tl1/d
 
 <img src="https://lh6.googleusercontent.com/moH0FLCNxts13ahtp-5y-KCaCqRAmBYuqcpK31mTFbOPcsaIBTlCBuVlfxVUpbfwdhWPXdYpoUPTYqcnSjjXvr-iQRkELZHVlZE7UMh3yubkCDBXFJzRWKXYApc0iw5XjyQIRabx" width="624" height="367" />
 
-&gt;&gt;Which District had the lowest number of facility-based deliveries?&lt;&lt; 
-\[\[Cat District, Fruit District, Game District, (Sweet District)\]\]
+&gt;&gt;Which District had the lowest number of facility-based deliveries?&lt;&lt;
+ [ [Cat District, Fruit District, Game District, (Sweet District) ] ]
 
-\[explanation\] 
-Sweet District had the lowest number of facility-based deliveries 
-\[explanation\] 
---- 
-&gt;&gt;During which quarter was the absolute lowest number of facility deliveries recorded?&lt;&lt; 
-\[\[(January - March 2016), April - June 2016, July - September 2016, October - December 2016\]\]
+[explanation]
+Sweet District had the lowest number of facility-based deliverie
+ explanation]
+---
+&gt;&gt;During which quarter was the absolute lowest number of facility deliveries recorded?&lt;&lt;
+ [ [(January - March 2016), April - June 2016, July - September 2016, October - December 2016 ] ]
 
-\[explanation\] 
-During January - March 2016 the lowest number of facility deliveries were recorded 
-\[explanation\]
+ [explanation]
+During January - March 2016 the lowest number of facility deliveries were recorded
+ [explanation]
 
-------------------------------------------------------------------------
 
-Assignment 3.2.3 - HIV Test Positivity Rate, Trainingland Facilities, January 2016 - December 2016
---------------------------------------------------------------------------------------------------
+### Assignment 3.2.3 - HIV Test Positivity Rate, Trainingland Facilities, January 2016 - December 2016
 
 ### Instructions
 
 Please do this assignment in [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action).
 
-1. For this assignment, answer the questions using the Pivot Table app. 
-2. Save all tables as a favorite as they will be used later on in the dashboard exercise. 
-3. Use the same naming convention to save the 2 favorites as before: username\_program\_what, where, when.
+1. For this assignment, answer the questions using the Pivot Table app.
+2. Save all tables as a favorite as they will be used later on in the dashboard exercise.
+3. Use the same naming convention to save the 2 favorites as before: username_program_what, where, when.
 
 #### Details
 
@@ -273,25 +272,22 @@ Please do this assignment in [TRAININGLAND](https://live.academy.dhis2.org/tl1/d
 
 <img src="https://lh4.googleusercontent.com/WiazsFcJwJogL5YqQLPPs68wPI2xoeERjFXIwTECZveocjDixbUIjK_5hdOv1LRJOARmqjNbWgGxm22N7dWrawqZvFPVZZVrVPoIqW90glCXMsxZVi4QPwBC3Wx4U0AYiEoSIlqV" width="624" height="292" />
 
-&gt;&gt;In September 2016, which facility had the highest HIV test positivity rate?&lt;&lt; 
-\[\[Catfish Private Hospital, Lightfish Primary Health Care Centre, (Poodle Private Medical Practice), Pug Private Medical Practice\]\]
+&gt;&gt;In September 2016, which facility had the highest HIV test positivity rate?&lt;&lt;
+ [ [Catfish Private Hospital, Lightfish Primary Health Care Centre, (Poodle Private Medical Practice), Pug Private Medical Practice ] ]
 
-\[explanation\] 
-Poodle Private Medical Practice had the highest HIV test positivity rate 
-\[explanation\]
+ [explanation ]
+Poodle Private Medical Practice had the highest HIV test positivity rate
+ [explanation ]
 
-------------------------------------------------------------------------
-
-Assignment 3.2.4 - Malaria RDT performed & Malaria RDT Positive, Trainingland Health Centres, Jan 2014 – Dec 2015
------------------------------------------------------------------------------------------------------------------
+### Assignment 3.2.4 - Malaria RDT performed & Malaria RDT Positive, Trainingland Health Centres, Jan 2014 – Dec 2015
 
 ### Instructions
 
 Please do this assignment in [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action).
 
-1. For this assignment, answer the questions using the Pivot Table app. 
-2. Save all tables as a favorite as they will be used later on in the dashboard exercise. 
-3. Use the same naming convention to save the 2 favorites as before: username\_program\_what, where, when.
+1. For this assignment, answer the questions using the Pivot Table app.
+2. Save all tables as a favorite as they will be used later on in the dashboard exercise.
+3. Use the same naming convention to save the 2 favorites as before: username_program_what, where, when.
 
 #### Details
 
@@ -303,34 +299,32 @@ Please do this assignment in [TRAININGLAND](https://live.academy.dhis2.org/tl1/d
 
 <img src="https://lh6.googleusercontent.com/mE7_d_NvGjbrz99DuWkoNFMDKTm046DBWsliP5qHvP6kGSIg8M88A6VyLQxvydtja3N52uFY8IUiSvHLrfRnmgjK3RLl8NHEuNqDYQrRO14rjGUgGr1Yx7pjwaQr4Utb5WIesKYi" width="624" height="349" />
 
-\*Brief Note: In this table, there should not be more Malaria RDT positives then Malaria RDT performed. If this is occurring, then there is likely some issues with the quality of the data. For example, in Afghan Dispensary for the period Oct - Dec 2015 in both the &lt; 5 and &gt;= 5 age group, we can see that there is more Malaria RDT positives then Malaria RDT performed. Malaria RDT positives are a direct result of performing an RDT test to detect malaria, and therefore the number of Malaria RDT performed should always be &gt;= the number of Malaria RDT positives. 
+ *Brief Note: In this table, there should not be more Malaria RDT positives then Malaria RDT performed. If this is occurring, then there is likely some issues with the quality of the data. For example, in Afghan Dispensary for the period Oct - Dec 2015 in both the &lt; 5 and &gt;= 5 age group, we can see that there is more Malaria RDT positives then Malaria RDT performed. Malaria RDT positives are a direct result of performing an RDT test to detect malaria, and therefore the number of Malaria RDT performed should always be &gt;= the number of Malaria RDT positives.
 
-&gt;&gt;In Blueberry dispensary, were the total number of Malaria RDT positives greater than or less than the total number of Malaria RDT’s performed?&lt;&lt; 
-\[\[(greater than), less than\]\]
+&gt;&gt;In Blueberry dispensary, were the total number of Malaria RDT positives greater than or less than the total number of Malaria RDT’s performed?&lt;&lt;
+ [ [(greater than), less than ] ]
 
-\[explanation\] 
-The correct answer is greater than 
-\[explanation\] 
---- 
-&gt;&gt;In Chocolate Dispensary, how many Malaria RDT’s were positive in Oct - Dec 2016 for the 'under 5 years' age group? (enter the value in the box below)&lt;&lt; 
+ [explanation]
+The correct answer is greater than
+ [explanation]
+---
+
+&gt;&gt;In Chocolate Dispensary, how many Malaria RDT’s were positive in Oct - Dec 2016 for the 'under 5 years' age group? (enter the value in the box below)&lt;&lt;
 = 14
 
-\[explanation\] 
-14 Malaria RDT’s were positive in Oct - Dec 2016 for the 'under 5 years' age group within Chocolate Dispensary 
-\[explanation\]
+ [explanation]
+14 Malaria RDT’s were positive in Oct - Dec 2016 for the 'under 5 years' age group within Chocolate Dispensary
+ [explanation]
 
-------------------------------------------------------------------------
-
-Assignment 3.2.5 - Breastfeeding within 1 hour after delivery, Delivery in Facility & Breastfeeding within 1 hour after delivery (%), Trainingland Districts, Last 6 months
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Assignment 3.2.5 - Breastfeeding within 1 hour after delivery, Delivery in Facility & Breastfeeding within 1 hour after delivery (%), Trainingland Districts, Last 6 months
 
 ### Instructions
 
 Please do this assignment in [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action).
 
-1. For this assignment, answer the questions using the Pivot Table app. 
-2. Save all tables as a favorite as they will be used later on in the dashboard exercise. 
-3. Use the same naming convention to save the 2 favorites as before: username\_program\_what, where, when.
+1. For this assignment, answer the questions using the Pivot Table app.
+2. Save all tables as a favorite as they will be used later on in the dashboard exercise.
+3. Use the same naming convention to save the 2 favorites as before: username_program_what, where, when.
 
 #### Details
 
@@ -343,50 +337,51 @@ Please do this assignment in [TRAININGLAND](https://live.academy.dhis2.org/tl1/d
 
 <img src="https://lh5.googleusercontent.com/0poNnQUPbvPblCwzY_4nujdT-7hmeS22NE238Jvpl9jMmikrC2fevWcMalnoF1BYTk3MRG2qOeSnzQsJvJl2sI9b4y9cpfxnfN0sql0hu8anuQes8Pdoz8sOyNMgMVPJJIGZIC5u" width="624" height="263" />
 
-&gt;&gt;In November 2016, which district had the lowest Breastfeeding within 1 hour after delivery (%)?&lt;&lt; 
-\[\[(Dessert District), Dog District, Fish District, Insect District\]\]
+&gt;&gt;In November 2016, which district had the lowest Breastfeeding within 1 hour after delivery (%)?&lt;&lt;
+ [ [(Dessert District), Dog District, Fish District, Insect District ] ]
 
-\[explanation\] 
-Dessert District had the lowest Breastfeeding within 1 hour after delivery (%) during November 2016 
-\[explanation\]
+ [explanation ]
+Dessert District had the lowest Breastfeeding within 1 hour after delivery (%) during November 2016
+ [explanation ]
 
-NOTE: THIS IS A GRADED QUIZ.
-----------------------------
+## Session Quiz - Pivot tables
+
+### NOTE: THIS IS A GRADED QUIZ
 
 You are allowed 3 attempts for this quiz.
 
 There is 30 seconds of time between each attempt, so if you don't get it right, just breathe in, watch the videos once more and carefully read the question again.
 
-------------------------------------------------------------------------
-
-Pivot tables can be used to analyse your data: (select one) 
-( ) By indicators, data elements, and reporting rates 
-( ) By Organisation Units 
-( ) By Periods 
+Pivot tables can be used to analyse your data: (select one)
+( ) By indicators, data elements, and reporting rates
+( ) By Organisation Units
+( ) By Periods
 (x) All of the above
 
-\[Explanation\] 
-As seen in the pivot table, different items can be analyzed together within this application. 
-\[Explanation\]
+ [Explanation]
+As seen in the pivot table, different items can be analyzed together within this application.
+ [Explanation]
 
-Pivot Tables in DHIS2 are mainly used for: 
-( ) Visualizing data in charts 
-(x) Analyzing data in dynamic tables 
+Pivot Tables in DHIS2 are mainly used for:
+( ) Visualizing data in charts
+(x) Analyzing data in dynamic tables
 ( ) Creating standard, one-click reports for review
 
-\[Explanation\] 
-As introduced in the pivot table demo, pivot tables are used for creating dynamic tables 
-\[Explanation\]
+ [Explanation]
+As introduced in the pivot table demo, pivot tables are used for creating dynamic tables
+ [Explanation]
 
-The output of pivot tables can be: (select one) 
-( ) Saved as favorites 
-( ) Downloaded for use offline 
-( ) Have the hierarchy added in 
+The output of pivot tables can be: (select one)
+( ) Saved as favorites
+( ) Downloaded for use offline
+( ) Have the hierarchy added in
 (x) All of the above
 
-\[Explanation\] 
-As seen in the pivot table demo, the output can be used in all the various ways mentioned in this question. 
-\[Explanation\]
+ [Explanation]
+As seen in the pivot table demo, the output can be used in all the various ways mentioned in this question.
+ [Explanation]
+
+## 3.3 Data Visualiser
 
 ### Activity 1 - Data Visualizer interface and creating a vertical bar chart
 
@@ -532,21 +527,19 @@ In the organisation units tab:
 
 <img src="https://lh3.googleusercontent.com/Rwk3LVjCygrdpHIDsKeDKey5YIfTt3vJpYd_njSsz_LDJuL8Dz6xkQQYZVUYhFRMfeYXduXwcUcqndCNeRBT1Ef5GReP2nD-aceqxw0XemMNWsFO8ivPNkgfbmtmZANeSKiQ1SVZ" width="624" height="392" />
 
--Save the table as a favorite using: username\_health program name\_what, what, when
+-Save the table as a favorite using: username_health program name_what, what, when
 
 Note that in a real life setting, there may be no need to use your username when saving your favorites. In this course this is used however to identify the favorites that you have created.
 
 <img src="https://lh5.googleusercontent.com/d2YxiP99BqUKqC40hFPVHGsv1ThqvqA9cRnQEw_4X-V_RzuEhFMuE3xKNoI-aAdC7jkouk5xZk6d49ORP5TqwFc0ZO-CK2ueVST394gEulbo1mdL-goFX2ya4jIIWXmGqbtj2vp3" width="624" height="163" />
 
-NOTE: THESE ARE GRADED ASSIGNMENTS
-----------------------------------
+## Assignment - Data Visualiser
+
+### NOTE: THESE ARE GRADED ASSIGNMENTS
 
 You are allowed 3 attempts for each of these assignments.
 
-------------------------------------------------------------------------
-
-Assignment 3.3.1
-----------------
+### Assignment 3.3.1
 
 ### Instructions
 
@@ -556,7 +549,7 @@ In [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/
 
 2. Save all charts as a favorite.
 
-3. Use the same naming convention to save the 2 favorites as before: username\_program\_what, where, when.
+3. Use the same naming convention to save the 2 favorites as before: username _program _what, where, when.
 
 #### Details
 
@@ -579,16 +572,13 @@ In [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/
 
 &gt;&gt;Which facility type has the highest OPD attendance rate?&lt;&lt;
 
-\[\[PHC, (Dispensary), Health Centre\]\]
+ [ [PHC, (Dispensary), Health Centre ] ]
 
-\[explanation\] 
-Answer : Dispensary. 
-\[explanation\] 
+ [explanation ]
+Answer : Dispensary.
+ [explanation ]
 
-------------------------------------------------------------------------
-
-Assignment 3.3.2
-----------------
+### Assignment 3.3.2
 
 ### Instructions
 
@@ -598,7 +588,7 @@ In [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/l
 
 2. Save all charts as a favorite.
 
-3. Use the same naming convention to save the favorites as before: username\_program\_what, where, when.
+3. Use the same naming convention to save the favorites as before: username _program _what, where, when.
 
 #### Details
 
@@ -613,29 +603,26 @@ Using a horizontal bar chart, compare the HIV ANC client testing rate - PMTCT (t
 
 &gt;&gt;In which districts is the tested positive rate greater than the testing rate? (select one or more)&lt;&lt;
 
-\[x\] Game District 
-\[x\] Dessert District 
-\[x\] Staple District 
-\[x\] Bird District
+ [x ] Game District
+ [x ] Dessert District
+ [x ] Staple District
+ [x ] Bird District
 
-\[explanation\] 
-From the chart, you can see that all of these identified districts have a greated "tested positive" rate when compared to the "testing rate." This might indicate an error of some sort, as the % tested should be greater then the % positive 
-\[explanation\]
+ [explanation ]
+From the chart, you can see that all of these identified districts have a greated "tested positive" rate when compared to the "testing rate." This might indicate an error of some sort, as the % tested should be greater then the % positive
+ [explanation ]
 
 &gt;&gt;Which district did not have any patients test positive?&lt;&lt;
 
-( ) Vegetable District 
-(x) Sweet District 
+( ) Vegetable District
+(x) Sweet District
 ( ) Dog District
 
-\[explanation\] 
-Sweet District did not have any patients test positive 
-\[explanation\] 
+ [explanation ]
+Sweet District did not have any patients test positive
+ [explanation ]
 
-------------------------------------------------------------------------
-
-Assignment 3.3.3
-----------------
+### Assignment 3.3.3
 
 ### Instructions
 
@@ -645,7 +632,7 @@ In [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/l
 
 2. Save all charts as a favorite.
 
-3. Use the same naming convention to save the 2 favorites as before: username\_program\_what, where, when.
+3. Use the same naming convention to save the 2 favorites as before: username _program _what, where, when.
 
 #### Details
 
@@ -662,18 +649,15 @@ Create a vertical bar chart that compares the number of maternal deaths by facil
 
 &gt;&gt;Within 2016, what facility had the highest number of Maternal Deaths?&lt;&lt;
 
-\(x\) Minnow District Hospital 
-( ) Whale Regional Hospital 
+ (x ) Minnow District Hospital
+( ) Whale Regional Hospital
 ( ) Elephant District Hospital
 
-\[explanation\] 
-Answer: Minnow District Hospital 
-\[explanation\] 
+ [explanation ]
+Answer: Minnow District Hospital
+ [explanation ]
 
-------------------------------------------------------------------------
-
-Assignment 3.3.4
-----------------
+### Assignment 3.3.4
 
 ### Instructions
 
@@ -683,13 +667,13 @@ In [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/
 
 2. Save all charts as a favorite.
 
-3. Use the same naming convention to save the 2 favorites as before: username\_program\_what, where, when.
+3. Use the same naming convention to save the 2 favorites as before: username _program _what, where, when.
 
 #### Details
 
 -**Indicator Group**: ANC
 -**Indicators**: ANC 1st visit coverage and ANC 4th visit coverage by ANC 1 (this indicator is similar to calculating an estimate of the drop-out rate that occurs between the 1st and 4th ANC visit)
--****Period**:  January 2015 - December 2016**
+-**Period**:  January 2015 - December 2016**
 -**Organization unit**: Trainingland 
 -Label the axes correctly and provide a descriptive title
 
@@ -699,71 +683,70 @@ Investigate the relationship between ANC 1st visit coverage and ANC 4th visit co
 
 <img src="https://lh4.googleusercontent.com/pItweqKaJr6Tv7a2pbUxJXzJby-Lw6pBeowVhblK6l7IkYUtubTZoNFisCG9XknYJIvHpBZMbabZFL5CtQWoFDyCRYQ9NyClYirEZsXSkkP9tU-4vWOwULPOdb32OuwD_txelNIj" width="624" height="367" />
 
-&gt;&gt;What is the general trend of ANC 1 over time?&lt;&lt; 
-\[\[(Increasing), Decreasing, No significant change\]\]
+&gt;&gt;What is the general trend of ANC 1 over time?&lt;&lt;
+ [ [(Increasing), Decreasing, No significant change ] ]
 
-&gt;&gt;What is the general trend of ANC 4 by ANC 1 over time?&lt;&lt; 
-\[\[Increasing, Decreasing, (No significant change)\]\] 
- 
-&gt;&gt;Which one is higher?&lt;&lt; 
-\[\[(ANC 1), ANC 1-4\]\] 
+&gt;&gt;What is the general trend of ANC 4 by ANC 1 over time?&lt;&lt;
+ [ [Increasing, Decreasing, (No significant change) ] ]
 
-NOTE: THIS IS A GRADED QUIZ.
-----------------------------
+&gt;&gt;Which one is higher?&lt;&lt;
+ [ [(ANC 1), ANC 1-4 ] ]
+
+## Session Quiz - Data Visualiser
+
+### NOTE: THIS IS A GRADED QUIZ
 
 You are allowed 3 attempts for this quiz.
 
 There is 30 seconds of time between each attempt, so if you don't get it right, just breathe in, watch the videos once more and carefully read the question again.
 
-------------------------------------------------------------------------
+From the Data Visualizer you can: (select one or more)
+ [x ] Save favorite charts with a description
+ [x ] Make different types of dynamic charts
+ [x ] Share an interpretation
 
-From the Data Visualizer you can: (select one or more) 
-\[x\] Save favorite charts with a description 
-\[x\] Make different types of dynamic charts 
-\[x\] Share an interpretation
+ [Explanation ]
+The data visualizer can be used to create charts, which can be saved as favorites as discussed via interpretations. This is all demonstrated in the data visualizer demo.
+ [Explanation ]
 
-\[Explanation\] 
-The data visualizer can be used to create charts, which can be saved as favorites as discussed via interpretations. This is all demonstrated in the data visualizer demo. 
-\[Explanation\]
-
-The data visualizer in DHIS2 is mainly used for: (select one) 
-(x) Visualizing data in charts 
-( ) Managing the visual layout of dashboards 
+The data visualizer in DHIS2 is mainly used for: (select one)
+(x) Visualizing data in charts
+( ) Managing the visual layout of dashboards
 ( ) Changing the appearance of the DHIS2 application
 
-\[Explanation\] 
-The main purpose of the data visualizer is to visualize data in charts. 
-\[Explanation\]
+ [Explanation ]
+The main purpose of the data visualizer is to visualize data in charts.
+ [Explanation ]
 
-In the data visualizer, I cannot add titles to the axes and chart itself. 
-( ) True 
+In the data visualizer, I cannot add titles to the axes and chart itself.
+( ) True
 (x) False
 
-\[Explanation\] 
-In the data visualizer, chart and axes titles can be added by going to the table options. 
-\[Explanation\] 
+ [Explanation ]
+In the data visualizer, chart and axes titles can be added by going to the table options.
+ [Explanation ]
 
-Mini Quiz (not graded) - Presentation of the GIS
+## 3.4 - GIS
 
-====
+### Mini Quiz (not graded) - Presentation of the GIS
 
-&gt;&gt;What does GIS stand for?&lt;&lt; 
-( ) Geographical Identity Software 
-(x) Geographical Information System 
+&gt;&gt;What does GIS stand for?&lt;&lt;
+( ) Geographical Identity Software
+(x) Geographical Information System
 ( ) Geographical Information Structure
 
-\[explanation\] 
-GIS stands for Geographical Information System. It is a common acronym that is used when discussing or working with geographical data. 
-\[explanation\]
+ [explanation ]
+GIS stands for Geographical Information System. It is a common acronym that is used when discussing or working with geographical data.
+ [explanation ]
 
-&gt;&gt;Which of the following represents one layer within a GIS?&lt;&lt; 
-( ) Land mass, roads and water 
-( ) Land mass and health facilities 
+&gt;&gt;Which of the following represents one layer within a GIS?&lt;&lt;
+( ) Land mass, roads and water
+( ) Land mass and health facilities
 (x) Health Facilities
 
-\[explanation\] 
-A layer is used to represent one piece of information within a map according to its theme. As an example, health facilities on its own represents one layer on a map, while the land mass represents a second layer on the map. 
-\[explanation\]
+ [explanation ]
+A layer is used to represent one piece of information within a map according to its theme. As an example, health facilities on its own represents one layer on a map, while the land mass represents a second layer on the map.
+ [explanation ]
 
 ### Activity 1 - GIS interface, place search and external layers
 
@@ -848,7 +831,7 @@ In the organisation units tab:
 
 ### Activity 4 - Explanation and modification of the map options
 
-In the map you have created in [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action), modify the number of classes and methods to see what effect this has on the legend. 
+In the map you have created in [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action), modify the number of classes and methods to see what effect this has on the legend.
 
 In the options tab:
 
@@ -927,7 +910,7 @@ To save the map as a favorite:
 
 <img src="https://lh3.googleusercontent.com/VgtjVS1hXd9EAyfZ1Uhu-2XnHqj_vR44NcHX2W5_HOqj5Agk6C3cSY0LOjRfhVuGc2MMFjFzd3N7gCGI-UkZ54prerqcBchtAF5uWrO0rfMJCytZR9e5sFMhWE0gSLV4SrQJ6Nhz" width="533" height="235" />
 
--Save the table as a favorite using: username\_health program name\_what, what, when.
+-Save the table as a favorite using: username _health program name _what, what, when.
 
 Note that in a real life setting, there may be no need to use your username when saving your favorites. In this course this is used however to identify the favorites that you have created.
 
@@ -969,18 +952,15 @@ In the Options tab:
 
 <img src="https://lh4.googleusercontent.com/_KxtUv0bkPlrfSbuiYB4z51htxdXF6dPWf6oxrTVNLzYLzyho9DRE9dgkL9op74DzJdAcI0gCNRhefMcg7f6Th1mTAZSRh3Ae7zayG622edAheRv_sWaFesIC_jqhszBSA6CE6gv" width="624" height="700" />
 
-NOTE: THESE ARE GRADED ASSIGNMENTS.
------------------------------------
+## Session Quiz - GIS
+
+### NOTE: THESE ARE GRADED ASSIGNMENTS
 
 You are allowed 3 attempts for each of these assignments.
 
-------------------------------------------------------------------------
+### Assignment 3.4.1
 
-Assignment 3.4.1
-----------------
-
-Instructions
-------------
+### Instructions
 
 -Please use [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action) for this assignment.
 -For this assignment, answer the questions using the GIS app.
@@ -993,19 +973,16 @@ Instructions
 
 What is the name of the district highlighted in the map?
 
-\(x\) Insect District 
-( ) Dog District 
-( ) Cat District 
+(x ) Insect District
+( ) Dog District
+( ) Cat District
 ( ) Bird District
 
-\[explanation\] 
-Insect District is the highlighted district 
-\[explanation\] 
+ [explanation ]
+Insect District is the highlighted district
+ [explanation ]
 
-------------------------------------------------------------------------
-
-Assignment 3.4.2
-----------------
+### Assignment 3.4.2
 
 ### Instructions
 
@@ -1014,7 +991,7 @@ Assignment 3.4.2
 
 #### Details
 
-Create a thematic layer 1 - \# of HIV tests performed by facility, 2016:
+Create a thematic layer 1 -  # of HIV tests performed by facility, 2016:
 
 -**Data Element Group**: HIV
 -**Data Element**: HIV Tests Performed
@@ -1023,17 +1000,14 @@ Create a thematic layer 1 - \# of HIV tests performed by facility, 2016:
 
 <img src="https://lh6.googleusercontent.com/X2s-BSQf3LltlIWdkJMbUuDBe78sHCohyBU_9B974QsstCCwp-bNtP3y_Y3zkvBnaMp3rh4yy122AhnACGUUPnKhRPjfivbyMiUe7wrEhKvPKnK9udPD9XeM_YCe3E9kDA3DH2eG" width="505" height="582" />
 
-&gt;&gt;Which facility has the highest number of HIV tests performed?&lt;&lt; 
-\[\[(Crocodile Hospital Gateway PHC), Sushi Hospital Gateway PHC, Red Deer Health Centre, Spaghetti Health Centre\]\]
+&gt;&gt;Which facility has the highest number of HIV tests performed?&lt;&lt;
+ [ [(Crocodile Hospital Gateway PHC), Sushi Hospital Gateway PHC, Red Deer Health Centre, Spaghetti Health Centre ] ]
 
-\[explanation\] 
-Crocodile Hospital Gateway PHC performed the highest number of HIV tests 
-\[explanation\] 
+ [explanation ]
+Crocodile Hospital Gateway PHC performed the highest number of HIV tests
+ [explanation ]
 
-------------------------------------------------------------------------
-
-Assignment 3.4.3
-----------------
+### Assignment 3.4.3
 
 ### Instructions
 
@@ -1044,28 +1018,25 @@ Assignment 3.4.3
 
 Add in a 2nd Thematic Layer - HIV test positivity rate
 
-Create a thematic layer 1 - \# of HIV tests performed by facility, 2016:
+Create a thematic layer 1 -  # of HIV tests performed by facility, 2016:
 
 -**Indicator Group**: HIV
 -**Data Element**: HIV Test Positivity Rate
 -**Period**: 2016
 -**inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;"&gt;Organisation Units**: Districts
 
-Save the maps  as a favorite using the same naming convention as before: **username\_program\_what, where, when**.
+Save the maps  as a favorite using the same naming convention as before: **username _program _what, where, when**.
 
 <img src="https://lh4.googleusercontent.com/g69GxrkDtSaCrDuIrS2quCjjFc470JSWhxaXXEhB98xKfjUydMxW_TWT7G0gxXXHu1TqNm5IeikF2f4VPeSW7w9z0vWJ2_APanRq3SuS0gKIzLyiWBbvbLVdZu5dr1hViwwXsnXV" width="544" height="685" />
 
-&gt;&gt;Which district has the lowest HIV test positivity rate? (Hint: You may want to turn off the boundary layer)&lt;&lt; 
-\[\[Insect District, Sweet District, (Dessert District), Vegetable District\]\]
+&gt;&gt;Which district has the lowest HIV test positivity rate? (Hint: You may want to turn off the boundary layer)&lt;&lt;
+ [ [Insect District, Sweet District, (Dessert District), Vegetable District ] ]
 
-\[explanation\] 
-Dessert District has the lowest HIV test positivity rate 
-\[explanation\]
+ [explanation ]
+Dessert District has the lowest HIV test positivity rate
+ [explanation ]
 
-------------------------------------------------------------------------
-
-Assignment 3.4.4
-----------------
+### Assignment 3.4.4
 
 ### Instructions
 
@@ -1078,8 +1049,6 @@ Apply a custom legend set to a map with:
 
 -**Value Type**: Data Element
 
-<!-- -->
-
 -**Data Set**: Population
 -**Period Type**: Yearly
 -**Period**: 2016
@@ -1087,56 +1056,57 @@ Apply a custom legend set to a map with:
 -**Legend Type**: Predefined
 -**Legend Set**: Population
 
-1. Save the maps as a favorite using the same naming convention as before: **username\_program\_what, where, when**.
+1. Save the maps as a favorite using the same naming convention as before: **username _program _what, where, when**.
 
 <img src="https://lh5.googleusercontent.com/V5e1i4_RxW7DsEbYcq1ROORgW9TudGQUaAsTrFo8W39Suu2oR4HOSJ0soje0ArOB2znPXi3NlsoCDgjYNBAmBQs0FKF9TQzM_zprBPupjPSJX2gGlix3WBjL0HLaBNAQ1p1gm5wG" width="450" height="520" />
 
-&gt;&gt;Which District(s) have populations between 200,000 - 500,000 for this period? (select one or more)&lt;&lt; 
-\[x\] Dessert District 
-\[x\] Sweet District 
-\[x\] Insect District 
-\[ \] Game District
+&gt;&gt;Which District(s) have populations between 200,000 - 500,000 for this period? (select one or more)&lt;&lt;
+ [x ] Dessert District
+ [x ] Sweet District
+ [x ] Insect District
+ [  ] Game District
 
-\[explanation\] 
-Dessert, Sweet and Insect Districts have populations between 200,000 - 500,000 for this period 
-\[explanation\] 
+ [explanation ]
+Dessert, Sweet and Insect Districts have populations between 200,000 - 500,000 for this period
+ [explanation ]
 
-NOTE: THIS IS A GRADED QUIZ.
-----------------------------
+## Session Quiz - GIS
+
+### NOTE: THIS IS A GRADED QUIZ
 
 You are allowed 3 attempts for this quiz.
 
 There is 30 seconds of time between each attempt, so if you don't get it right, just breathe in, watch the videos once more and carefully read the question again.
 
-------------------------------------------------------------------------
-
-In the GIS boundary layer you can: (select one) 
-( ) Analyze data by indicators 
-( ) Analyze data by data elements 
-(x) Display organisation unit boundaries 
+In the GIS boundary layer you can: (select one)
+( ) Analyze data by indicators
+( ) Analyze data by data elements
+(x) Display organisation unit boundaries
 ( ) All of the above
 
-\[Explanation\] 
-In the GIS boundary layer, you can only display organisation unit boundaries such as regions or districts. 
-\[Explanation\]
+ [Explanation ]
+In the GIS boundary layer, you can only display organisation unit boundaries such as regions or districts.
+ [Explanation ]
 
-In one thematic layer you can create maps with: (select one) 
-( ) Multiple periods 
-( ) Multiple data elements 
-( ) Multiple reporting rates 
+In one thematic layer you can create maps with: (select one)
+( ) Multiple periods
+( ) Multiple data elements
+( ) Multiple reporting rates
 (x) None of the above
 
-\[Explanation\] 
-In one GIS layer, you can only have a single period, data element or reporting rate represented. 
-\[Explanation\]
+ [Explanation ]
+In one GIS layer, you can only have a single period, data element or reporting rate represented.
+ [Explanation ]
 
-In a GIS map, multiple layers can be added to represent different features or items for analysis. 
-(x) True 
+In a GIS map, multiple layers can be added to represent different features or items for analysis.
+(x) True
 ( ) False
 
-\[Explanation\] 
-Multiple layers representing different items can be added to maps using the GIS application. 
-\[Explanation\]
+ [Explanation ]
+Multiple layers representing different items can be added to maps using the GIS application.
+ [Explanation ]
+
+## 3.5 - Integrated Analysis, Dashboards, Messaging and Sharing
 
 ### Activity 1 - Moving between analysis apps within DHIS2
 
@@ -1275,7 +1245,7 @@ In [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/l
 
 <img src="https://lh6.googleusercontent.com/p1PseMJdoj1H4ux8GZah060bqflr9mqyKFezb36Wb-NW_wO6c0K3jLgPrqFeoRPpzelH9LwOGlhA5OxC_WyIC_dG48ydm-imhcvDqblkrED6Lv-l_daN4f8dKDVfBHkb-TFO9maZ" width="624" height="313" />
 
--Write feedback the course admins. Feel free to be critical regarding what you think about the course so far. 
+-Write feedback the course admins. Feel free to be critical regarding what you think about the course so far.
 
 #### Feedback
 
@@ -1289,66 +1259,143 @@ To write feedback, you can:
 
 <img src="https://lh5.googleusercontent.com/37_-V-l3MpIVdLStt2cFbk6bnqYweh1JbVMfVkdQGq6xF46eRY2n8ZCSsaHkTF6Q5Z7lrchmSeI01s94RmFQG3YMmwBLdRLMVolohbiMr4GJO2pt_1mooIsS4DMGdn4p0C6q7fmm" width="624" height="307" />
 
-NOTE: THIS IS A GRADED QUIZ.
-----------------------------
+## Session Quiz - Integrated Analysis, Dashbiards, Messaging and Sharing
+
+### NOTE: THIS IS A GRADED QUIZ
 
 You are allowed 3 attempts for this quiz.
 
 There is 30 seconds of time between each attempt, so if you don't get it right, just breathe in, watch the videos once more and carefully read the question again.
 
-------------------------------------------------------------------------
+I have created a pivot table with the following dimensions:
 
-I have created a pivot table with the following dimensions: - Data Element Group: Delivery - Data Element: Births, Live - Period: Last 4 Quarters - Organisation Units: Trainingland Districts
+- Data Element Group: Delivery
+- Data Element: Births, Live
+- Period: Last 4 Quarters
+- Organisation Units: Trainingland Districts
 
 In a real-life setting, a username will likely not be used to identify a favorite.
 
-&gt;&gt;Which of the following is a good name for the favorite? (select one)&lt;&lt; ( ) Live Births ( ) Deliveries in Trainingland, last 4 Quarters ( ) Live Births by Trainingland Districts, last 4 Quarters (x) Delivery\_Live Births, Districts, last 4 Quarters
+>>Which of the following is a good name for the favorite? (select one)<<
+( ) Live Births
+( ) Deliveries in Trainingland, last 4 Quarters
+( ) Live Births by Trainingland Districts, last 4 Quarters
+(x) Delivery_Live Births, Districts, last 4 Quarters
 
-\[Explanation\] The naming convention for favorites should include your the program name and the 3 core dimensions (what you are measuring, where it is coming from and when it is coming from). This option includes all of these aspects. \[Explanation\]
+[Explanation]
+The naming convention for favorites should include your the program name and the 3 core dimensions (what you are measuring, where it is coming from and when it is coming from). This option includes all of these aspects.
+[Explanation]
 
-&gt;&gt;I want to do some analysis comparing all of the following:&lt;&lt; - All Facilities within my organisation unit hierarchy - The last 12 months worth of data - A combination of two data elements and one indicator Which tool(s) should I use to display this information? (select one or more) \[ \] This type of analysis is not possible in DHIS2 \[ \] Data Visualizer \[x\] Pivot Table \[ \] GIS
+>>I want to do some analysis comparing all of the following:<<
 
-\[Explanation\] The pivot table application is most suitable when you want to analyze multiple dimensions of data, including multiple organization units, time periods and data types. \[Explanation\]
+- All Facilities within my organisation unit hierarchy
+- The last 12 months worth of data
+- A combination of two data elements and one indicator
+Which tool(s) should I use to display this information? (select one or more)
+[ ] This type of analysis is not possible in DHIS2
+[ ] Data Visualizer
+[x] Pivot Table
+[ ] GIS
 
-&gt;&gt;In DHIS2, I can add additional dimensions (such as Male/Female, Public/Private Facilities, etc.) to further break-down my data during analysis.&lt;&lt; (x) True ( ) False
+[Explanation]
+The pivot table application is most suitable when you want to analyze multiple dimensions of data, including multiple organization units, time periods and data types.
+[Explanation]
 
-\[Explanation\] Data can be broken down into different disaggregations in analysis. This is shown in both the pivot table and data visualizer demonstrations. \[Explanation\]
+>>In DHIS2, I can add additional dimensions (such as Male/Female, Public/Private Facilities, etc.) to further break-down my data during analysis.<<
+(x) True
+( ) False
 
-&gt;&gt;If today's date is April 2, 2017 and I select a relative period of the last 5 years, which periods will be selected? (select one)&lt;&lt; ( ) 2011-2016 (x) 2012-2016 ( ) 2013-2017
+[Explanation]
+Data can be broken down into different disaggregations in analysis. This is shown in both the pivot table and data visualizer demonstrations.
+[Explanation]
 
-\[Explanation\] Relative periods work backwards from the current date. In 2017, if we go back 5 years we have 2012, 2013, 2014, 2015 and 2016. \[Explanation\]
+>>If today's date is April 2, 2017 and I select a relative period of the last 5 years, which periods will be selected? (select one)<<
+( ) 2011-2016
+(x) 2012-2016
+( ) 2013-2017
 
-&gt;&gt;Using the features in DHIS2 I can: (select one or more)&lt;&lt; \[x\] Move analysis seamlessly between pivot tables, charts and maps \[x\] Add descriptions to favorites to give them more context \[x\] Discuss interpretations of the favorites in the system with other users
+[Explanation]
+Relative periods work backwards from the current date. In 2017, if we go back 5 years we have 2012, 2013, 2014, 2015 and 2016.
+[Explanation]
 
-\[Explanation\] The DHIS2 analysis tools allow you move between the different applications, save outputs and add in descriptions and discuss interpretations directly within DHIS2. \[Explanation\]
+>>Using the features in DHIS2 I can: (select one or more)<<
+[x] Move analysis seamlessly between pivot tables, charts and maps
+[x] Add descriptions to favorites to give them more context
+[x] Discuss interpretations of the favorites in the system with other users
 
-&gt;&gt;Favorites can be shared: (select one or more)&lt;&lt; \[x\] Using specific privileges for each item (such as edit/view) \[x\] With other users within DHIS2 \[ \] Directly from DHIS2 to social media
+[Explanation]
+The DHIS2 analysis tools allow you move between the different applications, save outputs and add in descriptions and discuss interpretations directly within DHIS2.
+[Explanation]
 
-\[Explanation\] Sharing of favorites was demonstrated in both the integrated analysis as well as sharing sessions. This allows us to specify exactly who sees the outputs we have created. \[Explanation\]
+>>Favorites can be shared: (select one or more)<<
+[x] Using specific privileges for each item (such as edit/view)
+[x] With other users within DHIS2
+[ ] Directly from DHIS2 to social media
 
-&gt;&gt;With the DHIS2 dashboards you can: (select one)&lt;&lt; ( ) Have multiple dashboards ( ) Add favorites from analysis app ( ) Share dashboards with groups of users (x) All of the above
+[Explanation]
+Sharing of favorites was demonstrated in both the integrated analysis as well as sharing sessions. This allows us to specify exactly who sees the outputs we have created.
+[Explanation]
 
-\[Explanation\] Dashboards contain all the functionality discussed in this question. This was demonstrated during the dashboard demo. \[Explanation\]
+>>With the DHIS2 dashboards you can: (select one)<<
+( ) Have multiple dashboards
+( ) Add favorites from analysis app
+( ) Share dashboards with groups of users
+(x) All of the above
 
-&gt;&gt;What is the primary role(s) of dashboards? (select one)&lt;&lt; ( ) Make data easily accessible ( ) Make data easily communicable ( ) Aid in decision making ( ) Easily view data from multiple angles in one place (x) All of the above
+[Explanation]
+Dashboards contain all the functionality discussed in this question. This was demonstrated during the dashboard demo.
+[Explanation]
 
-\[Explanation\] Dashboards are useful in conveying a variety of different information together. This was demonstrated during the dashboard demo. \[Explanation\]
+>>What is the primary role(s) of dashboards? (select one)<<
+( ) Make data easily accessible
+( ) Make data easily communicable
+( ) Aid in decision making
+( ) Easily view data from multiple angles in one place
+(x) All of the above
 
-&gt;&gt;Sharing in DHIS2: (select one)&lt;&lt; ( ) Is used to define which favorites can be seen by whom ( ) Can be used to share dashboards with other users ( ) Can be used to share interpretations with other users (x) All of the above
+[Explanation]
+Dashboards are useful in conveying a variety of different information together. This was demonstrated during the dashboard demo.
+[Explanation]
 
-\[Explanation\] Sharing can be used to customize the different outputs that can be seen by each user. This was best demonstrated during the sharing session. \[Explanation\]
+>>Sharing in DHIS2: (select one)<<
+( ) Is used to define which favorites can be seen by whom
+( ) Can be used to share dashboards with other users
+( ) Can be used to share interpretations with other users
+(x) All of the above
 
-&gt;&gt;Sharing is typically controlled by: (select one)&lt;&lt; ( ) Selecting specific users in which to share objects (x) Selecting user groups in which to share objects ( ) Sending items through messaging within DHIS2 ( ) All of the above
+[Explanation]
+Sharing can be used to customize the different outputs that can be seen by each user. This was best demonstrated during the sharing session.
+[Explanation]
 
-\[Explanation\] Sharing of favorites was demonstrated in both the integrated analysis as well as sharing sessions. This concept uses user groups to define who can see which outputs and related information in the system. \[Explanation\]
+>>Sharing is typically controlled by: (select one)<<
+( ) Selecting specific users in which to share objects
+(x) Selecting user groups in which to share objects
+( ) Sending items through messaging within DHIS2
+( ) All of the above
 
-&gt;&gt;Messages can be sent within DHIS2 to: (select one or more)&lt;&lt; \[x\] Individual users \[x\] User Groups \[x\] Users belonging to an organisation unit
+[Explanation]
+Sharing of favorites was demonstrated in both the integrated analysis as well as sharing sessions. This concept uses user groups to define who can see which outputs and related information in the system.
+[Explanation]
 
-\[Explanation\] The messaging feature was presented in the integrated analysis session. Here, any combination of the displayed answers can be selected in order to send messages. \[Explanation\]
+>>Messages can be sent within DHIS2 to: (select one or more)<<
+[x] Individual users
+[x] User Groups
+[x] Users belonging to an organisation unit
 
-&gt;&gt;Using Feedback in DHIS2: (select one)&lt;&lt; (x) The central team can manage questions, assign them priorities and update users on their status ( ) Messages can be sent to other users within DHIS2 ( ) Interpretations of different analysis can be shared
+[Explanation]
+The messaging feature was presented in the integrated analysis session. Here, any combination of the displayed answers can be selected in order to send messages.
+[Explanation]
 
-\[Explanation\] The feedback feature was presented in the integrated analysis session. It is particularly useful for managing issues that users encounter with the DHIS2 system. \[Explanation\] Session Quiz - Integrated Analysis, Dashboards, Messaging and Sharing.txt Displaying Session Quiz - Integrated Analysis, Dashboards, Messaging and Sharing.txt.
+>>Using Feedback in DHIS2: (select one)<<
+(x) The central team can manage questions, assign them priorities and update users on their status
+( ) Messages can be sent to other users within DHIS2
+( ) Interpretations of different analysis can be shared
+
+[Explanation]
+The feedback feature was presented in the integrated analysis session. It is particularly useful for managing issues that users encounter with the DHIS2 system.
+[Explanation]
+
+## 3.6  - Reports App and Reporting Rates
 
 ### Activity 1 - Data Set Reports and Resources
 
@@ -1437,8 +1484,9 @@ Leave "Based on complete data set registrations" selected. This means that the c
 
 <img src="https://lh5.googleusercontent.com/3kDvBIjlqguoEAy_nBXNQ7Uxrahl91s-0OOhCZ2f1EdJVLTUt1gPQ2PBPdnMmqCl-guw_pwWNR280ZRUg7eHg2ZFkpzjnn-QSYjTIg6UN1ADRFj8K8WUUeKXsNC0I1iQNmrrCKOT" width="624" height="351" />
 
-NOTE: THIS IS A GRADED QUIZ.
-----------------------------
+## Session quiz - Reports App and Reporting Rates
+
+### NOTE: THIS IS A GRADED QUIZ
 
 You are allowed 3 attempts for this quiz.
 
@@ -1446,28 +1494,49 @@ There is 30 seconds of time between each attempt, so if you don't get it right, 
 
 ------------------------------------------------------------------------
 
-What does the data set report allow you to do? (select one) ( ) Review data as it would appear in data entry and allow you to update/edit the data (x) Review data as it would appear in data entry without allowing you to modify it ( ) Output the data as a user-defined one-click report
+What does the data set report allow you to do? (select one)
+( ) Review data as it would appear in data entry and allow you to update/edit the data
+(x) Review data as it would appear in data entry without allowing you to modify it
+( ) Output the data as a user-defined one-click report
 
-\[Explanation\] Data set reports were highlighted during the reports app demo. It is always a good idea to review data in the data set report rather than data entry as you cannot modify data in this report. \[Explanation\]
+[Explanation]
+Data set reports were highlighted during the reports app demo. It is always a good idea to review data in the data set report rather than data entry as you cannot modify data in this report.
+[Explanation]
 
-Resources in DHIS2 can be used to: (select one or more) \[x\] Upload items such as data collection forms, guidelines or annual reports \[x\] Add links to useful websites \[ \] Add additional assets that will increase DHIS2's performance
+Resources in DHIS2 can be used to: (select one or more)
+[x] Upload items such as data collection forms, guidelines or annual reports
+[x] Add links to useful websites
+[ ] Add additional assets that will increase DHIS2's performance
 
-\[Explanation\] Resources were demonstrated in the reports app demo. Resources can be useful for uploading external documentation and links to external resources amongst other things. In this case, resources does not correspond with additional resources to power the DHIS2 system. \[Explanation\]
+[Explanation]
+Resources were demonstrated in the reports app demo. Resources can be useful for uploading external documentation and links to external resources amongst other things. In this case, resources does not correspond with additional resources to power the DHIS2 system.
+[Explanation]
 
-Organization unit distribution reports can be used to: (select one or more) \[x\] Provide a total count of organization units that appear at certain levels within the hierarchy \[x\] Display organization units based on the groups they belong to \[ \] Show the geographic distribution of organization units on a map
+Organization unit distribution reports can be used to: (select one or more)
+[x] Provide a total count of organization units that appear at certain levels within the hierarchy
+[x] Display organization units based on the groups they belong to
+[ ] Show the geographic distribution of organization units on a map
 
-\[Explanation\] The organization unit distribution report was demonstrated in the reports app demo. This allows us to separate our organization units into user defined categories/groups as well as see the number of organization units at different levels of the hierarchy. \[Explanation\]
+[Explanation]
+The organization unit distribution report was demonstrated in the reports app demo. This allows us to separate our organization units into user defined categories/groups as well as see the number of organization units at different levels of the hierarchy.
+[Explanation]
 
-In DHIS2, the reporting rate completeness can be checked in: (select one or more) \[x\] The reports app by running the reporting rate summary \[x\] Pivot Table, by selecting the Data Set you are interested in \[x\] Data Visualizer, by selecting the Data Set you are interested in
+In DHIS2, the reporting rate completeness can be checked in: (select one or more)
+[x] The reports app by running the reporting rate summary
+[x] Pivot Table, by selecting the Data Set you are interested in
+[x] Data Visualizer, by selecting the Data Set you are interested in
 
-\[Explanation\] Reporting rates can be accessed in various parts of DHIS2. This includes in the reports app as well as the different analysis apps. \[Explanation\] Session Quiz - Reports App and Reporting Rates.txt Displaying Session Quiz - Reports App and Reporting Rates.txt.
+[Explanation]
+Reporting rates can be accessed in various parts of DHIS2. This includes in the reports app as well as the different analysis apps.
+[Explanation]
+
+## 3.7 - Module Readings
 
 Additional Reading (not graded):
 
 [The Google Earth Engine](https://earthengine.google.com/)
 
-Feedback - Introduction to DHIS2 Analysis
------------------------------------------
+## Feedback - Introduction to DHIS2 Analysis
 
 Please take 2 or 3 minutes to complete this feedback survey once you are done with the Module 3. Your careful response will have a real impact on how courses like this are run. Thank you!
 

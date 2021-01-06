@@ -1,3 +1,9 @@
+# Module 3
+
+## 3.1 Présentation de l'analyse des données
+
+## 3.2 Tableaux croisés
+
 ### Activité 1 - Interface du tableau croisé, choisir des dimensions de données et créer un tableau croisé simple
 
 Dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action), essayez de créer le tableau croisé suivant basé sur l’exemple donné dans la vidéo :
@@ -34,7 +40,7 @@ Dans l’onglet Options, choisissez :
 
 ### Activité 2 - Choisir le niveau d’unité d’organisation et ajuster les options du tableau
 
-Dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action), ajouter à votre tableau les districts ayant déclaré des décès maternels. À noter que ces unités d’organisation peuvent différer de ce qui est montré dans la vidéo. 
+Dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action), ajouter à votre tableau les districts ayant déclaré des décès maternels. À noter que ces unités d’organisation peuvent différer de ce qui est montré dans la vidéo.
 
 Dans l’onglet Unité d’organisation :
 
@@ -72,7 +78,7 @@ Dans l’onglet Unité d’organisation :
 
 <img src="https://lh3.googleusercontent.com/KkprOXEO0W2u9aAPYbjM1sON2uXJ38iBK6ommnLxTBAPZCd5F5R-H8JTgJBt6iln-q1ESs3D1CKZPZFwDuSxg0_JcvKN2kxwBi4hGbQl4Z5UIEl9ovLVKkK0A_5bhqpnVjM--vB4" width="624" height="168" />
 
-- Enregistrez le tableau comme favori en utilisant : nomutilisateur\_nom du programme de santé\_où, quoi, quand.
+- Enregistrez le tableau comme favori en utilisant : nomutilisateur_nom du programme de santé_où, quoi, quand.
 
 À noter qu’en réalité, il n’est pas forcément nécessaire d'indiquer votre nom d’utilisateur lorsque vous enregistrez un favori. Dans le cadre de cette formation, cela est toutefois utile pour identifier les favoris que vous avez créés.
 
@@ -181,23 +187,21 @@ Avec l’ajout de la hiérarchie, vous avez la possibilité de télécharger le 
 
 <img src="https://lh4.googleusercontent.com/EPCFzvNxhefAvqgQ_n4cYkRzarRnVIrRBBvpajDFIbkZ0hvJo4Vy_eqs5EJoSPtVhSy0uUI8wrO1p68xZp_oPoQV5IeMX4_ssfD6dV9XkxrJ9Jc1rPVOI-lWnqOoZFnMb5GGyUrX" width="230" height="465" />
 
-REMARQUE : CES EXERCICES SONT NOTÉS.
-------------------------------------
+## Exercices - Tablaux croisés
+
+### REMARQUE : CES EXERCICES SONT NOTÉS
 
 Vous avez droit à 3 essais pour chacun de ces exercices.
 
-------------------------------------------------------------------------
-
-Exercice 3.2.1 - Accouchement en établissement, Trainingland, T1-T4 2016
-------------------------------------------------------------------------
+### Exercice 3.2.1 - Accouchement en établissement,Trainingland, T1-T4 2016
 
 ### Instructions
 
 Veuillez effectuer cet exercice dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action).
 
 1. Pour cet exercice, répondez aux questions en utilisant l'appli Tableau croisé.
-2. Sauvegardez tous les tableaux comme favoris, car ils seront plus tard utilisés pour l’exercice portant sur le tableau de bord. 
-3. Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur\_programme\_quoi, où, quand.
+2. Sauvegardez tous les tableaux comme favoris, car ils seront plus tard utilisés pour l’exercice portant sur le tableau de bord.
+3. Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur_programme_quoi, où, quand.
 
 #### Détails
 
@@ -208,25 +212,22 @@ Veuillez effectuer cet exercice dans [TRAININGLAND](https://live.academy.dhis2.o
 
 <img src="https://lh5.googleusercontent.com/SrZe-SmgI9UMzaBzBSIXCc5sEltoLe0f7rce5uO--zaf--LdREOFPCoTW0IxXqN9yHsWqH6ZtYAlcp8OwQsw73it_3qLoyhz3zZrWI2SmFhQXvDQSBeykV1QWlYLyyi5FccYbgjS" width="264" height="213" />
 
-&gt;&gt;Quel trimestre compte le moins d’accouchements ?&lt;&lt;  
-\[\[(janvier - mars 2016), avril - juin 2016, juillet - septembre 2016, octobre - décembre 2016\]\]
+&gt;&gt;Quel trimestre compte le moins d’accouchements ?&lt;&lt;
+[[(janvier - mars 2016), avril - juin 2016, juillet - septembre 2016, octobre - décembre 2016]]
 
-\[explication\]  
-Le trimestre janvier - mars 2016 est celui qui a enregistré le nombre d'accouchements le plus faible  
-\[explication\]
+[explication]
+Le trimestre janvier - mars 2016 est celui qui a enregistré le nombre d'accouchements le plus faible
+[explication]
 
-------------------------------------------------------------------------
-
-Exercice 3.2.2 - Accouchement établissement, Districts de Trainingland, T1-T4 2016
-----------------------------------------------------------------------------------
+### Exercice 3.2.2 - Accouchement établissement, Districts de Trainingland, T1-T4 2016
 
 ### Instructions
 
 Veuillez effectuer cet exercice dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action).
 
-1.  Pour cet exercice, répondez aux questions en utilisant l'appli Tableau croisé. 
-2.  Sauvegardez tous les tableaux comme favoris, car ils seront plus tard utilisés pour l’exercice portant sur le tableau de bord. 
-3.  Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur\_programme\_quoi, où, quand.
+1. Pour cet exercice, répondez aux questions en utilisant l'appli Tableau croisé.
+2. Sauvegardez tous les tableaux comme favoris, car ils seront plus tard utilisés pour l’exercice portant sur le tableau de bord.
+3. Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur_programme_quoi, où, quand.
 
 #### Détails
 
@@ -237,32 +238,30 @@ Veuillez effectuer cet exercice dans [TRAININGLAND](https://live.academy.dhis2.o
 
 <img src="https://lh6.googleusercontent.com/moH0FLCNxts13ahtp-5y-KCaCqRAmBYuqcpK31mTFbOPcsaIBTlCBuVlfxVUpbfwdhWPXdYpoUPTYqcnSjjXvr-iQRkELZHVlZE7UMh3yubkCDBXFJzRWKXYApc0iw5XjyQIRabx" width="624" height="367" />
 
-&gt;&gt;Quel district compte le moins d’accouchements en établissement ?&lt;&lt;  
-\[\[District Chat, District Fruit, District Gibier, (District Gourmandise)\]\]
+&gt;&gt;Quel district compte le moins d’accouchements en établissement ?&lt;&lt;
+[[District Chat, District Fruit, District Gibier, (District Gourmandise)]]
 
-\[explication\]  
-Le district Gourmandise compte le moins d’accouchements en établissement  
-\[explication\]  
----  
-Au cours de quel trimestre le nombre d’accouchements en établissement a-t-il été le plus faible en termes absolus ?&lt;&lt;  
-\[\[(janvier - mars 2016), avril - juin 2016, juillet - septembre 2016, octobre - décembre 2016\]\]
+[explication]
+Le district Gourmandise compte le moins d’accouchements en établissement
+[explication]
+---
 
-\[explication\]  
-C’est au cours du trimestre janvier - mars 2016 que le nombre le plus faible d’accouchements en établissement de santé a été enregistré  
-\[explication\]
+Au cours de quel trimestre le nombre d’accouchements en établissement a-t-il été le plus faible en termes absolus ?&lt;&lt;
+[[(janvier - mars 2016), avril - juin 2016, juillet - septembre 2016, octobre - décembre 2016]]
 
-------------------------------------------------------------------------
+[explication]
+C’est au cours du trimestre janvier - mars 2016 que le nombre le plus faible d’accouchements en établissement de santé a été enregistré
+[explication]
 
-Exercice 3.2.3 - Taux de dépistage positif VIH, Établissements de santé de Trainingland, janvier 2016 - décembre 2016
----------------------------------------------------------------------------------------------------------------------
+### Exercice 3.2.3 - Taux de dépistage positif VIH, Établissements de santé de Trainingland, janvier 2016 - décembre 2016
 
 ### Instructions
 
 Veuillez effectuer cet exercice dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action).
 
-1.  Pour cet exercice, répondez aux questions en utilisant l'appli Tableau croisé. 
-2.  Sauvegardez tous les tableaux comme favoris, car ils seront plus tard utilisés pour l’exercice portant sur le tableau de bord. 
-3.  Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur\_programme\_quoi, où, quand.
+1. Pour cet exercice, répondez aux questions en utilisant l'appli Tableau croisé.
+2. Sauvegardez tous les tableaux comme favoris, car ils seront plus tard utilisés pour l’exercice portant sur le tableau de bord.
+3. Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur_programme_quoi, où, quand.
 
 #### Détails
 
@@ -273,25 +272,22 @@ Veuillez effectuer cet exercice dans [TRAININGLAND](https://live.academy.dhis2.o
 
 <img src="https://lh4.googleusercontent.com/WiazsFcJwJogL5YqQLPPs68wPI2xoeERjFXIwTECZveocjDixbUIjK_5hdOv1LRJOARmqjNbWgGxm22N7dWrawqZvFPVZZVrVPoIqW90glCXMsxZVi4QPwBC3Wx4U0AYiEoSIlqV" width="624" height="292" />
 
-&gt;&gt;En septembre 2016, quel établissement a enregistré le taux de dépistage positif au VIH le plus élevé ?&lt;&lt;  
-\[\[Hôpital privé Poisson-chat, Centre de soins de santé de base Poisson-lanterne, (cabinet médical privé Caniche), cabinet médical privé Carlin\]\]
+&gt;&gt;En septembre 2016, quel établissement a enregistré le taux de dépistage positif au VIH le plus élevé ?&lt;&lt;
+[[Hôpital privé Poisson-chat, Centre de soins de santé de base Poisson-lanterne, (cabinet médical privé Caniche), cabinet médical privé Carlin]]
 
-\[explication\]  
-Le cabinet médical privé Caniche est l’établissement ayant enregistré le taux de dépistage positif au VIH le plus élevé  
-\[explication\]
+[explication]
+Le cabinet médical privé Caniche est l’établissement ayant enregistré le taux de dépistage positif au VIH le plus élevé
+[explication]
 
-------------------------------------------------------------------------
-
-Exercice 3.2.4 - TDR paludisme effectués et TDR paludisme positifs, Établissements de santé de Trainingland, janvier 2014- décembre 2015
-----------------------------------------------------------------------------------------------------------------------------------------
+### Exercice 3.2.4 - TDR paludisme effectués et TDR paludisme positifs, Établissements de santé de Trainingland, janvier 2014- décembre 2015
 
 ### Instructions
 
 Veuillez effectuer cet exercice dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action).
 
-1.  Pour cet exercice, répondez aux questions en utilisant l'appli Tableau croisé. 
-2.  Sauvegardez tous les tableaux comme favoris, car ils seront plus tard utilisés pour l’exercice portant sur le tableau de bord. 
-3.  Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur\_programme\_quoi, où, quand.
+1. Pour cet exercice, répondez aux questions en utilisant l'appli Tableau croisé.
+2. Sauvegardez tous les tableaux comme favoris, car ils seront plus tard utilisés pour l’exercice portant sur le tableau de bord.
+3. Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur_programme_quoi, où, quand.
 
 #### Détails
 
@@ -303,34 +299,32 @@ Veuillez effectuer cet exercice dans [TRAININGLAND](https://live.academy.dhis2.o
 
 <img src="https://lh6.googleusercontent.com/mE7_d_NvGjbrz99DuWkoNFMDKTm046DBWsliP5qHvP6kGSIg8M88A6VyLQxvydtja3N52uFY8IUiSvHLrfRnmgjK3RLl8NHEuNqDYQrRO14rjGUgGr1Yx7pjwaQr4Utb5WIesKYi" width="624" height="349" />
 
-\* brève remarque : Dans ce tableau, il ne peut normalement y avoir plus de TDR paludisme positifs que de TDR paludisme administrés. Si c’est le cas, il existe probablement des problèmes dans la qualité des données. Par exemple, dans le dispensaire Afghan pour la période octobre-décembre 2015 pour les deux groupes d’âge (plus et moins de 5 ans), on peut constater que le nombre de dépistages positifs du paludisme est supérieur au nombre de dépistages effectués. Les TDR paludisme positifs sont un résultat direct de l’administration d’un TDR pour dépister le paludisme, par conséquent le nombre de tests effectués doit toujours être supérieur ou égal au nombre de tests positifs. 
+* brève remarque : Dans ce tableau, il ne peut normalement y avoir plus de TDR paludisme positifs que de TDR paludisme administrés. Si c’est le cas, il existe probablement des problèmes dans la qualité des données. Par exemple, dans le dispensaire Afghan pour la période octobre-décembre 2015 pour les deux groupes d’âge (plus et moins de 5 ans), on peut constater que le nombre de dépistages positifs du paludisme est supérieur au nombre de dépistages effectués. Les TDR paludisme positifs sont un résultat direct de l’administration d’un TDR pour dépister le paludisme, par conséquent le nombre de tests effectués doit toujours être supérieur ou égal au nombre de tests positifs.
 
-&gt;&gt;Au dispensaire Myrtille, le nombre de TDR paludisme positifs était-il supérieur ou inférieur au nombre total de TDR paludisme effectués ?  
-\[\[(Supérieur), inférieur\]\]
+&gt;&gt;Au dispensaire Myrtille, le nombre de TDR paludisme positifs était-il supérieur ou inférieur au nombre total de TDR paludisme effectués ?
+[[(Supérieur), inférieur]]
 
-\[explication\]  
-La bonne réponse est ‘supérieur’  
-\[explication\]  
----  
-&gt;&gt;Au dispensaire Chocolat, combien de TDR paludisme étaient positifs au cours de la période octobre-décembre 2016 pour le groupe d’âge des moins de 5 ans ? (entrez la valeur dans le cadre ci-dessous)&lt;&lt;  
+[explication]
+La bonne réponse est ‘supérieur’
+[explication]
+---
+
+&gt;&gt;Au dispensaire Chocolat, combien de TDR paludisme étaient positifs au cours de la période octobre-décembre 2016 pour le groupe d’âge des moins de 5 ans ? (entrez la valeur dans le cadre ci-dessous)&lt;&lt;
 = 14
 
-\[explication\]  
-Le dispensaire Chocolat a enregistré 14 TDR paludisme positifs au cours de la période octobre-décembre 2016 pour le groupe d’âge des moins de 5 ans  
-\[explication\]
+[explication]
+Le dispensaire Chocolat a enregistré 14 TDR paludisme positifs au cours de la période octobre-décembre 2016 pour le groupe d’âge des moins de 5 ans
+[explication]
 
-------------------------------------------------------------------------
-
-Exercice 3.2.5 - Allaitement dans l’heure suivant l'accouchement, Accouchement en établissement et allaitement dans l’heure suivant l'accouchement (%), districts de Trainingland, 6 derniers mois
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Exercice 3.2.5 - Allaitement dans l’heure suivant l'accouchement, Accouchement en établissement et allaitement dans l’heure suivant l'accouchement (%), districts de Trainingland, 6 derniers mois
 
 ### Instructions
 
 Veuillez effectuer cet exercice dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action).
 
-1.  Pour cet exercice, répondez aux questions en utilisant l'appli Tableau croisé. 
-2.  Sauvegardez tous les tableaux comme favoris, car ils seront plus tard utilisés pour l’exercice portant sur le tableau de bord. 
-3.  Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur\_programme\_quoi, où, quand.
+1. Pour cet exercice, répondez aux questions en utilisant l'appli Tableau croisé.
+2. Sauvegardez tous les tableaux comme favoris, car ils seront plus tard utilisés pour l’exercice portant sur le tableau de bord.
+3. Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur_programme_quoi, où, quand.
 
 #### Détails
 
@@ -343,50 +337,51 @@ Veuillez effectuer cet exercice dans [TRAININGLAND](https://live.academy.dhis2.o
 
 <img src="https://lh5.googleusercontent.com/0poNnQUPbvPblCwzY_4nujdT-7hmeS22NE238Jvpl9jMmikrC2fevWcMalnoF1BYTk3MRG2qOeSnzQsJvJl2sI9b4y9cpfxnfN0sql0hu8anuQes8Pdoz8sOyNMgMVPJJIGZIC5u" width="624" height="263" />
 
-&gt;&gt;En novembre 2016, quel district a enregistré le taux le plus faible d’allaitement dans l’heure suivant l'accouchement (%)?&lt;&lt;  
-\[\[(District Dessert), District Chien, District Poisson, District Insecte\]\]
+&gt;&gt;En novembre 2016, quel district a enregistré le taux le plus faible d’allaitement dans l’heure suivant l'accouchement (%)?&lt;&lt;
+[[(District Dessert), District Chien, District Poisson, District Insecte]]
 
-\[explication\]  
-Le district Dessert est celui qui a enregistré le taux le plus faible d’allaitement dans l’heure suivant l'accouchement (%) au mois de novembre 2016  
-\[explication\]
+[explication]
+Le district Dessert est celui qui a enregistré le taux le plus faible d’allaitement dans l’heure suivant l'accouchement (%) au mois de novembre 2016
+[explication]
 
-REMARQUE : IL S’AGIT D’UN QUIZ NOTÉ
------------------------------------
+## Quiz - Tableaux Croisés
+
+### REMARQUE : IL S’AGIT D’UN QUIZ NOTÉ
 
 Vous avez droit à 3 essais pour ce quiz.
 
 Un délai de 30 secondes est prévu entre chaque tentative ; si vous n'avez pas la bonne réponse, respirez un bon coup, regardez une fois encore les vidéos, et relisez attentivement la question.
 
-------------------------------------------------------------------------
-
-Les tableaux croisés peuvent être utilisés pour analyser vos données : (sélectionnez une réponse)  
-( ) par indicateur, élément de données et taux de déclaration  
-( ) par unité d’organisation  
-( ) par période  
+Les tableaux croisés peuvent être utilisés pour analyser vos données : (sélectionnez une réponse)
+( ) par indicateur, élément de données et taux de déclaration
+( ) par unité d’organisation
+( ) par période
 (X) toutes les réponses ci-dessus
 
-\[explication\]  
-Comme nous l'avons vu dans le tableau croisé, différents éléments peuvent être analysés conjointement dans cette application.  
-\[explication\]
+[explication]
+Comme nous l'avons vu dans le tableau croisé, différents éléments peuvent être analysés conjointement dans cette application.
+[explication]
 
-Dans DHIS2, les tableaux croisés sont principalement utilisés pour :  
-( ) visualiser des données à l’aide de diagrammes  
-(X) analyser des données dans des tableaux dynamiques  
+Dans DHIS2, les tableaux croisés sont principalement utilisés pour :
+( ) visualiser des données à l’aide de diagrammes
+(X) analyser des données dans des tableaux dynamiques
 ( ) créer des rapports standard prêts à l'emploi pour vérification
 
-\[explication\]  
-Comme mentionné dans la vidéo de démonstration des tableaux croisés, ces derniers sont utilisés pour créer des tableaux dynamiques  
-\[explication\]
+[explication]
+Comme mentionné dans la vidéo de démonstration des tableaux croisés, ces derniers sont utilisés pour créer des tableaux dynamiques
+[explication]
 
-Le produit de tableaux croisés peut être : (sélectionnez une réponse)  
-( ) enregistré en tant que favori  
-( ) téléchargé pour une utilisation hors ligne  
-( ) complété par l’ajout de la hiérarchie  
+Le produit de tableaux croisés peut être : (sélectionnez une réponse)
+( ) enregistré en tant que favori
+( ) téléchargé pour une utilisation hors ligne
+( ) complété par l’ajout de la hiérarchie
 (X) toutes les réponses ci-dessus
 
-\[explication\]  
-Comme le montre la vidéo de démonstration des tableaux croisés, le résultat peut être utilisé des différentes manières mentionnées dans la question.  
-\[explication\]
+[explication]
+Comme le montre la vidéo de démonstration des tableaux croisés, le résultat peut être utilisé des différentes manières mentionnées dans la question.
+[explication]
+
+## 3.3 - Visualiseur de données
 
 ### Activité 1 - Interface de visualisation des données et création d’un diagramme à colonnes
 
@@ -532,31 +527,29 @@ Dans l’onglet Unité d’organisation :
 
 <img src="https://lh3.googleusercontent.com/Rwk3LVjCygrdpHIDsKeDKey5YIfTt3vJpYd_njSsz_LDJuL8Dz6xkQQYZVUYhFRMfeYXduXwcUcqndCNeRBT1Ef5GReP2nD-aceqxw0XemMNWsFO8ivPNkgfbmtmZANeSKiQ1SVZ" width="624" height="392" />
 
-- Enregistrez le tableau comme favori en utilisant : nomutilisateur\_nom du programme de santé\_où, quoi, quand.
+- Enregistrez le tableau comme favori en utilisant : nomutilisateur_nom du programme de santé_où, quoi, quand.
 
 À noter qu’en réalité, il n’est pas forcément nécessaire d'indiquer votre nom d’utilisateur lorsque vous enregistrez un favori. Dans le cadre de cette formation, cela est toutefois utile pour identifier les favoris que vous avez créés.
 
 <img src="https://lh5.googleusercontent.com/d2YxiP99BqUKqC40hFPVHGsv1ThqvqA9cRnQEw_4X-V_RzuEhFMuE3xKNoI-aAdC7jkouk5xZk6d49ORP5TqwFc0ZO-CK2ueVST394gEulbo1mdL-goFX2ya4jIIWXmGqbtj2vp3" width="624" height="163" />
 
-REMARQUE : CES EXERCICES SONT NOTÉS
------------------------------------
+## Exercise noté - Visualiseur de données
+
+### REMARQUE : CES EXERCICES SONT NOTÉS
 
 Vous avez droit à 3 essais pour chacun de ces exercices.
 
-------------------------------------------------------------------------
-
-Exercice 3.3.1
---------------
+### Exercice 3.3.1
 
 ### Instructions
 
 Dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action):
 
-1.  Pour cet exercice, répondez aux questions en utilisant l'appli Visualiseur de données.
+1. Pour cet exercice, répondez aux questions en utilisant l'appli Visualiseur de données.
 
-2.  Enregistrer tous les graphiques en tant que favoris.
+2. Enregistrer tous les graphiques en tant que favoris.
 
-3.  Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur\_programme\_quoi, où, quand.
+3. Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur_programme_quoi, où, quand.
 
 #### Détails
 
@@ -579,26 +572,23 @@ Dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security
 
 &gt;&gt;Quel type d'établissement a le taux de patients ambulatoires le plus élevé ?&lt;&lt;
 
-\[\[SSB, (Dispensaire), Centre de santé\]\]
+[[SSB, (Dispensaire), Centre de santé]]
 
-\[explication\]  
-Réponse : Dispensaire.  
-\[explication\]  
+[explication]
+Réponse : Dispensaire.
+[explication]
 
-------------------------------------------------------------------------
-
-Exercice 3.3.2
---------------
+### Exercice 3.3.2
 
 ### Instructions
 
 Dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action):
 
-1.  Pour cet exercice, répondez aux questions en utilisant l'appli Visualiseur de données.
+1. Pour cet exercice, répondez aux questions en utilisant l'appli Visualiseur de données.
 
-2.  Enregistrer tous les graphiques en tant que favoris.
+2. Enregistrer tous les graphiques en tant que favoris.
 
-3.  Utilisez la même convention de nom que précédemment pour enregistrer les favoris : nomutilisateur\_programme\_quoi, où, quand.
+3. Utilisez la même convention de nom que précédemment pour enregistrer les favoris : nomutilisateur_programme_quoi, où, quand.
 
 #### Détails
 
@@ -613,39 +603,36 @@ Dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security
 
 &gt;&gt;Dans quels districts le taux de dépistage positif est-il supérieur au taux de dépistage ? (sélectionnez une ou plusieurs réponses)&lt;&lt;
 
-\[X\] District Gibier  
-\[X\] District Dessert  
-\[X\] District Denrée de base  
-\[x\] District Oiseau
+[X] District Gibier
+[X] District Dessert
+[X] District Denrée de base
+[x] District Oiseau
 
-\[explication\]  
-D’après le graphique, vous pouvez constater que tous ces districts affichent un taux de dépistage positif supérieur au taux de dépistage. Ceci peut signaler une erreur, car le % de dépistage doit être supérieur au % de dépistage positif  
-\[explication\]
+[explication]
+D’après le graphique, vous pouvez constater que tous ces districts affichent un taux de dépistage positif supérieur au taux de dépistage. Ceci peut signaler une erreur, car le % de dépistage doit être supérieur au % de dépistage positif
+[explication]
 
 &gt;&gt;Quel district n’a enregistré aucun test positif parmi ses patients ?&lt;&lt;
 
-( ) District Légume  
-(X) District Gourmandise  
+( ) District Légume
+(X) District Gourmandise
 ( ) District Chien
 
-\[explication\]  
-Le district Gourmandise n’a enregistré aucun test positif parmi ses patients  
-\[explication\]  
+[explication]
+Le district Gourmandise n’a enregistré aucun test positif parmi ses patients
+[explication]
 
-------------------------------------------------------------------------
-
-Exercice 3.3.3
---------------
+### Exercice 3.3.3
 
 ### Instructions
 
 Dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action):
 
-1.  Pour cet exercice, répondez aux questions en utilisant l'appli Visualiseur de données.
+1. Pour cet exercice, répondez aux questions en utilisant l'appli Visualiseur de données.
 
-2.  Enregistrer tous les graphiques en tant que favoris.
+2. Enregistrer tous les graphiques en tant que favoris.
 
-3.  Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur\_programme\_quoi, où, quand.
+3. Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur_programme_quoi, où, quand.
 
 #### Détails
 
@@ -662,35 +649,32 @@ Créez un diagramme à colonnes comparant le nombre de décès maternels par ét
 
 &gt;&gt;Au cours de l’année 2016, quel établissement a enregistré le plus grand nombre de décès maternels ?&lt;&lt;
 
-\(X\) hôpital de district Méné  
-( ) hôpital régional Baleine  
+(X) hôpital de district Méné
+( ) hôpital régional Baleine
 ( ) hôpital de district Éléphant
 
-\[explication\]  
-Réponse : L’hôpital de district Méné  
-\[explication\]  
+[explication]
+Réponse : L’hôpital de district Méné
+[explication]
 
-------------------------------------------------------------------------
-
-Exercice 3.3.4
---------------
+### Exercice 3.3.4
 
 ### Instructions
 
 Dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action):
 
-1.  Pour cet exercice, répondez aux questions en utilisant l'appli Visualiseur de données.
+1. Pour cet exercice, répondez aux questions en utilisant l'appli Visualiseur de données.
 
-2.  Enregistrer tous les graphiques en tant que favoris.
+2. Enregistrer tous les graphiques en tant que favoris.
 
-3.  Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur\_programme\_quoi, où, quand.
+3. Utilisez la même convention de nom que précédemment pour enregistrer les deux favoris : nomutilisateur_programme_quoi, où, quand.
 
 #### Détails
 
 - **Groupe d'indicateurs** : SPN
 - **Indicateurs** : Couverture 1ere visite SPN et couverture 4e visite SPN par SPN 1 (cet indicateur est similaire au calcul d’une estimation du nombre d’abandons intervenant entre la 1ere et la 4e visite de SPN)
-- ****Période** :  janvier 2015 - décembre 2016**
-- **Unité d’organisation** : Trainingland 
+- **Période** :  janvier 2015 - décembre 2016**
+- **Unité d’organisation** : Trainingland
 - Libellez correctement les axes et donnez un titre descriptif
 
 ====
@@ -699,71 +683,70 @@ Examinez la relation entre le taux de couverture de la 1ere visite de SPN et cel
 
 <img src="https://lh4.googleusercontent.com/pItweqKaJr6Tv7a2pbUxJXzJby-Lw6pBeowVhblK6l7IkYUtubTZoNFisCG9XknYJIvHpBZMbabZFL5CtQWoFDyCRYQ9NyClYirEZsXSkkP9tU-4vWOwULPOdb32OuwD_txelNIj" width="624" height="367" />
 
-&gt;&gt;Quelle est la tendance générale pour le SPN 1 au fil du temps ?&lt;&lt;  
-\[\[(Augmentation), Diminution, Pas de changement notable\]\]
+&gt;&gt;Quelle est la tendance générale pour le SPN 1 au fil du temps ?&lt;&lt;
+[[(Augmentation), Diminution, Pas de changement notable]]
 
-&gt;&gt;Quelle est la tendance générale du SPN 4 par rapport au SPN 1 au fil du temps ?&lt;&lt;  
-\[\[Augmentation, Diminution, (Pas de changement notable)\]\]  
-  
-&gt;&gt;Lequel est le plus élevé ?&lt;&lt;  
-\[\[(SPN 1), SPN 1-4\]\]
+&gt;&gt;Quelle est la tendance générale du SPN 4 par rapport au SPN 1 au fil du temps ?&lt;&lt;
+[[Augmentation, Diminution, (Pas de changement notable)]]
 
-REMARQUE : IL S’AGIT D’UN QUIZ NOTÉ
------------------------------------
+&gt;&gt;Lequel est le plus élevé ?&lt;&lt;
+[[(SPN 1), SPN 1-4]]
+
+## Quiz - Visualiseur de données
+
+### REMARQUE : IL S’AGIT D’UN QUIZ NOTÉ
 
 Vous avez droit à 3 essais pour ce quiz.
 
 Un délai de 30 secondes est prévu entre chaque tentative ; si vous n'avez pas la bonne réponse, respirez un bon coup, regardez une fois encore les vidéos, et relisez attentivement la question.
 
-------------------------------------------------------------------------
+À partir du Visualiseur de données, vous pouvez : (sélectionnez une ou plusieurs réponses)
+[X] enregistrer vos graphiques favoris avec leur description
+[X] créer différents types de diagrammes dynamiques
+[X] partager vos interprétations
 
-À partir du Visualiseur de données, vous pouvez : (sélectionnez une ou plusieurs réponses)  
-\[X\] enregistrer vos graphiques favoris avec leur description  
-\[X\] créer différents types de diagrammes dynamiques  
-\[X\] partager vos interprétations
+[explication]
+Le visualiseur de données peut être utilisé pour créer des graphiques, qui peuvent être enregistrés comme favoris et faire l'objet d’interprétations. Ces possibilités vous sont expliquées dans la démo du visualiseur de données.
+[explication]
 
-\[explication\]  
-Le visualiseur de données peut être utilisé pour créer des graphiques, qui peuvent être enregistrés comme favoris et faire l'objet d’interprétations. Ces possibilités vous sont expliquées dans la démo du visualiseur de données.  
-\[explication\]
-
-Le visualiseur de données de DHIS2 est principalement utilisé pour : (sélectionnez une réponse)  
-(X) visualiser des données à l’aide de diagrammes  
-( ) gérer l'aspect visuel des tableaux de bord  
+Le visualiseur de données de DHIS2 est principalement utilisé pour : (sélectionnez une réponse)
+(X) visualiser des données à l’aide de diagrammes
+( ) gérer l'aspect visuel des tableaux de bord
 ( ) modifier l'apparence de l'application DHIS2
 
-\[explication\]  
-La principale fonction du visualiseur de données est de présenter les données à l'aide de diagrammes.  
-\[explication\]
+[explication]
+La principale fonction du visualiseur de données est de présenter les données à l'aide de diagrammes.
+[explication]
 
-Dans le visualiseur de données, je ne peux pas ajouter de titre aux axes et au graphique lui-même.  
-( ) Vrai  
+Dans le visualiseur de données, je ne peux pas ajouter de titre aux axes et au graphique lui-même.
+( ) Vrai
 (x) Faux
 
-\[explication\]  
-Dans le visualiseur de données, il est possible d'ajouter des titres aux axes et graphiques en allant dans les options du tableau.  
-\[explication\]
+[explication]
+Dans le visualiseur de données, il est possible d'ajouter des titres aux axes et graphiques en allant dans les options du tableau.
+[explication]
 
-Mini-quiz (non noté) - Présentation du SIG
+## 3.4 - SIG
 
-====
+### Mini-quiz (non noté) - Présentation du SIG
 
-&gt;&gt;Que signifie SIG ?&lt;&lt;  
-( ) service d’identité géographique  
-(x) système d’information géographique  
+&gt;&gt;Que signifie SIG ?&lt;&lt;
+( ) service d’identité géographique
+(x) système d’information géographique
 ( ) structure d’information géographique
 
-\[explication\]  
-SIG signifie système d’information géographique. Il s’agit d'un acronyme courant utilisé pour faire référence ou travailler avec des données géographiques.  
-\[explication\]
+[explication]
+SIG signifie système d’information géographique. Il s’agit d'un acronyme courant utilisé pour faire référence ou travailler avec des données géographiques.
+[explication]
 
-&gt;&gt;Parmi les propositions suivantes, laquelle désigne une couche d’un SIG ?&lt;&lt;  
-( ) masse terrestre, routes et cours d'eau  
-( ) masse terrestre et établissements de santé  
+&gt;&gt;Parmi les propositions suivantes, laquelle désigne une couche d’un SIG ?&lt;&lt;
+( ) masse terrestre, routes et cours d'eau
+( ) masse terrestre et établissements de santé
 (x) établissements de santé
 
-\[explication\]  
-Une couche est utilisée pour représenter un élément d’information sur une carte en fonction de son thème. Par exemple, les établissements de santé représentent à eux seuls une couche sur une carte, tandis que la masse terrestre représente une autre couche.  
-\[explication\]  
+[explication]
+Une couche est utilisée pour représenter un élément d’information sur une carte en fonction de son thème. Par exemple, les établissements de santé représentent à eux seuls une couche sur une carte, tandis que la masse terrestre représente une autre couche.
+[explication]
 
 ### Activité 1 - Interface SIG, recherche de lieu et couches externes
 
@@ -927,7 +910,7 @@ Pour enregistrer la carte en tant que favori :
 
 <img src="https://lh3.googleusercontent.com/VgtjVS1hXd9EAyfZ1Uhu-2XnHqj_vR44NcHX2W5_HOqj5Agk6C3cSY0LOjRfhVuGc2MMFjFzd3N7gCGI-UkZ54prerqcBchtAF5uWrO0rfMJCytZR9e5sFMhWE0gSLV4SrQJ6Nhz" width="533" height="235" />
 
-- Enregistrez le tableau comme favori en utilisant : nomutilisateur\_nom du programme de santé\_où, quoi, quand.
+- Enregistrez le tableau comme favori en utilisant : nomutilisateur_nom du programme de santé_où, quoi, quand.
 
 À noter qu’en réalité, il n’est pas forcément nécessaire d'indiquer votre nom d’utilisateur lorsque vous enregistrez un favori. Dans le cadre de cette formation, cela est toutefois utile pour identifier les favoris que vous avez créés.
 
@@ -969,18 +952,15 @@ Dans l’onglet Options :
 
 <img src="https://lh4.googleusercontent.com/_KxtUv0bkPlrfSbuiYB4z51htxdXF6dPWf6oxrTVNLzYLzyho9DRE9dgkL9op74DzJdAcI0gCNRhefMcg7f6Th1mTAZSRh3Ae7zayG622edAheRv_sWaFesIC_jqhszBSA6CE6gv" width="624" height="700" />
 
-REMARQUE : CES EXERCICES SONT NOTÉS.
-------------------------------------
+## Quiz - SIG
+
+### REMARQUE : CES EXERCICES SONT NOTÉS
 
 Vous avez droit à 3 essais pour chacun de ces exercices.
 
-------------------------------------------------------------------------
+### Exercice 3.4.1
 
-Exercice 3.4.1
---------------
-
-Instructions
-------------
+### Instructions
 
 - Veuillez utiliser [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action) pour cet exercice.
 - Pour cet exercice, répondez aux questions en utilisant l'appli SIG.
@@ -993,19 +973,16 @@ Instructions
 
 Quel est le nom du district en surbrillance sur la carte ?
 
-\(X\) District Insecte  
-( ) District Chien  
-( ) District Chat  
+(X) District Insecte
+( ) District Chien
+( ) District Chat
 ( ) District Oiseau
 
-\[explication\]  
-Le district Insecte est en surbrillance  
-\[explication\]  
+[explication]
+Le district Insecte est en surbrillance
+[explication]
 
-------------------------------------------------------------------------
-
-Exercice 3.4.2
---------------
+### Exercice 3.4.2
 
 ### Instructions
 
@@ -1023,17 +1000,14 @@ Créez une couche thématique 1 - nombre de tests VIH réalisés par établisse
 
 <img src="https://lh6.googleusercontent.com/X2s-BSQf3LltlIWdkJMbUuDBe78sHCohyBU_9B974QsstCCwp-bNtP3y_Y3zkvBnaMp3rh4yy122AhnACGUUPnKhRPjfivbyMiUe7wrEhKvPKnK9udPD9XeM_YCe3E9kDA3DH2eG" width="505" height="582" />
 
-&gt;&gt;Quel établissement a effectué le plus grand nombre de dépistages du VIH ?  
-\[\[(Hôpital d’accès SSB Crocodile), Hôpital d’accès SSB Sushi, Centre de santé Chevreuil, Centre de santé Spaghetti\]\]
+&gt;&gt;Quel établissement a effectué le plus grand nombre de dépistages du VIH ?
+[[(Hôpital d’accès SSB Crocodile), Hôpital d’accès SSB Sushi, Centre de santé Chevreuil, Centre de santé Spaghetti]]
 
-\[explication\]  
-L’hôpital d’accès SSB Crocodile a effectué le plus grand nombre de dépistages du VIH  
-\[explication\]
+[explication]
+L’hôpital d’accès SSB Crocodile a effectué le plus grand nombre de dépistages du VIH
+[explication]
 
-------------------------------------------------------------------------
-
-Exercice 3.4.3
---------------
+### Exercice 3.4.3
 
 ### Instructions
 
@@ -1042,43 +1016,38 @@ Exercice 3.4.3
 
 #### Détails
 
-Ajoutez une 2e couche thématique - taux de dépistage positif VIH 
+Ajoutez une 2e couche thématique - taux de dépistage positif VIH
 
 Créez une couche thématique 1 - nombre de tests VIH réalisés par établissement, 2016 :
 
 - **Groupe d'indicateurs** : VIH
-- **Élément de données** : taux de dépistage positif VIH 
+- **Élément de données** : taux de dépistage positif VIH
 - **Période** : 2016
 - **Unités d’organisation** : Districts
 
-Enregistrez les cartes en tant que favoris en suivant la même convention que précédemment : **Nomutilisateur\_programme\_quoi, où, quand**.
+Enregistrez les cartes en tant que favoris en suivant la même convention que précédemment : **Nomutilisateur_programme_quoi, où, quand**.
 
 <img src="https://lh4.googleusercontent.com/g69GxrkDtSaCrDuIrS2quCjjFc470JSWhxaXXEhB98xKfjUydMxW_TWT7G0gxXXHu1TqNm5IeikF2f4VPeSW7w9z0vWJ2_APanRq3SuS0gKIzLyiWBbvbLVdZu5dr1hViwwXsnXV" width="544" height="685" />
 
-&gt;&gt;Quel district a le taux de dépistage positif du VIH le plus faible ? (Indice : peut-être souhaiterez-vous désactiver la couche Délimitations)&lt;&lt;  
-\[\[District Insecte, District Gourmandise, (District Dessert), District Légume\]\]
+&gt;&gt;Quel district a le taux de dépistage positif du VIH le plus faible ? (Indice : peut-être souhaiterez-vous désactiver la couche Délimitations)&lt;&lt;
+[[District Insecte, District Gourmandise, (District Dessert), District Légume]]
 
-\[explication\]  
-Le district Dessert a le taux de dépistage positif du VIH le plus faible  
-\[explication\]  
+[explication]
+Le district Dessert a le taux de dépistage positif du VIH le plus faible
+[explication]
 
-------------------------------------------------------------------------
-
-Exercice 3.4.4
---------------
+### Exercice 3.4.4
 
 ### Instructions
 
 - Veuillez utiliser [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security/login.action) pour cet exercice.
-- Pour cet exercice, répondez aux questions en utilisant l'appli SIG. 
+- Pour cet exercice, répondez aux questions en utilisant l'appli SIG.
 
 #### Détails
 
 Appliquez un bloc de légende personnalisé à une carte avec :
 
 - **Type de valeur** : Élément de données
-
-<!-- -->
 
 - **Ensemble de données** : Population
 - **Type de période** : Annuelle
@@ -1087,56 +1056,57 @@ Appliquez un bloc de légende personnalisé à une carte avec :
 - **Type de légende** : Prédéfini
 - **Bloc de légende** : Population
 
-1.  Enregistrez les cartes en tant que favoris en suivant la même convention que précédemment : **Nomutilisateur\_programme\_quoi, où, quand**.
+1. Enregistrez les cartes en tant que favoris en suivant la même convention que précédemment : **Nomutilisateur_programme_quoi, où, quand**.
 
 <img src="https://lh5.googleusercontent.com/V5e1i4_RxW7DsEbYcq1ROORgW9TudGQUaAsTrFo8W39Suu2oR4HOSJ0soje0ArOB2znPXi3NlsoCDgjYNBAmBQs0FKF9TQzM_zprBPupjPSJX2gGlix3WBjL0HLaBNAQ1p1gm5wG" width="450" height="520" />
 
-&gt;&gt;Quel(s) district(s) a/ont une population comprise entre 200 000 et 500 000 habitants au cours de cette période ? (sélectionnez une ou plusieurs réponses)&lt;&lt;  
-\[X\] District Dessert  
-\[X\] District Gourmandise  
-\[X\] District Insecte  
-\[ \] District Gibier
+&gt;&gt;Quel(s) district(s) a/ont une population comprise entre 200 000 et 500 000 habitants au cours de cette période ? (sélectionnez une ou plusieurs réponses)&lt;&lt;
+[X] District Dessert
+[X] District Gourmandise
+[X] District Insecte
+[ ] District Gibier
 
-\[explication\]  
-Les districts Dessert, Gourmandise et Insecte ont une population comprise entre 200 000 et 500 000 habitants pour la période concernée  
-\[explication\]
+[explication]
+Les districts Dessert, Gourmandise et Insecte ont une population comprise entre 200 000 et 500 000 habitants pour la période concernée
+[explication]
 
-REMARQUE : IL S’AGIT D’UN QUIZ NOTÉ
------------------------------------
+## Quiz - SIG
+
+### REMARQUE : IL S’AGIT D’UN QUIZ NOTÉ
 
 Vous avez droit à 3 essais pour ce quiz.
 
 Un délai de 30 secondes est prévu entre chaque tentative ; si vous n'avez pas la bonne réponse, respirez un bon coup, regardez une fois encore les vidéos, et relisez attentivement la question.
 
-------------------------------------------------------------------------
-
-Avec la couche Délimitations du SIG, vous pouvez : (sélectionnez une réponse)  
-( ) analyser les données par indicateur  
-( ) analyser les données par élément de données  
-(X) visualiser les délimitations des unités d'organisation  
+Avec la couche Délimitations du SIG, vous pouvez : (sélectionnez une réponse)
+( ) analyser les données par indicateur
+( ) analyser les données par élément de données
+(X) visualiser les délimitations des unités d'organisation
 ( ) toutes les réponses ci-dessus
 
-\[explication\]  
-Avec la couche Délimitations du SIG, vous pouvez uniquement afficher les délimitations des unités d'organisation telles que les régions ou districts.  
-\[explication\]
+[explication]
+Avec la couche Délimitations du SIG, vous pouvez uniquement afficher les délimitations des unités d'organisation telles que les régions ou districts.
+[explication]
 
-Avec une couche thématique, vous pouvez créer des cartes affichant : (sélectionnez une réponse)  
-( ) plusieurs périodes  
-( ) plusieurs éléments de données  
-( ) plusieurs taux de déclaration  
+Avec une couche thématique, vous pouvez créer des cartes affichant : (sélectionnez une réponse)
+( ) plusieurs périodes
+( ) plusieurs éléments de données
+( ) plusieurs taux de déclaration
 (X) Aucune des réponses ci-dessus
 
-\[explication\]  
-Avec une couche du SIG, vous ne pouvez afficher qu’une seule période, un seul élément de données ou un seul taux de déclaration.  
-\[explication\]
+[explication]
+Avec une couche du SIG, vous ne pouvez afficher qu’une seule période, un seul élément de données ou un seul taux de déclaration.
+[explication]
 
-Sur une carte SIG, plusieurs couches peuvent être ajoutées pour représenter plusieurs éléments à analyser.  
-(x) Vrai  
+Sur une carte SIG, plusieurs couches peuvent être ajoutées pour représenter plusieurs éléments à analyser.
+(x) Vrai
 ( ) Faux
 
-\[explication\]  
-Différentes couches représentant différents éléments peuvent être ajoutées aux cartes à l'aide de l'application SIG.  
-\[explication\]
+[explication]
+Différentes couches représentant différents éléments peuvent être ajoutées aux cartes à l'aide de l'application SIG.
+[explication]
+
+## 3.5 - Analyse intégrée, tableaux de bord, messagerie et partage
 
 ### Activité 1 - Passer d'une appli d’analyse à une autre dans DHIS2
 
@@ -1275,7 +1245,7 @@ Dans [TRAININGLAND](https://live.academy.dhis2.org/tl1/dhis-web-commons/security
 
 <img src="https://lh6.googleusercontent.com/p1PseMJdoj1H4ux8GZah060bqflr9mqyKFezb36Wb-NW_wO6c0K3jLgPrqFeoRPpzelH9LwOGlhA5OxC_WyIC_dG48ydm-imhcvDqblkrED6Lv-l_daN4f8dKDVfBHkb-TFO9maZ" width="624" height="313" />
 
-- Envoyez votre retour d’information aux administrateurs de la formation. N’hésitez pas à faire part de vos critiques concernant la formation jusqu’ici. 
+- Envoyez votre retour d’information aux administrateurs de la formation. N’hésitez pas à faire part de vos critiques concernant la formation jusqu’ici.
 
 #### Retour d’information
 
@@ -1289,66 +1259,143 @@ Pour soumettre votre feedback, vous pouvez :
 
 <img src="https://lh5.googleusercontent.com/37_-V-l3MpIVdLStt2cFbk6bnqYweh1JbVMfVkdQGq6xF46eRY2n8ZCSsaHkTF6Q5Z7lrchmSeI01s94RmFQG3YMmwBLdRLMVolohbiMr4GJO2pt_1mooIsS4DMGdn4p0C6q7fmm" width="624" height="307" />
 
-REMARQUE : IL S’AGIT D’UN QUIZ NOTÉ
------------------------------------
+## Quiz - Analyse intégrée, tableaux de bord, messagerie et partage
+
+### REMARQUE : IL S’AGIT D’UN QUIZ NOTÉ
 
 Vous avez droit à 3 essais pour ce quiz.
 
 Un délai de 30 secondes est prévu entre chaque tentative ; si vous n'avez pas la bonne réponse, respirez un bon coup, regardez une fois encore les vidéos, et relisez attentivement la question.
 
-------------------------------------------------------------------------
+J’ai créé un tableau croisé avec les dimensions suivantes :
 
-J’ai créé un tableau croisé avec les dimensions suivantes : - Groupe d’éléments de données: Accouchement - Élément de données : Naissances vivantes - Période : 4 derniers trimestres - Unités d’organisation : Districts de Trainingland
+- Groupe d’éléments de données: Accouchement
+- Élément de données : Naissances vivantes
+- Période : 4 derniers trimestres
+- Unités d’organisation : Districts de Trainingland
 
 Dans la réalité, un nom d’utilisateur ne sera probablement pas nécessaire pour identifier un favori.
 
-&gt;&gt;Parmi les propositions suivantes, lesquelles constituent un bon choix de nom pour un favori ? (sélectionnez une réponse)&lt;&lt; ( ) Naissances vivantes ( ) Accouchements à Trainingland, 4 derniers trimestres ( ) Naissances vivantes par districts à Trainingland, 4 derniers trimestres (x) Accouchements\_Naissances vivantes, districts, 4 derniers trimestres
+>>Parmi les propositions suivantes, lesquelles constituent un bon choix de nom pour un favori ? (sélectionnez une réponse)<<
+( ) Naissances vivantes
+( ) Accouchements à Trainingland, 4 derniers trimestres
+( ) Naissances vivantes par districts à Trainingland, 4 derniers trimestres
+(x) Accouchements_Naissances vivantes, districts, 4 derniers trimestres
 
-\[explication\] La convention d’appellation des favoris doit comprendre le nom de votre programme et les 3 principales dimensions (ce que vous mesurez, d’où viennent les données et à quelle période elles se rapportent). Cette option reprend tous ces aspects. \[explication\]
+[explication]
+La convention d’appellation des favoris doit comprendre le nom de votre programme et les 3 principales dimensions (ce que vous mesurez, d’où viennent les données et à quelle période elles se rapportent). Cette option reprend tous ces aspects.
+[explication]
 
-&gt;&gt;Je veux effectuer une analyse comparant l’ensemble des éléments suivants :&lt;&lt; - tous les établissements dans ma hiérarchie d'unités d’organisation - les données relatives aux 12 derniers mois - deux éléments de données et un indicateur Quel(s) outil(s) devrais-je utiliser pour afficher ces informations ? (sélectionnez une ou plusieurs réponses) \[ \] ce type d’analyse n’est pas possible dans DHIS2 \[ \] Visualiseur de données \[X\] Tableau croisé \[ \] SIG
+>>Je veux effectuer une analyse comparant l’ensemble des éléments suivants :<<
 
-\[explication\] L’application Tableau croisé est la mieux adaptée lorsque vous souhaitez analyser plusieurs dimensions des données, y compris de multiples unités d’organisation, périodes et types de données. \[explication\]
+- tous les établissements dans ma hiérarchie d'unités d’organisation
+- les données relatives aux 12 derniers mois
+- deux éléments de données et un indicateur
+Quel(s) outil(s) devrais-je utiliser pour afficher ces informations ? (sélectionnez une ou plusieurs réponses)
+[ ] ce type d’analyse n’est pas possible dans DHIS2
+[ ] Visualiseur de données
+[X] Tableau croisé
+[ ] SIG
 
-&gt;&gt;Dans DHIS2, je peux ajouter des dimensions supplémentaires (par ex. hommes/femmes, établissements publics/privés, etc.) pour désagréger plus avant mes données au cours de l’analyse.&lt;&lt; (x) Vrai ( ) Faux
+[explication]
+L’application Tableau croisé est la mieux adaptée lorsque vous souhaitez analyser plusieurs dimensions des données, y compris de multiples unités d’organisation, périodes et types de données.
+[explication]
 
-\[explication\] Les données peuvent être désagrégées selon différents critères au cours de l’analyse. Ces possibilités sont expliquées dans les vidéos de démonstration du tableau croisé et du visualiseur de données. \[explication\]
+>>Dans DHIS2, je peux ajouter des dimensions supplémentaires (par ex. hommes/femmes, établissements publics/privés, etc.) pour désagréger plus avant mes données au cours de l’analyse.<<
+(x) Vrai
+( ) Faux
 
-&gt;&gt;Si la date d'aujourd’hui est le 2 avril 2017, et que je sélectionne une période relative correspondant aux 5 dernières années, quelle sera la période choisie ? (sélectionnez une réponse)&lt;&lt; ( ) 2011-2016 (x) 2012-2016 ( ) 2013-2017
+[explication]
+Les données peuvent être désagrégées selon différents critères au cours de l’analyse.  Ces possibilités sont expliquées dans les vidéos de démonstration du tableau croisé et du visualiseur de données.
+[explication]
 
-\[explication\] Les périodes relatives sont calculées à partir de la date actuelle. En 2017, si nous revenons 5 ans en arrière, nous avons 2012, 2013, 2014, 2015 et 2016. \[explication\]
+>>Si la date d'aujourd’hui est le 2 avril 2017, et que je sélectionne une période relative correspondant aux 5 dernières années, quelle sera la période choisie ? (sélectionnez une réponse)<<
+( ) 2011-2016
+(x) 2012-2016
+( ) 2013-2017
 
-&gt;&gt;Avec les fonctionnalités de DHIS2, je peux : (sélectionnez une ou plusieurs réponses)&lt;&lt; \[X\] Déplacer facilement l’analyse entre les tableaux croisés, les graphiques et les cartes \[X\] ajouter des descriptions aux favoris pour leur donner plus de contexte \[X\] échanger des interprétations sur les favoris dans le système avec les autres utilisateurs
+[explication]
+Les périodes relatives sont calculées à partir de la date actuelle.  En 2017, si nous revenons 5 ans en arrière, nous avons 2012, 2013, 2014, 2015 et 2016.
+[explication]
 
-\[explication\] L’outil d’analyse de DHIS2 vous permet de vous déplacer dans les différentes applications, d’enregistrer les résultats et d’ajouter des descriptions et d’échanger des interprétations directement dans DHIS2. \[explication\]
+>>Avec les fonctionnalités de DHIS2, je peux : (sélectionnez une ou plusieurs réponses)<<
+[X] Déplacer facilement l’analyse entre les tableaux croisés, les graphiques et les cartes
+[X] ajouter des descriptions aux favoris pour leur donner plus de contexte
+[X] échanger des interprétations sur les favoris dans le système avec les autres utilisateurs
 
-&gt;&gt;Les favoris peuvent être diffusés : (sélectionnez une ou plusieurs réponses)&lt;&lt; \[X\] en allouant des privilèges particuliers à chaque élément (par exemple modifier/voir) \[X\] auprès d’autres utilisateurs dans DHIS2 \[ \] directement à partir de DHIS2 vers les réseaux sociaux
+[explication]
+L’outil d’analyse de DHIS2 vous permet de vous déplacer dans les différentes applications, d’enregistrer les résultats et d’ajouter des descriptions et d’échanger des interprétations directement dans DHIS2.
+[explication]
 
-\[explication\] Le partage des favoris a été expliqué dans les sessions consacrées à l’analyse intégrée et au partage. Ceci nous permet de préciser exactement qui peut accéder aux produits que nous avons créés. \[explication\]
+>>Les favoris peuvent être diffusés : (sélectionnez une ou plusieurs réponses)<<
+[X] en allouant des privilèges particuliers à chaque élément (par exemple modifier/voir)
+[X] auprès d’autres utilisateurs dans DHIS2
+[ ] directement à partir de DHIS2 vers les réseaux sociaux
 
-&gt;&gt;Avec les tableaux de bord DHIS2 vous pouvez : (sélectionnez une réponse)&lt;&lt; ( ) créer plusieurs tableaux de bord ( ) ajouter des favoris à partir des applis d’analyse ( ) partager des tableaux de bord avec des groupes d'utilisateurs (X) toutes les réponses ci-dessus
+[explication]
+Le partage des favoris a été expliqué dans les sessions consacrées à l’analyse intégrée et au partage.  Ceci nous permet de préciser exactement qui peut accéder aux produits que nous avons créés.
+[explication]
 
-\[explication\] Les tableaux de bord proposent toutes les fonctionnalités mentionnées dans cette question. Tout ceci est expliqué dans la vidéo de démonstration du tableau de bord. \[explication\]
+>>Avec les tableaux de bord DHIS2 vous pouvez : (sélectionnez une réponse)<<
+( ) créer plusieurs tableaux de bord
+( ) ajouter des favoris à partir des applis d’analyse
+( ) partager des tableaux de bord avec des groupes d'utilisateurs
+(X) toutes les réponses ci-dessus
 
-&gt;&gt;Quel est le principal rôle(s) des tableaux de bord ? (sélectionnez une réponse)&lt;&lt; ( ) faciliter l'accès aux données ( ) faciliter la communication des données ( ) aider à la prise de décisions ( ) faciliter la consultation des données sous plusieurs angles dans un seul endroit (X) toutes les réponses ci-dessus
+[explication]
+Les tableaux de bord proposent toutes les fonctionnalités mentionnées dans cette question.  Tout ceci est expliqué dans la vidéo de démonstration du tableau de bord.
+[explication]
 
-\[explication\] Les tableaux de bord sont utiles pour transmettre conjointement une gamme d’informations différentes. Tout ceci est expliqué dans la vidéo de démonstration du tableau de bord. \[explication\]
+>>Quel est le principal rôle(s) des tableaux de bord ? (sélectionnez une réponse)<<
+( ) faciliter l'accès aux données
+( ) faciliter la communication des données
+( ) aider à la prise de décisions
+( ) faciliter la consultation des données sous plusieurs angles dans un seul endroit
+(X) toutes les réponses ci-dessus
 
-&gt;&gt;La fonction partage dans DHIS2 : (sélectionnez une réponse)&lt;&lt; ( ) est utilisée pour définir quels favoris peuvent être consultés et par qui ( ) peut servir à partager des tableaux de bord avec d’autres utilisateurs ( ) peut servir à partager des interprétations avec d’autres utilisateurs (X) toutes les réponses ci-dessus
+[explication]
+Les tableaux de bord sont utiles pour transmettre conjointement une gamme d’informations différentes. Tout ceci est expliqué dans la vidéo de démonstration du tableau de bord.
+[explication]
 
-\[explication\] Les options de partage peuvent être utilisées pour personnaliser les différents résultats visibles par les différents utilisateurs. Tout ceci est expliqué dans la vidéo de démonstration de la fonction partage. \[explication\]
+>>La fonction partage dans DHIS2 : (sélectionnez une réponse)<<
+( ) est utilisée pour définir quels favoris peuvent être consultés et par qui
+( ) peut servir à partager des tableaux de bord avec d’autres utilisateurs
+( ) peut servir à partager des interprétations avec d’autres utilisateurs
+(X) toutes les réponses ci-dessus
 
-&gt;&gt;Le partage est généralement contrôlé par : (sélectionnez une réponse)&lt;&lt; ( ) la sélection d’utilisateurs donnés avec qui les objets sont partagés (x) la sélection des groupes d’utilisateurs avec qui les objets sont partagés ( ) l’envoi des éléments par message dans DHIS2 ( ) toutes les réponses ci-dessus
+[explication]
+Les options de partage peuvent être utilisées pour personnaliser les différents résultats visibles par les différents utilisateurs.  Tout ceci est expliqué dans la vidéo de démonstration de la fonction partage.
+[explication]
 
-\[explication\] Le partage des favoris a été expliqué dans les sessions consacrées à l’analyse intégrée et au partage. Ce concept fait appel aux groupes d'utilisateurs pour définir qui peut voir quels produits et les informations y afférentes dans le système. \[explication\]
+>>Le partage est généralement contrôlé par : (sélectionnez une réponse)<<
+( ) la sélection d’utilisateurs donnés avec qui les objets sont partagés
+(x) la sélection des groupes d’utilisateurs avec qui les objets sont partagés
+( ) l’envoi des éléments par message dans DHIS2
+( ) toutes les réponses ci-dessus
 
-&gt;&gt;Les messages peuvent être envoyés dans DHIS2 à : (sélectionnez une ou plusieurs réponses)&lt;&lt; \[X\] des utilisateurs individuels \[X\] des groupes d’utilisateurs \[X\] des utilisateurs appartenant à une unité d’organisation
+[explication]
+Le partage des favoris a été expliqué dans les sessions consacrées à l’analyse intégrée et au partage. Ce concept fait appel aux groupes d'utilisateurs pour définir qui peut voir quels produits et les informations y afférentes dans le système.
+[explication]
 
-\[explication\] L’option de messagerie a été présentée dans la session consacrée à l’analyse intégrée. Ici, toutes les options de réponses peuvent être sélectionnées afin d’envoyer des messages. \[explication\]
+>>Les messages peuvent être envoyés dans DHIS2 à : (sélectionnez une ou plusieurs réponses)<<
+[X] des utilisateurs individuels
+[X] des groupes d’utilisateurs
+[X] des utilisateurs appartenant à une unité d’organisation
 
-&gt;&gt;Utiliser le retour d'information dans DHIS2 : (sélectionnez une réponse)&lt;&lt; (X) l’équipe centrale peut gérer les questions, leur affecter un niveau de priorité, et informer les utilisateurs de leur statut ( ) les messages peuvent être envoyés à d’autres utilisateurs dans DHIS2 ( ) Les interprétations des différentes analyses peuvent être partagées.
+[explication]
+L’option de messagerie a été présentée dans la session consacrée à l’analyse intégrée.  Ici, toutes les options de réponses peuvent être sélectionnées afin d’envoyer des messages.
+[explication]
 
-\[explication\] L’option de feedback a été présentée dans la session consacrée à l’analyse intégrée. Elle est particulièrement utile pour gérer les problèmes rencontrés par les utilisateurs dans le système DHIS2. \[explication\]
+>>Utiliser le retour d'information dans DHIS2 : (sélectionnez une réponse)<<
+(X) l’équipe centrale peut gérer les questions, leur affecter un niveau de priorité, et informer les utilisateurs de leur statut
+( ) les messages peuvent être envoyés à d’autres utilisateurs dans DHIS2
+( ) Les interprétations des différentes analyses peuvent être partagées.
+
+[explication]
+L’option de feedback a été présentée dans la session consacrée à l’analyse intégrée. Elle est particulièrement utile pour gérer les problèmes rencontrés par les utilisateurs dans le système DHIS2.
+[explication]
+
+## 3.6 - Rapports app et les taux de rapport
 
 ### Activité 1 - Ressources et rapports d’ensemble de données
 
@@ -1437,8 +1484,9 @@ Ne décochez pas la case ‘Sur la base des ensembles de données complets’. C
 
 <img src="https://lh5.googleusercontent.com/3kDvBIjlqguoEAy_nBXNQ7Uxrahl91s-0OOhCZ2f1EdJVLTUt1gPQ2PBPdnMmqCl-guw_pwWNR280ZRUg7eHg2ZFkpzjnn-QSYjTIg6UN1ADRFj8K8WUUeKXsNC0I1iQNmrrCKOT" width="624" height="351" />
 
-REMARQUE : IL S’AGIT D’UN QUIZ NOTÉ
------------------------------------
+## Quiz - Rapports app et les taux de rapport
+
+### REMARQUE : IL S’AGIT D’UN QUIZ NOTÉ
 
 Vous avez droit à 3 essais pour ce quiz.
 
@@ -1446,28 +1494,49 @@ Un délai de 30 secondes est prévu entre chaque tentative ; si vous n'avez pa
 
 ------------------------------------------------------------------------
 
-Que vous permet de faire le rapport d’ensemble de données ? (Sélectionnez une réponse) ( ) Passer en revue les données telles qu’elles apparaissent lors de leur saisie et les mettre à jour ou les modifier (x) Passer en revue les données telles qu’elles apparaissent lors de leur saisie sans pouvoir les modifier ( ) présenter les données sous forme de rapport prêt à l'emploi, défini par l'utilisateur
+Que vous permet de faire le rapport d’ensemble de données ? (Sélectionnez une réponse)
+( ) Passer en revue les données telles qu’elles apparaissent lors de leur saisie et les mettre à jour ou les modifier
+(x) Passer en revue les données telles qu’elles apparaissent lors de leur saisie sans pouvoir les modifier
+( ) présenter les données sous forme de rapport prêt à l'emploi, défini par l'utilisateur
 
-\[explication\] Les rapports d’ensemble de données ont été présentés dans la vidéo de démonstration de l'appli Rapports. Il est toujours bon de passer en revue les données du rapport d’ensemble de données plutôt que les données saisies car il n’est pas possible de modifier les données dans ce rapport. \[explication\]
+[explication]
+Les rapports d’ensemble de données ont été présentés dans la vidéo de démonstration de l'appli Rapports.  Il est toujours bon de passer en revue les données du rapport d’ensemble de données plutôt que les données saisies car il n’est pas possible de modifier les données dans ce rapport.
+[explication]
 
-Les ressources présentées dans DHIS2 peuvent être utilisées pour : (sélectionnez une ou plusieurs réponses) \[X\] Mettre à disposition des éléments tels que des formulaires de collecte des données, des guides ou des rapports annuels \[X\] ajouter des liens vers des sites internet utiles \[ \] ajouter d'autres éléments utiles permettant d’améliorer la performance de DHIS2
+Les ressources présentées dans DHIS2 peuvent être utilisées pour : (sélectionnez une ou plusieurs réponses)
+[X] Mettre à disposition des éléments tels que des formulaires de collecte des données, des guides ou des rapports annuels
+[X] ajouter des liens vers des sites internet utiles
+[ ] ajouter d'autres éléments utiles permettant d’améliorer la performance de DHIS2
 
-\[explication\] Les fonctions liées aux ressources ont été présentées dans la vidéo de démonstration de l'appli Rapports. Les ressources peuvent être utiles pour mettre à disposition des documents externes et des liens vers d’autres ressources, entre autres. Ici, les ressources ne désignent pas des ressources supplémentaires permettant d’alimenter le système DHIS2. \[explication\]
+[explication]
+Les fonctions liées aux ressources ont été présentées dans la vidéo de démonstration de l'appli Rapports.  Les ressources peuvent être utiles pour mettre à disposition des documents externes et des liens vers d’autres ressources, entre autres.  Ici, les ressources ne désignent pas des ressources supplémentaires permettant d’alimenter le système DHIS2.
+[explication]
 
-Les rapports de répartition des unités d’organisation peuvent être utilisés pour : (sélectionnez une ou plusieurs réponses) \[X\] calculer le nombre total d’unités d’organisation appartenant à certains niveaux de la hiérarchie \[X\] afficher les unités d’organisation en fonction du groupe auquel elles appartiennent \[ \] montrer la répartition géographique des unités d’organisation sur une carte
+Les rapports de répartition des unités d’organisation peuvent être utilisés pour : (sélectionnez une ou plusieurs réponses)
+[X] calculer le nombre total d’unités d’organisation appartenant à certains niveaux de la hiérarchie
+[X] afficher les unités d’organisation en fonction du groupe auquel elles appartiennent
+[ ] montrer la répartition géographique des unités d’organisation sur une carte
 
-\[explication\] Le rapport de répartition des unités d’organisation a été présenté dans la vidéo de démonstration de l'appli Rapports. Ceci nous permet de séparer nos unités d’organisation en fonction de catégories/groupes définis par l’utilisateur et de voir le nombre d’unités d’organisation appartenant aux différents niveaux de la hiérarchie. \[explication\]
+[explication]
+Le rapport de répartition des unités d’organisation a été présenté dans la vidéo de démonstration de l'appli Rapports.  Ceci nous permet de séparer nos unités d’organisation en fonction de catégories/groupes définis par l’utilisateur et de voir le nombre d’unités d’organisation appartenant aux différents niveaux de la hiérarchie.
+[explication]
 
-Dans DHIS2, le taux de complétude des rapports peut être vérifié à l’aide : (sélectionnez une ou plusieurs réponses) \[X\] de l'appli Rapports en exécutant le résumé du taux de déclaration \[X\] d’un tableau croisé, en choisissant l’ensemble de données qui vous intéresse \[X\] du visualiseur de données, en choisissant l’ensemble de données qui vous intéresse
+Dans DHIS2, le taux de complétude des rapports peut être vérifié à l’aide : (sélectionnez une ou plusieurs réponses)
+[X] de l'appli Rapports en exécutant le résumé du taux de déclaration
+[X] d’un tableau croisé, en choisissant l’ensemble de données qui vous intéresse
+[X] du visualiseur de données, en choisissant l’ensemble de données qui vous intéresse
 
-\[explication\] Il est possible de voir les taux de déclaration à différents endroits dans DHIS2, par exemple dans l’appli Rapports ou dans les différentes applis d'analyse. \[explication\]
+[explication]
+Il est possible de voir les taux de déclaration à différents endroits dans DHIS2, par exemple dans l’appli Rapports ou dans les différentes applis d'analyse.
+[explication]
+
+## 3.7 - Lectures complémentaires
 
 Lectures complémentaires (non noté) :
 
 [Moteur de recherche Google Earth](https://earthengine.google.com/)
 
-Retour d’information - Introduction à l'analyse avec DHIS2
-----------------------------------------------------------
+## Retour d’information - Introduction à l'analyse avec DHIS2
 
 Merci de bien vouloir consacrer 2 ou 3 minutes à répondre à ce questionnaire lorsque vous avez terminé le Module 3. Vos réponses attentives auront une réelle influence sur la manière dont les formations de ce type sont organisées. Merci !
 
